@@ -1,0 +1,23 @@
+{
+	"name": "notes",
+	"type": "module",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "astro dev",
+		"start": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"astro": "astro"
+	},
+	"dependencies": {
+		"@portaljs/remark-wiki-link": "^1.1.2",
+		"astro": "^4.0.7",
+		"github-slugger": "^2.0.0",
+		"rehype-katex": "^7.0.0",
+		"rehype-mathjax": "^6.0.0",
+		"remark-math": "^6.0.0",
+		"remark-obsidian-img": "^0.0.3",
+		"remark-textr": "^6.0.0",
+		"remark-wiki-link": "^2.0.1"
+	}
+}

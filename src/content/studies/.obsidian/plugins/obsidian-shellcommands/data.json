@@ -1,0 +1,141 @@
+{
+  "settings_version": "0.20.0",
+  "debug": false,
+  "obsidian_command_palette_prefix": "Execute: ",
+  "preview_variables_in_command_palette": true,
+  "show_autocomplete_menu": true,
+  "working_directory": "",
+  "default_shells": {},
+  "environment_variable_path_augmentations": {},
+  "error_message_duration": 20,
+  "notification_message_duration": 10,
+  "execution_notification_mode": "disabled",
+  "output_channel_clipboard_also_outputs_to_notification": true,
+  "output_channel_notification_decorates_output": true,
+  "enable_events": true,
+  "approve_modals_by_pressing_enter_key": true,
+  "command_palette": {
+    "re_execute_last_shell_command": {
+      "enabled": true,
+      "prefix": "Re-execute: "
+    }
+  },
+  "max_visible_lines_in_shell_command_fields": false,
+  "shell_commands": [
+    {
+      "id": "b2odvcq678",
+      "platform_specific_commands": {
+        "default": "cd _resources/ && magick {{_img}}.jpg {{_img}}.png && magick {{_img}}.png -fuzz 20% -transparent black {{_img}}.png "
+      },
+      "shells": {
+        "win32": "62z3mtuty5"
+      },
+      "alias": "Make image transparent",
+      "icon": null,
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "input_contents": {
+        "stdin": null
+      },
+      "output_handlers": {
+        "stdout": {
+          "handler": "ignore",
+          "convert_ansi_code": true
+        },
+        "stderr": {
+          "handler": "notification",
+          "convert_ansi_code": true
+        }
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "events": {},
+      "command_palette_availability": "enabled",
+      "preactions": [
+        {
+          "type": "prompt",
+          "enabled": true,
+          "prompt_id": "gvzlreosxg"
+        }
+      ],
+      "variable_default_values": {}
+    }
+  ],
+  "prompts": [
+    {
+      "id": "gvzlreosxg",
+      "title": "Image name",
+      "description": "",
+      "preview_shell_command": true,
+      "fields": [
+        {
+          "label": "",
+          "description": "",
+          "default_value": "",
+          "target_variable_id": "7sk0yn8y6g",
+          "required": true
+        }
+      ],
+      "execute_button_text": "convert"
+    }
+  ],
+  "builtin_variables": {},
+  "custom_variables": [
+    {
+      "id": "7sk0yn8y6g",
+      "name": "img",
+      "description": "",
+      "default_value": null
+    }
+  ],
+  "custom_shells": [
+    {
+      "id": "b7xfzmow39",
+      "name": "",
+      "description": "",
+      "binary_path": "",
+      "shell_arguments": [
+        "-c",
+        "{{!shell_command_content}}"
+      ],
+      "host_platform": "win32",
+      "host_platform_configurations": {
+        "win32": {
+          "quote_shell_arguments": true
+        }
+      },
+      "shell_platform": null,
+      "escaper": "PowerShell",
+      "path_translator": null,
+      "shell_command_wrapper": null,
+      "shell_command_test": null
+    },
+    {
+      "id": "62z3mtuty5",
+      "name": "Bash",
+      "description": "",
+      "binary_path": "C:\\Program Files\\Git\\bin\\bash.exe",
+      "shell_arguments": [
+        "--login",
+        "-c",
+        "{{!shell_command_content}}"
+      ],
+      "host_platform": "win32",
+      "host_platform_configurations": {
+        "win32": {
+          "quote_shell_arguments": true
+        }
+      },
+      "shell_platform": null,
+      "escaper": "UnixShell",
+      "path_translator": null,
+      "shell_command_wrapper": null,
+      "shell_command_test": null
+    }
+  ],
+  "output_wrappers": []
+}

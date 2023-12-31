@@ -1,0 +1,192 @@
+:root {
+	--base00: #2e2a31;
+	--base01: #4a464d;
+	--base02: #666369;
+	--base03: #838085;
+	--base04: #9f9da2;
+	--base05: #bcbabe;
+	--base06: #d8d7da;
+	--base07: #f5f4f7;
+	--base08: #d8137f;
+	--base09: #d65407;
+	--base0A: #dc8a0e;
+	--base0B: #17ad98;
+	--base0C: #149bda;
+	--base0D: #796af5;
+	--base0E: #bb60ea;
+	--base0F: #c720ca;
+	--spacing: 3.5rem;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*
+ * Font credits to:
+ * LaTeX.css (https://latex.now.sh/)
+ * Source: https://github.com/vincentdoerig/latex-css
+ * Licensed under MIT (https://github.com/vincentdoerig/latex-css/blob/master/LICENSE)
+*/
+
+@font-face {
+	font-family: "Latin Modern";
+	src: local("Latin Modern"), url("/LM-regular.woff2") format("woff2");
+}
+@font-face {
+	font-family: "Latin Modern";
+	font-style: italic;
+	src: local("Latin Modern"), url("/LM-italic.woff2") format("woff2");
+}
+@font-face {
+	font-family: "Latin Modern";
+	font-weight: bold;
+	src: local("Latin Modern"), url("/LM-bold.woff2") format("woff2");
+}
+@font-face {
+	font-family: "Latin Modern";
+	font-style: italic;
+	font-weight: bold;
+	src: local("Latin Modern"), url("/LM-bold-italic.woff2") format("woff2");
+}
+
+body {
+	font-family: "Latin Modern";
+	background-color: var(--base00);
+	color: var(--base07);
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	width: 100vw;
+	overflow-x: hidden;
+	font-size: 1.8rem;
+}
+
+header {
+	flex-shrink: 0;
+	height: 4rem;
+	background: var(--base00);
+	padding: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+main {
+	display: flex;
+	flex-grow: 1;
+}
+
+main > * {
+	overflow-y: auto;
+}
+
+article {
+	background: var(--base00);
+	padding: 2rem 8rem;
+	max-height: calc(100vh - 10rem);
+	flex-grow: 1;
+}
+
+#left-nav,
+#right-nav {
+	background: var(--base01);
+	white-space: nowrap;
+	max-height: calc(100vh - 8rem);
+	padding: 1rem 2rem;
+	transition: margin 0.3s ease;
+}
+#left-nav {
+	flex: 0 0 30rem;
+	margin-left: 0;
+}
+#left-nav.hidden {
+	margin-left: -34rem;
+}
+#right-nav {
+	flex: 0 0 21rem;
+	margin-right: 0;
+}
+#right-nav.hidden {
+	margin-right: -25rem;
+}
+
+#left-nav ul {
+	padding-left: 2rem;
+	padding-bottom: 0.5rem;
+}
+
+#right-nav button {
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin: 1rem 0;
+}
+
+.katex.inline {
+	/* background: #d65407; */
+}
+.katex.display {
+	display: block;
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+article p {
+	font-size: 2rem;
+	margin-bottom: var(--spacing);
+	line-height: 3.2rem;
+}
+
+/* article p > .katex:only-child {
+	display: block;
+	text-align: center;
+} */
+
+.top {
+	color: var(--base0D);
+	font-size: 1.6rem;
+}
+#left-nav ul a {
+	display: block;
+	font-size: 1.4rem;
+}
+
+a {
+	text-decoration: none;
+	color: var(--base0C);
+}
+
+button {
+	border: none;
+	background-color: var(--base02);
+	color: var(--base07);
+	border-radius: 0;
+	font-size: 1.5rem;
+	padding: 0.5rem 1rem;
+	cursor: pointer;
+}
+
+img {
+	display: block;
+	margin: var(--spacing) auto;
+	image-rendering: optimizeQuality;
+}
+
+blockquote {
+	margin: 1.5rem 0;
+	padding: 3rem;
+	padding-left: 5rem;
+	border-left: var(--base09) 1.5rem groove;
+}
+
+th,
+td {
+	border: 2px solid var(--base04);
+	padding: 1rem;
+	empty-cells: hide;
+}
+table {
+	border-spacing: 0;
+}

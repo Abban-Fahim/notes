@@ -1,0 +1,126 @@
+---
+import { getCollection } from 'astro:content';
+import "./../../styles.css"
+import Nav from '../../components/Nav.astro';
+
+export async function getStaticPaths() {
+  const blogEntries = await getCollection('studies', ({data, body})=>{
+	return (data.publish !== "false" || !body.trim().startsWith("%% Begin Waypoint %%"))
+});
+  return blogEntries.map(entry => ({
+    params: { slug: entry.slug }, props: { entry },
+  }));
+}
+// 2. For your template, you can get the entry directly from the prop
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+
+
+const pathArray = entry.id.split("/");
+let title = pathArray[pathArray.length - 1];
+title = title.slice(0, title.length - 3)
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+    <link href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css" rel="stylesheet">
+		<title>Abban's notes :: {title}</title>
+	</head>
+	<body>
+		<header>
+			<button id="nav-toggle">(=)</button>
+			<h1>{title}</h1>
+			<button id="theme-toggle">\|/</button>
+		</header>
+		<main>
+			<div id="left-nav" class="hidden">
+				<Nav />
+			</div>
+			<article>
+				<Content />
+			</article>
+			<div id="right-nav" class="hidden">
+				<h1>Select color scheme:</h1>
+			</div>
+		</main>
+	</body>
+	<script>
+		let schemes;
+		async function fetchColorschemes() {
+			let cache = window.localStorage.getItem("colorschemes");
+			if (cache) {
+				schemes = JSON.parse(cache);
+			} else {
+				const query = await fetch(
+					"https://api.github.com/repos/Abban-Fahim/base16-styles/contents/css-variables"
+				);
+				const files = await query.json();
+				window.localStorage.setItem("colorschemes", JSON.stringify(files));
+				schemes = files;
+			}
+		}
+		async function applyScheme() {
+			console.log(selectedScheme);
+			const query = await fetch(`https://raw.githubusercontent.com/Abban-Fahim/base16-styles/master/css-variables/base16-${selectedScheme}.css`);
+			const file = await query.text();
+			window.localStorage.setItem("selectedScheme", selectedScheme);
+			let styleStrings = file.split("\n");
+			for (let i = 3; i <= 18; i++) {
+				document.body.style.setProperty(
+					styleStrings[i].slice(2, 10),
+					styleStrings[i].slice(12, 19)
+				);
+			}
+		}
+		
+		const themeBox = document.getElementById("right-nav");
+		const themeToggle = document.getElementById("theme-toggle");
+		const navBox = document.getElementById("left-nav");
+		const navToggle = document.getElementById("nav-toggle");
+
+		navToggle?.addEventListener("click", ()=>{
+			navBox?.classList.toggle("hidden");
+		})
+		themeToggle?.addEventListener("click", ()=>{
+			themeBox?.classList.toggle("hidden");
+		})
+		
+		// Set initial color scheme
+		let selectedScheme = "unikitty-dark";
+		let chachedScheme = window.localStorage.getItem("selectedScheme");
+		if (chachedScheme) {
+			selectedScheme = chachedScheme;
+		}
+		fetchColorschemes();
+		applyScheme();
+		
+		// Render buttons for changing color scheme
+		for (let i = 0; i < schemes.length; i++) {
+			let el = document.createElement("button");
+			el.textContent = schemes[i].name.slice(7, schemes[i].name.length-4);
+			el.addEventListener("click", ()=>{
+				selectedScheme = el.textContent;
+				applyScheme()
+			})
+			themeBox.appendChild(el);
+		}
+
+		const allMath = document.querySelectorAll(".katex");
+		if (allMath) {
+			allMath.forEach((el)=>{
+				let prevSibling = el.previousSibling;
+				let nextSibling = el.nextSibling;
+				if (prevSibling?.nodeName === "#text" && prevSibling?.nodeValue !== "\n"  || nextSibling?.nodeName === "#text" && nextSibling?.nodeValue !== "\n" ) {
+					el.classList.add("inline")
+				} else {
+					el.classList.add("display")
+				}
+			})
+		}
+	</script>
+</html>
+

@@ -1,0 +1,15 @@
+{
+  "accentColor": "#85c1dc",
+  "cssTheme": "Minimal",
+  "baseFontSize": 27,
+  "monospaceFontFamily": "Fira Code Retina",
+  "textFontFamily": "Latin Modern Roman 10,Iosevka Etoile,Vazirmatn UI NL",
+  "interfaceFontFamily": "Iosevka Etoile",
+  "nativeMenus": false,
+  "translucency": false,
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "code-blocks",
+    "printing"
+  ]
+}

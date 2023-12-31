@@ -1,0 +1,126 @@
+{
+  "cascadeColors": false,
+  "colorBackground": false,
+  "palette": [
+    {
+      "id": "OPK3DALJBAw36Wr_NxRYc",
+      "name": "lavender",
+      "value": "#babbf1"
+    },
+    {
+      "id": "bLADfgMeUW7lCnvzIu_rD",
+      "name": "blue",
+      "value": "#8caaee"
+    },
+    {
+      "id": "GiuuOlPHE616eIVuthXYf",
+      "name": "sapphire",
+      "value": "#85c1dc"
+    },
+    {
+      "id": "nyIAvbGHBK5DP-0CyGtl0",
+      "name": "sky",
+      "value": "#99d1db"
+    },
+    {
+      "id": "fGBIVGE1CIvlKhP8gCmGE",
+      "name": "teal",
+      "value": "#81c8be"
+    },
+    {
+      "id": "OqN5y7SKGQPvEgM7T31kM",
+      "name": "green",
+      "value": "#a6d189"
+    },
+    {
+      "id": "V8_SRoJKckRW9iWmENXlB",
+      "name": "yellow",
+      "value": "#e5c890"
+    },
+    {
+      "id": "lAaU2lupYgr-p4Jwy-qwG",
+      "name": "peach",
+      "value": "#ef9f76"
+    },
+    {
+      "id": "oIYX9xyxwogGYhJoMKXJ6",
+      "name": "maroon",
+      "value": "#ea999c"
+    },
+    {
+      "id": "woAknYA2kcJ6jXPRf1FR4",
+      "name": "red",
+      "value": "#e78284"
+    },
+    {
+      "id": "XhbSCiMqgThDoCP9gmpB-",
+      "name": "mauve",
+      "value": "#ca9ee6"
+    },
+    {
+      "id": "9o85wuk4sky0m-UTrBU6G",
+      "name": "pink",
+      "value": "#f4b8e4"
+    },
+    {
+      "id": "mxXF2K3XDhXFeIEbTS0I6",
+      "name": "flamingo",
+      "value": "#eebebe"
+    },
+    {
+      "id": "ziZNG4xmL4DlslQtuH6Gx",
+      "name": "rosewater",
+      "value": "#f2d5cf"
+    }
+  ],
+  "fileColors": [
+    {
+      "path": "Maths",
+      "color": "fGBIVGE1CIvlKhP8gCmGE"
+    },
+    {
+      "path": "imgs",
+      "color": "ziZNG4xmL4DlslQtuH6Gx"
+    },
+    {
+      "path": "Other courses",
+      "color": "OqN5y7SKGQPvEgM7T31kM"
+    },
+    {
+      "path": "EEE",
+      "color": "nyIAvbGHBK5DP-0CyGtl0"
+    },
+    {
+      "path": "Robotics",
+      "color": "nyIAvbGHBK5DP-0CyGtl0"
+    },
+    {
+      "path": "Mechanics, Fields, Forces - B27MW",
+      "color": "bLADfgMeUW7lCnvzIu_rD"
+    },
+    {
+      "path": "Waves & Matter - B27FF",
+      "color": "bLADfgMeUW7lCnvzIu_rD"
+    },
+    {
+      "path": "Intro To Mech Eng - B57AU",
+      "color": "bLADfgMeUW7lCnvzIu_rD"
+    },
+    {
+      "path": "_Speeches-writings",
+      "color": "9o85wuk4sky0m-UTrBU6G"
+    },
+    {
+      "path": "_Assignments",
+      "color": "XhbSCiMqgThDoCP9gmpB-"
+    },
+    {
+      "path": "_bcorp-dev",
+      "color": "woAknYA2kcJ6jXPRf1FR4"
+    },
+    {
+      "path": "_Journal",
+      "color": "OPK3DALJBAw36Wr_NxRYc"
+    }
+  ]
+}

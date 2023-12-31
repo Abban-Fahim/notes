@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "migrated": 3,
+    "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "FasPenToSquare",
+      "FasB",
+      "FasBookJournalWhills",
+      "FasSchool",
+      "FasBoltLightning"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconsBackgroundCheckEnabled": false,
+    "iconInFrontmatterEnabled": false,
+    "iconsInNotesEnabled": true
+  },
+  "Other courses": "FasBuildingColumns",
+  "Other courses/Building Services - D18BT": "FasBuilding",
+  "Maths": "FasCalculator",
+  "imgs": "FasImages",
+  "Waves & Matter - B27FF": "FasWaveSquare",
+  "EEE": "FasBoltLightning",
+  "Intro To Mech Eng - B57AU": "FasScrewdriverWrench",
+  "Robotics": "FasRobot",
+  "Mechanics, Fields, Forces - B27MW": "FasCompassDrafting",
+  "_Speeches-writings": "FasSchool",
+  "_Journal": "FasBookJournalWhills",
+  "_bcorp-dev": "FasB",
+  "_Assignments": "FasPenToSquare"
+}

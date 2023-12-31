@@ -1,0 +1,81 @@
+---
+import { getCollection } from "astro:content";
+
+const allItems = await getCollection("studies");
+let finalNav = [
+	{
+		name: "EEE",
+		slug: "eee",
+		pages: [
+			{ name: "Electronics", slug: "electronics", pages: [] },
+			{ name: "Electrical", slug: "electrical", pages: [] },
+		],
+	},
+	{
+		name: "Other courses",
+		slug: "other-courses",
+		pages: [{ name: "Building Services - D18BT", slug: "building-services---d18bt", pages: [] }],
+	},
+	{
+		name: "Maths",
+		slug: "maths",
+		pages: [
+			{ name: "Calculus", slug: "calculus", pages: [] },
+			{ name: "Linear algebra", slug: "linear-algebra", pages: [] },
+			{ name: "Triginometry & Geometry", slug: "trigonometry--geometry", pages: [] },
+			{ name: "Statistics", slug: "statistics", pages: [] },
+			{ name: "Polynomials & Functions", slug: "polynomials--functions", pages: [] },
+		],
+	},
+	{ name: "Intro To Mech Eng - B57AU", slug: "intro-to-mech-eng---b57au", pages: [] },
+	{ name: "Mechanics, Fields, Forces - B27MW", slug: "mechanics-fields-forces---b27mw", pages: [] },
+	{ name: "Waves & Matter - B27FF", slug: "waves--matter---b27ff", pages: [] },
+	{ name: "Robotics", slug: "robotics", pages: [] },
+];
+
+allItems.map((page) => {
+	let filePath = page.slug.split("/");
+	let namePath = page.id.slice(0,page.id.length - 3).split("/");
+	let file = { dir: filePath[filePath.length - 2], name: namePath[namePath.length - 1], slug: page.slug };
+	if (filePath.length === 3) {
+		let rootIndex = finalNav.findIndex((el) => el.slug === filePath[0]);
+		let subIndex = finalNav[rootIndex].pages.findIndex((el) => {
+			if (!Array.isArray(el)) {
+				return el.slug === file.dir;
+			} else {
+				return null;
+			}
+		});
+		finalNav[rootIndex].pages[subIndex].pages.push([file.slug, file.name]);
+	} else {
+		finalNav[finalNav.findIndex((el) => el.slug === file.dir)].pages.push([file.slug, file.name]);
+	}
+});
+
+---
+
+{finalNav.map((item)=>{
+	let folderUrl = item.slug + "/" + item.slug;
+	return <div>
+		<a class="top" href={"/notes/"+folderUrl}>{item.name}</a>
+		<ul>
+			{item.pages.map((subPage)=>{
+				if (Array.isArray(subPage) && subPage[0] !== folderUrl) {
+					return <a href={"/notes/"+subPage[0]}>{subPage[1]}</a>
+				} else if (subPage[0] !== folderUrl) {
+					let nestedFolderUrl = item.slug+"/"+subPage.slug+"/"+subPage.slug;
+					return <div>
+						<a href={"/notes/"+nestedFolderUrl} class="top">{subPage.name}</a>
+						<ul>
+							{subPage.pages.map((nestedPage)=>{
+								if (nestedPage[0] !== nestedFolderUrl) {
+									return <a href={"/notes/"+nestedPage[0]}>{nestedPage[1]}</a>
+								}
+							})}
+						</ul>
+					</div>
+				}
+			})}
+		</ul>
+	</div>
+})}
