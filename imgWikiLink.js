@@ -19,7 +19,7 @@ export default function remarkObsidianImg({ absolutePrefix, relativePathResolver
 			// console.log("bruhh", matches[0]);
 			const imageSrc = matches[1];
 			node.type = "image";
-			node.url = getPath(absolutePrefix, relativePathResolver, { filePath: file.history[0], cwd: file.cwd }, imageSrc);
+			node.url = "/notes/" + getPath(absolutePrefix, relativePathResolver, { filePath: file.history[0], cwd: file.cwd }, imageSrc);
 			// console.log(node.url);
 			node.alt = imageSrc;
 		});
