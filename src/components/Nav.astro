@@ -64,19 +64,19 @@ allItems.map((page) => {
 {finalNav.map((item)=>{
 	let folderUrl = item.slug + "/" + item.slug;
 	return <div>
-		<a class="top" href={"/notes/"+folderUrl}>{item.name}</a>
+		<a class="top" href={"/notes/notes/"+folderUrl}>{item.name}</a>
 		<ul>
 			{item.pages.map((subPage)=>{
 				if (Array.isArray(subPage) && subPage[0] !== folderUrl) {
-					return <a href={"/notes/"+subPage[0]}>{subPage[1]}</a>
+					return <a href={"/notes/notes/"+subPage[0]}>{subPage[1]}</a>
 				} else if (subPage[0] !== folderUrl) {
 					let nestedFolderUrl = item.slug+"/"+subPage.slug+"/"+subPage.slug;
 					return <div>
-						<a href={"/notes/"+nestedFolderUrl} class="top">{subPage.name}</a>
+						<a href={"/notes/notes/"+nestedFolderUrl} class="top">{subPage.name}</a>
 						<ul>
 							{subPage.pages.map((nestedPage)=>{
 								if (nestedPage[0] !== nestedFolderUrl) {
-									return <a href={"/notes/"+nestedPage[0]}>{nestedPage[1]}</a>
+									return <a href={"/notes/notes/"+nestedPage[0]}>{nestedPage[1]}</a>
 								}
 							})}
 						</ul>
