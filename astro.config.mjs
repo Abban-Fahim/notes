@@ -33,6 +33,8 @@ const imgPathResolve = ({ fileDetails: { filePath, cwd }, imageSrc }) => {
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://abban-fahim.github.io',
+  	base: 'notes',
 	markdown: {
 		remarkPlugins: [
 			remarkMath,
