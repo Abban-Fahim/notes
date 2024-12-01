@@ -83,7 +83,7 @@
       "color": "ziZNG4xmL4DlslQtuH6Gx"
     },
     {
-      "path": "Other courses",
+      "path": "Courses",
       "color": "OqN5y7SKGQPvEgM7T31kM"
     },
     {
@@ -95,15 +95,15 @@
       "color": "nyIAvbGHBK5DP-0CyGtl0"
     },
     {
-      "path": "Mechanics, Fields, Forces - B27MW",
+      "path": "Courses/Mechanics, Fields, Forces - B27MW",
       "color": "bLADfgMeUW7lCnvzIu_rD"
     },
     {
-      "path": "Waves & Matter - B27FF",
+      "path": "Courses/Waves & Matter - B27FF",
       "color": "bLADfgMeUW7lCnvzIu_rD"
     },
     {
-      "path": "Intro To Mech Eng - B57AU",
+      "path": "Courses/Intro To Mech Eng - B57AU",
       "color": "bLADfgMeUW7lCnvzIu_rD"
     },
     {
@@ -121,6 +121,50 @@
     {
       "path": "_Journal",
       "color": "OPK3DALJBAw36Wr_NxRYc"
+    },
+    {
+      "path": "Computer Science",
+      "color": "XhbSCiMqgThDoCP9gmpB-"
+    },
+    {
+      "path": "Robotics/Quadrotors",
+      "color": "lAaU2lupYgr-p4Jwy-qwG"
+    },
+    {
+      "path": "Robotics/Mobile robots",
+      "color": "XhbSCiMqgThDoCP9gmpB-"
+    },
+    {
+      "path": "Robotics/Manipulators",
+      "color": "GiuuOlPHE616eIVuthXYf"
+    },
+    {
+      "path": "Robotics/Systems and Control",
+      "color": "bLADfgMeUW7lCnvzIu_rD"
+    },
+    {
+      "path": "Maths/Calculus",
+      "color": "GiuuOlPHE616eIVuthXYf"
+    },
+    {
+      "path": "Maths/Linear algebra",
+      "color": "GiuuOlPHE616eIVuthXYf"
+    },
+    {
+      "path": "Maths/Polynomials & Functions",
+      "color": "GiuuOlPHE616eIVuthXYf"
+    },
+    {
+      "path": "Maths/Probability & Statistics",
+      "color": "GiuuOlPHE616eIVuthXYf"
+    },
+    {
+      "path": "Maths/Trigonometry & Geometry",
+      "color": "GiuuOlPHE616eIVuthXYf"
+    },
+    {
+      "path": "Courses/Building Services - D18BT",
+      "color": "9o85wuk4sky0m-UTrBU6G"
     }
   ]
 }

@@ -2,17 +2,15 @@
   "obsidian-pandoc",
   "text-snippets-obsidian",
   "image-captions",
-  "obsidian-dictionary-plugin",
-  "table-editor-obsidian",
-  "obsidian-discordrpc",
   "obsidian-icon-folder",
   "quick-latex",
   "waypoint",
   "folder-note-plugin",
   "obsidian-rtl",
   "obsidian-tikzjax",
-  "obsidian-minimal-settings",
   "obsidian-shellcommands",
   "obsidian-file-color",
-  "obsidian-latex"
+  "obsidian-latex",
+  "obsidian-style-settings",
+  "obsidian-minimal-settings"
 ]

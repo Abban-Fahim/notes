@@ -1,10 +1,10 @@
-If you're studying maths, mechanics, contemporary physics, dynamics... anything grounded in 'insanity', the imaginary unit is defined as so
+play -n synth 3 sine 300 fade l 0 3 2.8 trim 0 1 repeat 4;If you're studying maths, mechanics, contemporary physics, dynamics... anything grounded in 'insanity', the imaginary unit is defined as so
 
 $$i = \sqrt{-1}$$
 
 However, if you're studying electrical engineering, you will be a clown (like me) and use $j$ for the imaginary unit instead
 
-> [!abstract] The imaginary unit
+> The imaginary unit
 > $$i = j = \sqrt{-1} = \angle{90^{\circ}}$$
 > 
 

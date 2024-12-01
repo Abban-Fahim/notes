@@ -12,9 +12,12 @@ let finalNav = [
 		],
 	},
 	{
-		name: "Other courses",
-		slug: "other-courses",
-		pages: [{ name: "Building Services - D18BT", slug: "building-services---d18bt", pages: [] }],
+		name: "Courses",
+		slug: "courses",
+		pages: [{ name: "Building Services - D18BT", slug: "building-services---d18bt", pages: [] }, 
+				{ name: "Intro To Mech Eng - B57AU", slug: "intro-to-mech-eng---b57au", pages: [] },
+				{ name: "Mechanics, Fields, Forces - B27MW", slug: "mechanics-fields-forces---b27mw", pages: [] },
+				{ name: "Waves & Matter - B27FF", slug: "waves--matter---b27ff", pages: [] },],
 	},
 	{
 		name: "Maths",
@@ -23,14 +26,17 @@ let finalNav = [
 			{ name: "Calculus", slug: "calculus", pages: [] },
 			{ name: "Linear algebra", slug: "linear-algebra", pages: [] },
 			{ name: "Triginometry & Geometry", slug: "trigonometry--geometry", pages: [] },
-			{ name: "Statistics", slug: "statistics", pages: [] },
+			{ name: "Probability & Statistics", slug: "probability--statistics", pages: [] },
 			{ name: "Polynomials & Functions", slug: "polynomials--functions", pages: [] },
 		],
 	},
-	{ name: "Intro To Mech Eng - B57AU", slug: "intro-to-mech-eng---b57au", pages: [] },
-	{ name: "Mechanics, Fields, Forces - B27MW", slug: "mechanics-fields-forces---b27mw", pages: [] },
-	{ name: "Waves & Matter - B27FF", slug: "waves--matter---b27ff", pages: [] },
-	{ name: "Robotics", slug: "robotics", pages: [] },
+	{ name: "Robotics", slug: "robotics", pages: [
+			{ name: "Manipulators", slug: "manipulators", pages: [] },
+			{ name: "Mobile robots", slug: "mobile-robots", pages: [] },
+			{ name: "Quadrotors", slug: "quadrotors", pages: [] },
+			{ name: "Systems and Control", slug: "systems-and-control", pages: [] },
+	] },
+	{ name: "Computer Science", slug: "computer-science", pages: [] },
 ];
 
 allItems.map((page) => {
@@ -48,6 +54,7 @@ allItems.map((page) => {
 		});
 		finalNav[rootIndex].pages[subIndex].pages.push([file.slug, file.name]);
 	} else {
+		// console.log(page);
 		finalNav[finalNav.findIndex((el) => el.slug === file.dir)].pages.push([file.slug, file.name]);
 	}
 });

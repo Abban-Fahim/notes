@@ -1,4 +1,5 @@
 {
+  "useMathKeyboardShortcut_toggle": false,
   "moveIntoMath_toggle": true,
   "autoCloseMath_toggle": true,
   "autoCloseRound_toggle": true,
@@ -7,7 +8,7 @@
   "addAlignBlock_toggle": true,
   "addAlignBlock_parameter": "align*",
   "autoAlignSymbols": "= > < \\le \\ge \\neq \\approx",
-  "addCasesBlock_toggle": false,
+  "addCasesBlock_toggle": true,
   "shiftEnter_toggle": false,
   "addMatrixBlock_toggle": true,
   "addMatrixBlock_parameter": "bmatrix",
@@ -20,5 +21,5 @@
   "autoGreekCommandMathMode_toggle": true,
   "customShorthand_toggle": true,
   "useTabtoComplete_toggle": true,
-  "customShorthand_parameter": "bi:::\\binom{#cursor}{#tab};\nsq:::\\sqrt{};\nbb:::\\mathbb{};\nbf:::\\mathbf{};\npa:::\\partial;\nte:::\\text{};\ninf:::\\infty;\ncd:::\\cdot;\nqu:::\\quad;\nti:::\\times;\nal:::\\alpha;\nbe:::\\beta;\nga:::\\gamma;\nGa:::\\Gamma;\ndl:::\\delta;\nDl:::\\Delta;\nep:::\\epsilon;\nze:::\\zeta;\net:::\\eta;\nth:::\\theta;\nTh:::\\Theta;\nio:::\\iota;\nka:::\\kappa;\nla:::\\lambda;\nLa:::\\Lambda;\nmu:::\\mu;\nnu:::\\nu;\nxi:::\\xi;\nXi:::\\Xi;\npi:::\\pi;\nPi:::\\Pi;\nrh:::\\rho;\nsi:::\\sigma;\nSi:::\\Sigma;\nta:::\\uptau;\nup:::\\upsilon;\nUp:::\\Upsilon;\nph:::\\varphi;\nPh:::\\Phi;\nch:::\\chi;\nps:::\\psi;\nPs:::\\Psi;\nom:::\\omega;\nOm:::\\Omega;\nti:::\\times;\nb:::\\bar{#cursor};\nd:::\\text{d};\nlfr:::\\Leftrightarrow;\nlr:::\\Leftarrow;\nrr:::\\Rightarrow;\nan:::\\angle{#cursor^{\\circ}};\nde:::^{\\circ};"
+  "customShorthand_parameter": "bi:::\\binom{#cursor}{#tab};\nsq:::\\sqrt{};\nbb:::\\mathbb{};\nbf:::\\mathbf{};\ncal:::\\mathcal{};\npa:::\\partial;\nte:::\\text{};\ninf:::\\infty;\ncd:::\\cdot;\nqu:::\\quad;\nti:::\\times;\nal:::\\alpha;\nbe:::\\beta;\nga:::\\gamma;\nGa:::\\Gamma;\ndl:::\\delta;\nDl:::\\Delta;\nep:::\\epsilon;\nze:::\\zeta;\net:::\\eta;\nth:::\\theta;\nTh:::\\Theta;\nio:::\\iota;\nka:::\\kappa;\nla:::\\lambda;\nLa:::\\Lambda;\nmu:::\\mu;\nnu:::\\nu;\nxi:::\\xi;\nXi:::\\Xi;\npi:::\\pi;\nPi:::\\Pi;\nrh:::\\rho;\nsi:::\\sigma;\nSi:::\\Sigma;\nta:::\\uptau;\nup:::\\upsilon;\nUp:::\\Upsilon;\nph:::\\varphi;\nPh:::\\Phi;\nch:::\\chi;\nps:::\\psi;\nPs:::\\Psi;\nom:::\\omega;\nOm:::\\Omega;\nti:::\\times;\nb:::\\bar{};\nh:::\\hat{};\nd:::\\dot{};\ntl:::\\tilde{};\ndt:::\\text{dt};\nlfr:::\\Leftrightarrow;\nlr:::\\Leftarrow;\nrr:::\\Rightarrow;\nan:::\\angle{#cursor^{\\circ}};\nde:::^{\\circ};\nfr:::{}^{#cursor}{#tab}_{#tab};"
 }

@@ -19,7 +19,7 @@
   "switcher:open": [
     {
       "modifiers": [
-        "Alt"
+        "Mod"
       ],
       "key": "Enter"
     }
@@ -39,14 +39,6 @@
         "Alt"
       ],
       "key": "ArrowDown"
-    }
-  ],
-  "obsidian-minimal-settings:toggle-minimal-focus-mode": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "F"
     }
   ],
   "obsidian-fullscreen-plugin:fullscreen-focus": [
@@ -108,20 +100,10 @@
     }
   ],
   "workspace:new-tab": [],
-  "app:go-back": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "ArrowLeft"
-    }
-  ],
   "app:go-forward": [
     {
       "modifiers": [
-        "Alt",
-        "Mod"
+        "Alt"
       ],
       "key": "ArrowRight"
     }
@@ -133,5 +115,40 @@
       ],
       "key": "M"
     }
-  ]
+  ],
+  "editor:insert-embed": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "Q"
+    }
+  ],
+  "app:go-back": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowLeft"
+    }
+  ],
+  "quick-latex:addInlineMath": [],
+  "obsidian-focus-mode:toggle-super-focus-mode": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "F"
+    }
+  ],
+  "obsidian-minimal-settings:toggle-minimal-focus-mode": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "F"
+    }
+  ],
+  "editor:open-link-in-new-leaf": []
 }

@@ -1,3 +1,5 @@
+// Just testing the remark plugins to convert my notes to html :)
+
 import rehypeKatex from "rehype-katex";
 import rehypeMathjax from "rehype-mathjax";
 import rehypeStringify from "rehype-stringify";

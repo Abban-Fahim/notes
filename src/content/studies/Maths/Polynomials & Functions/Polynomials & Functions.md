@@ -1,12 +1,12 @@
 %% Begin Waypoint %%
-- [[Maths/Polynomials & Functions/Approximation|Approximation]]
-- [[Maths/Polynomials & Functions/Binomial expansion|Binomial expansion]]
-- [[Maths/Polynomials & Functions/Factorising polynomials|Factorising polynomials]]
-- [[Maths/Polynomials & Functions/Iterative solution|Iterative solution]]
-- [[Maths/Polynomials & Functions/Logarithms|Logarithms]]
-- [[Maths/Polynomials & Functions/Modulus function|Modulus function]]
-- [[Maths/Polynomials & Functions/Partial fractions|Partial fractions]]
-- [[Maths/Polynomials & Functions/Roots of polynomials|Roots of polynomials]]
-- [[Maths/Polynomials & Functions/Taylor Series|Taylor Series]]
+- [[Approximation]]
+- [[Binomial expansion]]
+- [[Factorising polynomials]]
+- [[Iterative solution]]
+- [[Logarithms]]
+- [[Modulus function]]
+- [[Partial fractions]]
+- [[Roots of polynomials]]
+- [[Taylor Series]]
 
 %% End Waypoint %%

@@ -1,15 +1,16 @@
 {
-  "accentColor": "#85c1dc",
+  "accentColor": "#babbf1",
   "cssTheme": "Minimal",
-  "baseFontSize": 27,
+  "baseFontSize": 17,
   "monospaceFontFamily": "Fira Code Retina",
-  "textFontFamily": "Latin Modern Roman 10,Iosevka Etoile,Vazirmatn UI NL",
-  "interfaceFontFamily": "Iosevka Etoile",
+  "textFontFamily": "Iosevka Nerd Font,Vazirmatn",
+  "interfaceFontFamily": "IosevkaTerm Nerd Font Propo",
   "nativeMenus": false,
   "translucency": false,
   "theme": "obsidian",
   "enabledCssSnippets": [
     "code-blocks",
     "printing"
-  ]
+  ],
+  "baseFontSizeAction": true
 }

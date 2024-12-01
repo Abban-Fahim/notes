@@ -6,5 +6,5 @@ $$ \delta_{f} = \delta_{x} \frac{\partial f}{\partial x} + \delta_{y} \frac{\par
 
 For brevity, the quadratic approximation of a function with two independent variables is below, but the same ideas can be used for functions of more variables and at higher orders.
 
-$$\delta_{f} = \delta_{x}\frac{\partial f}{\partial x}+\delta_{y} \frac{\partial f}{\partial y} + \frac{1}{2!}\left(\delta_{x}^{2} \frac{\partial^{2}f}{\partial x^{2}}+\delta_{y}^{2} \frac{\partial^{2} f}{\partial y^{2}}+2\delta_{x}\delta_{y} \frac{\partial^{2}f}{\partial x \partial y}\right)$$
+$$\delta_{f} = \delta_{x}\frac{\partial f}{\partial x}+\delta_{y} \frac{\partial f}{\partial y} + \frac{1}{2!}\left(\delta_{x}^{2} \frac{\partial^{2}f}{\partial x^{2}}+\delta_{y}^{2} \frac{\partial^{2} f}{\partial y^{2}}+2\delta_{x}\delta_{y} \frac{\partial^{2}f}{\partial x \partial y}\right)+H.O.T$$
 

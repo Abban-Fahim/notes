@@ -1,10 +1,9 @@
 {
-  "snippets_file": "break : <div style=\"page-break-after: always\"></div>\n$$ : $$ $end$ $$\n$ : $$end$$\nfr : \\frac{$tb$}{}\nmat : \\begin{bmatrix}$nl$\n$tb$ &  \\\\$nl$\n &  \\\\$nl$\n\\end{bmatrix}\ntoc : %% Waypoint %%",
+  "snippets_file": "break : <div style=\"page-break-after: always\"></div>\n$$ : $$ $end$ $$\n$ : $$end$$\nmat : \\begin{bmatrix}$nl$\n$tb$ &  \\\\$nl$\n &  \\\\$nl$\n\\end{bmatrix}\ntoc : %% Waypoint %%",
   "snippets": [
     "break : <div style=\"page-break-after: always\"></div>",
     "$$ : $$ $end$ $$",
     "$ : $$end$$",
-    "fr : \\frac{$tb$}{}",
     "mat : \\begin{bmatrix}$nl$\n$tb$ &  \\\\$nl$\n &  \\\\$nl$\n\\end{bmatrix}",
     "toc : %% Waypoint %%"
   ],

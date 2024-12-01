@@ -1,5 +1,7 @@
 {
-  "fileDirections": {},
+  "fileDirections": {
+    "EEE/Electronics/Computer Architecture.md": "ltr"
+  },
   "defaultDirection": "auto",
   "rememberPerFile": true,
   "setNoteTitleDirection": true,

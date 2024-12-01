@@ -14,7 +14,7 @@ Year 3
 Year 4 (...)
 
 %% Begin Waypoint %%
-- **[[EEE/Electrical/Electrical|Electrical]]**
-- **[[EEE/Electronics/Electronics|Electronics]]**
+- **[[Electrical]]**
+- **[[Electronics]]**
 
 %% End Waypoint %%

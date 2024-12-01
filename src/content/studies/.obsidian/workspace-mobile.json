@@ -1,0 +1,180 @@
+{
+  "main": {
+    "id": "12bc286587a01199",
+    "type": "split",
+    "children": [
+      {
+        "id": "8383c093844165cf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aa3705a5f3bc7bca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maths/Probability & Statistics/Discrete random variables.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f8e389ff10e393ed",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "fede1070588d29de",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "e5ffecb55de052a8",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "7ce4d07c8f8830fa",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "9ab87afb38b633bd",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          }
+        }
+      },
+      {
+        "id": "441df671d566e646",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "ab8d1ccf664e2824",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "71d7cc8cd57c4c28",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Maths/Probability & Statistics/Discrete random variables.md",
+            "collapseAll": true,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": true,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "c66c8bb9a2b2ca97",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Maths/Probability & Statistics/Discrete random variables.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "e987ec8bc6c2ee20",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Maths/Probability & Statistics/Discrete random variables.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 2
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "workspaces:Manage workspace layouts": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "aa3705a5f3bc7bca",
+  "lastOpenFiles": [
+    "Maths/Probability & Statistics/Probability & Statistics.md",
+    "Computer Science/Trees.md",
+    "Maths/Probability & Statistics/Discrete random variables.md",
+    "Maths/Probability & Statistics",
+    "Maths/Polynomials & Functions/Taylor Series.md",
+    "Untitled.md",
+    "_Assignments/Site visit.md",
+    "Intro To Mech Eng - B57AU/Fluid mechanics.md",
+    "Mechanics, Fields, Forces - B27MW/Gravitational fields and forces.md",
+    "_bcorp-dev/MediaWiki.canvas",
+    "Robotics/Coordinate frames.md",
+    "Computer Science/Amortised analysis of resizable arrays.md",
+    "Robotics/Lagrangian Formulation.md",
+    "Robotics/State Space Representation.md",
+    "Robotics/Denavit-Hartenberg conventions.md",
+    "Robotics/Link velocities.md",
+    "Robotics/Manipulator dynamics.md",
+    "Maths/Calculus/Laplace transform.md",
+    "Maths/Calculus/Partial differentiation.md",
+    "Maths/Calculus/Integration.md",
+    "Maths/Calculus/Differential equations.md",
+    "Computer Science/Time complexity analysis.md",
+    "Computer Science/Graphs.md",
+    "Computer Science/Compression.md",
+    "Computer Science/Algorithm design.md",
+    "Computer Science/Hashing.md",
+    "Computer Science/Search trees.md",
+    "Maths/Trigonometry & Geometry/Trig identities.md"
+  ]
+}

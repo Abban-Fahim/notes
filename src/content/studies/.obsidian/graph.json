@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:Assignments",
@@ -48,13 +48,6 @@
         "a": 1,
         "rgb": 2567471
       }
-    },
-    {
-      "query": "path:Journal",
-      "color": {
-        "a": 1,
-        "rgb": 5395168
-      }
     }
   ],
   "collapse-display": false,
@@ -63,10 +56,10 @@
   "nodeSizeMultiplier": 1.68845322630441,
   "lineSizeMultiplier": 4.39941339919728,
   "collapse-forces": false,
-  "centerStrength": 0.507297019527235,
-  "repelStrength": 15.2754367934224,
-  "linkStrength": 0.632271325796506,
-  "linkDistance": 30,
-  "scale": 0.11512086989765494,
+  "centerStrength": 0,
+  "repelStrength": 6.46474118529632,
+  "linkStrength": 0.221211552888222,
+  "linkDistance": 133,
+  "scale": 0.23687545938391688,
   "close": true
 }

@@ -17,5 +17,3 @@ $$\sum{\alpha}=\alpha+\beta+\gamma+\delta=-\frac{b}{a}$$
 $$\sum{\alpha\beta}=\alpha\beta+\alpha\gamma+\alpha\delta+\beta\gamma+\beta\delta+\gamma\delta=\frac{c}{a}$$
 $$\sum{\alpha\beta\gamma}=\alpha\beta\gamma+\alpha\beta\delta+\alpha\gamma\delta+\beta\gamma\delta=-\frac{d}{a}$$
 $$\prod{\alpha}=\alpha\beta\gamma\delta=\frac{e}{a}$$
-
-When knowing the 

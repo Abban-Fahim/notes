@@ -1,8 +1,9 @@
 %% Begin Waypoint %%
-- [[Maths/Maths|Maths]]
-- [[Maths/Calculus/Double integrals|Double integrals]]
-- [[Maths/Calculus/Integration|Integration]]
-- [[Maths/Calculus/Partial differentiation|Partial differentiation]]
-- [[Maths/Calculus/Trig calculus|Trig calculus]]
+- [[Differential equations]]
+- [[Double integrals]]
+- [[Integration]]
+- [[Laplace transform]]
+- [[Partial differentiation]]
+- [[Trig calculus]]
 
 %% End Waypoint %%
