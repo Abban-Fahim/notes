@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Reinforcement learning.md",
+                "file": "Maths/Calculus/Differential equations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reinforcement learning"
+              "title": "Differential equations"
             }
           }
         ],
@@ -92,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 332.5004348754883
+    "width": 332.5004348754883,
+    "collapsed": true
   },
   "right": {
     "id": "96576152911976e7",
@@ -197,15 +198,16 @@
   },
   "active": "1b528b0acafa309f",
   "lastOpenFiles": [
-    "ideas.md",
+    "Maths/Probability & Statistics/Bayesian computation.md",
+    "Maths/Calculus/Differential equations.md",
     "Computer Science/Reinforcement learning.md",
+    "ideas.md",
     "Computer Science/Markov decision processes.md",
     "Computer Science/Intelligent Agents.md",
     "Computer Science/Machine learning.md",
     "Maths/Probability & Statistics/Estimation & confidence intervals.md",
     "Maths/Probability & Statistics/Information theory.md",
     "Maths/Probability & Statistics/Gaussian distribution.md",
-    "Maths/Probability & Statistics/Bayesian computation.md",
     "Maths/Probability & Statistics/Multivariate distributions.md",
     "_Speeches-writings/Sus dev.md",
     "Maths/Probability & Statistics/Common distributions.md",
@@ -222,7 +224,6 @@
     "Courses/Building Services - D18BT/Fire safety.md",
     "Courses/Building Services - D18BT/Building Services - D18BT.md",
     "Courses/Building Services - D18BT/Lighting.md",
-    "_Assignments/B38DB - Lab 2 - Adder Implementation.md",
     "_Assignments/B38DB-lab2.pdf",
     "_Assignments/B38DB-lab3.pdf",
     "_Assignments/B38EB Pspice Assignment.pdf",

@@ -23,6 +23,10 @@
 	padding: 0;
 }
 
+html {
+	overflow-x: hidden;
+}
+
 /*
  * Font credits to:
  * LaTeX.css (https://latex.now.sh/)
@@ -32,23 +36,23 @@
 
 @font-face {
 	font-family: "Latin Modern";
-	src: local("Latin Modern"), url("/LM-regular.woff2") format("woff2");
+	src: local("Latin Modern"), url("/notes/LM-regular.woff2") format("woff2");
 }
 @font-face {
 	font-family: "Latin Modern";
 	font-style: italic;
-	src: local("Latin Modern"), url("/LM-italic.woff2") format("woff2");
+	src: local("Latin Modern"), url("/notes/LM-italic.woff2") format("woff2");
 }
 @font-face {
 	font-family: "Latin Modern";
 	font-weight: bold;
-	src: local("Latin Modern"), url("/LM-bold.woff2") format("woff2");
+	src: local("Latin Modern"), url("/notes/LM-bold.woff2") format("woff2");
 }
 @font-face {
 	font-family: "Latin Modern";
 	font-style: italic;
 	font-weight: bold;
-	src: local("Latin Modern"), url("/LM-bold-italic.woff2") format("woff2");
+	src: local("Latin Modern"), url("/notes/LM-bold-italic.woff2") format("woff2");
 }
 
 body {
@@ -71,6 +75,12 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	white-space: nowrap;
+	font-size: calc(1vw + 0.6rem) !important;
+}
+header h1 {
+	overflow-x: scroll;
+	padding: 0.2rem;
 }
 
 main {
@@ -96,7 +106,9 @@ article {
 	max-height: calc(100vh - 8rem);
 	padding: 1rem 2rem;
 	transition: margin 0.3s ease;
+	z-index: 100;
 }
+
 #left-nav {
 	flex: 0 0 30rem;
 	margin-left: 0;
@@ -104,6 +116,15 @@ article {
 #left-nav.hidden {
 	margin-left: -34rem;
 }
+#left-nav ul {
+	padding-left: 2rem;
+	padding-bottom: 0.5rem;
+}
+#left-nav ul a {
+	display: block;
+	font-size: 1.4rem;
+}
+
 #right-nav {
 	flex: 0 0 21rem;
 	margin-right: 0;
@@ -111,17 +132,27 @@ article {
 #right-nav.hidden {
 	margin-right: -25rem;
 }
-
-#left-nav ul {
-	padding-left: 2rem;
-	padding-bottom: 0.5rem;
-}
-
 #right-nav button {
 	display: block;
 	width: 100%;
 	text-align: center;
 	margin: 1rem 0;
+}
+
+@media only screen and (max-width: 1200px) {
+	/* For smaller devices */
+	article {
+		padding: 2.5vw;
+	}
+	#left-nav,
+	#right-nav {
+		position: absolute;
+		max-width: 80vw !important;
+		left: 0;
+	}
+	#right-nav.hidden {
+		display: none;
+	}
 }
 
 .katex.inline {
@@ -130,27 +161,12 @@ article {
 .katex.display {
 	display: block;
 	text-align: center;
-	margin-bottom: 1rem;
+	margin: 3rem 0;
 }
-
-article p {
-	font-size: 2rem;
-	margin-bottom: var(--spacing);
-	line-height: 3.2rem;
-}
-
-/* article p > .katex:only-child {
-	display: block;
-	text-align: center;
-} */
 
 .top {
 	color: var(--base0D);
 	font-size: 1.6rem;
-}
-#left-nav ul a {
-	display: block;
-	font-size: 1.4rem;
 }
 
 a {
@@ -189,4 +205,33 @@ td {
 }
 table {
 	border-spacing: 0;
+}
+
+li {
+	margin-left: 0.8rem;
+}
+
+h1 {
+	font-size: calc(2.5vw + 20px);
+	margin: 50px 0;
+}
+h2 {
+	font-size: calc(2vw + 30px);
+	margin: 50px 0;
+}
+h3 {
+	font-size: calc(1.5vw + 32px);
+	margin: 35px 0;
+}
+h4 {
+	font-size: calc(1vw + 20px);
+	margin: 20px 0;
+}
+h5 {
+	font-size: calc(0.5vw + 18px);
+}
+h6,
+p, li {
+	font-size: calc(15px + 0.390625vw);
+	line-height: 1.75;
 }

@@ -1,4 +1,4 @@
-# NEED TO CHANGE ROLES OF Y, X AND THETA IN PREVIOUS ESTIMATION NOTES
+#### NEED TO CHANGE ROLES OF Y, X AND THETA IN PREVIOUS ESTIMATION NOTES
 ## Likelihood
 
 In noisy systems, we try to estimate the likelihood of estimator, $x$, by observing values, $y$. The **maximum likelihood estimator** (MLE), achieves this using an assumption about the model of the observations, given the actual RV, hence $y|x\sim{f_{Y|X}(y|x)}$. It is calculated by finding the parameter that maximises this **likelihood function**
