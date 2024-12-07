@@ -29,14 +29,18 @@ $$\sin{x}=\frac{e^{jx}-e^{-jx}}{2j}$$
 
 For cases when the expression $\frac{f(x)}{g(x)}$ approaching a constant $c$ equals to $\frac{0}{0}$, we can use this rule to find an equivalent expression around $c$. The property we use is
 
-$$\lim_{x\to{c}}\frac{f(x)}{g(x)}=\lim_{x\to{c}}\frac{f'
-(x)}{g'(x)}$$
+$$
+\lim_{x\to{c}}\frac{f(x)}{g(x)}=\lim_{x\to{c}}\frac{f'
+(x)}{g'(x)}
+$$
 
 This rule only holds true when these four conditions are met:
 
 - Indeterminacy of form (as stated in the problem above):
 
-$$\lim_{x\to{c}}{f(x)}=\lim_{x\to{c}}{g(x)}=0\text{ or }\pm\infty$$
+$$
+\lim_{x\to{c}}{f(x)}=\lim_{x\to{c}}{g(x)}=0\text{ or }\pm\infty
+$$
 
 - $f(x)$ and $g(x)$ are differentiable on an open interval of $\mathcal{I}$, except possibly around $c$
 - Non-zero derivative of denominator: $g(x)\ne{0}$; $\forall{x}$; $x\ne{c}$
