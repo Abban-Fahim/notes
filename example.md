@@ -20,13 +20,9 @@ These can be used along with the equations for velocity to generate iterative eq
 
 $$^{i+1}\dot{\omega}_{i+1}={}^{i+1}_{i}{R}{}^{i}\dot{\omega}_{i}+{}^{i+1}_{i}{R}{}^{i}{\omega}_{i}\times \dot{\theta}_{i+1}{}^{i+1}\hat{Z}_{i+1}+\ddot{\theta}_{i+1}{}^{i+1}\hat{Z}_{i+1}$$
 $$\text{(Rot:) }{}^{i+1}\dot{v}_{i+1}={}^{i+1}_{i}{R}({}^{i}\dot{\omega}_{i}\times {}^{i}{P}_{i+1}+{}^{i}{\omega}_{i}\times({}^{i}{\omega}_{i}\times {}^{i}{P}_{i+1})+{}^{i}\dot{v}_{i})$$
-$$
-\begin{align*}
+$$\begin{align*}
 ^{i+1}\dot{v}_{C_{i+1}}=&^{i+1}\dot{\omega}_{i+1}\times {}^{i+1}{P}_{C_{i+1}}\\&+{}^{i+1}{\omega}_{i+1}\times({}^{i+1}{\omega}_{i+1}\times {}^{i+1}{P}_{C_{i+1}})+{}^{i+1}\dot{v}_{i+1}
 \end{align*}
-$$
-$$
-\begin{align*}\text{(Pris:) }{}^{i+1}\dot{v}_{i+1}=&(\text{Rot }{}^{i+1}\dot{v}_{i+1})\\&+\ddot{d}_{i+1}{}^{i+1}\hat{Z}_{i+1}+2({}^{i+1}_{i}{R}{}^{i}{\omega}_{i}\times\dot{d}_{i+1}{}^{i+1}\hat{Z}_{i+1})\end{align*}
 $$
 ## Forces and mass
 
@@ -36,10 +32,8 @@ $$F_{i}=ma=m\dot{v}_{C_{i}}$$
 
 When dealing with rigid bodies, we usually consider their inertia's to take into account the shape of their bodies when using them in equations. The mass distribution of a rigid body can be given by an inertia tensor:
 
-$$
-{}^{A}I=\begin{matrix}
-I_{xx} & -I_{xy} & -I_{xz} \\ -I_{yx} & I_{yy} & -I_{yz} \\ -I_{zx} & -I_{zy} & I_{zz}\end{matrix}
-$$
+$${}^{A}I=\begin{matrix}
+I_{xx} & -I_{xy} & -I_{xz} \\ -I_{yx} & I_{yy} & -I_{yz} \\ -I_{zx} & -I_{zy} & I_{zz}\end{matrix}$$
 $$I_{xx}=\iiint_{V}{(y^{2}+z^{2})}\rho\ dv$$
 $$I_{yy}=\iiint_{V}{(x^{2}+z^{2})}\rho\ dv$$
 $$I_{zz}=\iiint_{V}{(x^{2}+y^{2})}\rho\ dv$$

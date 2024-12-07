@@ -3,14 +3,32 @@ import { getCollection } from "astro:content";
 
 const allItems = await getCollection("studies");
 let finalNav = [
-	{
-		name: "EEE",
-		slug: "eee",
-		pages: [
-			{ name: "Electronics", slug: "electronics", pages: [] },
-			{ name: "Electrical", slug: "electrical", pages: [] },
-		],
-	},
+	{ name: "Robotics", slug: "robotics", pages: [
+			{ name: "Manipulators", slug: "manipulators", pages: [] },
+			{ name: "Mobile robots", slug: "mobile-robots", pages: [] },
+			{ name: "Quadrotors", slug: "quadrotors", pages: [] },
+			{ name: "Systems and Control", slug: "systems-and-control", pages: [] },
+		] },
+		{ name: "Computer Science", slug: "computer-science", pages: [] },
+		{
+			name: "Maths",
+			slug: "maths",
+			pages: [
+				{ name: "Calculus", slug: "calculus", pages: [] },
+				{ name: "Linear algebra", slug: "linear-algebra", pages: [] },
+				{ name: "Triginometry & Geometry", slug: "trigonometry--geometry", pages: [] },
+				{ name: "Probability & Statistics", slug: "probability--statistics", pages: [] },
+				{ name: "Polynomials & Functions", slug: "polynomials--functions", pages: [] },
+			],
+		},
+		{
+			name: "EEE",
+			slug: "eee",
+			pages: [
+				{ name: "Electronics", slug: "electronics", pages: [] },
+				{ name: "Electrical", slug: "electrical", pages: [] },
+			],
+		},
 	{
 		name: "Courses",
 		slug: "courses",
@@ -19,24 +37,6 @@ let finalNav = [
 				{ name: "Mechanics, Fields, Forces - B27MW", slug: "mechanics-fields-forces---b27mw", pages: [] },
 				{ name: "Waves & Matter - B27FF", slug: "waves--matter---b27ff", pages: [] },],
 	},
-	{
-		name: "Maths",
-		slug: "maths",
-		pages: [
-			{ name: "Calculus", slug: "calculus", pages: [] },
-			{ name: "Linear algebra", slug: "linear-algebra", pages: [] },
-			{ name: "Triginometry & Geometry", slug: "trigonometry--geometry", pages: [] },
-			{ name: "Probability & Statistics", slug: "probability--statistics", pages: [] },
-			{ name: "Polynomials & Functions", slug: "polynomials--functions", pages: [] },
-		],
-	},
-	{ name: "Robotics", slug: "robotics", pages: [
-			{ name: "Manipulators", slug: "manipulators", pages: [] },
-			{ name: "Mobile robots", slug: "mobile-robots", pages: [] },
-			{ name: "Quadrotors", slug: "quadrotors", pages: [] },
-			{ name: "Systems and Control", slug: "systems-and-control", pages: [] },
-	] },
-	{ name: "Computer Science", slug: "computer-science", pages: [] },
 ];
 
 allItems.map((page) => {

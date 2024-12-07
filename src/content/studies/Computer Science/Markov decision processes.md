@@ -2,6 +2,10 @@ An MDP is made up of states, $s\in{S}$, and actions, $a\in{A}$, with transition 
 
 ## Value iteration
 
+The discounted sum of rewards for an episode with $n+1$ states and $n$ transitions, all of which are 0 indexed, is equal to
+
+$$\sum\limits_{n=0}^{N}{\gamma^{n}R(s_{n},a_{n},s_{n+1})}$$
+
 ## Policy iteration
 
 $$V^{*}(s)=\max\limits_{\alpha}\sum\limits_{s'}{T(s,a,s')[R(s,a,s')+\gamma{V^{*}(s')}]}$$

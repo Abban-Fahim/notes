@@ -26,7 +26,7 @@ Starting with a node $s$, we first discover all nodes farthest from $s$ until we
 
 ### Uniform-cost search
 
-Involves expanding the cheapest edges first, 
+Involves expanding the cheapest edges first, based on the coat of traversal. This differs to the above as they minimise the number of transitions, meanwhile uniform search works with weighted graphs. Conceptually, this is actually similar to Dijkstra's algorithm discussed below, except that it is uninformed and does not initialise any nodes to $\infty$, instead works until it reaches the goal state(s). This makes it significantly faster for infinitely large graphs, where it is impractical to solve for all nodes while keeping the same upper bound for speed.
 
 ### Euler graphs
 

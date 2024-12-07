@@ -55,12 +55,16 @@ $$\begin{align*}\text{When }k_{i}>\frac{1}{2}:a_{i}&= (1)+(2*n-m)\\&-(2(n-1)-m)=
 $$\begin{align*}\text{When }k_{i}=\frac{1}{2}:a_{i}&=(1)+(2*n-m)\\&-(\frac{1}{2}*m-(n-1))\\
 &=(1)+(2*n-2*n)\\
 &-(\frac{1}{2}(2*n)-(n-1))=0\end{align*}$$
-$$\begin{align*}\text{(Resizing) When }k_{i-1}=1:a_{i}&=(n+1)+(2*n-m)\\&-(2(n-1)-\frac{1}{2}*m)\\&=(n+1)+(2*n-2*n)\\&-(2(n-1)-\frac{1}{2}(2*n))\\&=(n+1)-(n-2)=3\end{align*}$$
+$$\begin{align*}\\
+\text{(Resizing) When }k_{i-1}=1:a_{i}&=(n+1)+(2*n-m)\\&-(2(n-1)-\frac{1}{2}*m)\\&=(n+1)+(2*n-2*n)\\&-(2(n-1)-\frac{1}{2}(2*n))\\&=(n+1)-(n-2)=3\end{align*}
+$$
 
 Finally for removal:
 
 
-$$\begin{align*}\text{When }k_{i}<\frac{1}{2}:a_{i}&=(1)+(\frac{1}{2}*m-n)\\&-(\frac{1}{2}*m-(n+1))=2\end{align*}$$
+$$
+\begin{align*}\text{When }k_{i}<\frac{1}{2}:a_{i}&=(1)+(\frac{1}{2}*m-n)\\&-(\frac{1}{2}*m-(n+1))=2\end{align*}
+$$
 $$\begin{align*}\text{When }k_{i}>\frac{1}{2}:a_{i}&= (1)+(2*n-m)\\&-(2(n+1)-m)=-1\end{align*}$$
 $$\begin{align*}\text{When }k_{i-1}=\frac{1}{2}:a_{i}&=(1)+(\frac{1}{2}*m-n)\\&-(2(n+1)-m)\\
 &=(1)+(\frac{1}{2}*m-(\frac{1}{2}*m-1))\\&-(2(\frac{1}{2}*m-1+1)-m)=2\end{align*}$$
