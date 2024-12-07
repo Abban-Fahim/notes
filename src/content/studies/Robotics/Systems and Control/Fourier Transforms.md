@@ -4,18 +4,22 @@ Conceptually, the time-domain signal $x(t)$ is the amplitude of the signal sampl
 
 The transform integral is given in the frequency domain as
 
-$$\begin{align*}
+$$
+\begin{align*}
 X(\omega)=\mathcal{F}\{x(t)\}&=\lim_{T_{0}\to{\infty}}{[c_{k}]T_{0}}\\
 &=\lim_{T_{0}\to{\infty}}{\left[\int_{-\frac{T_{0}}{2}}^{\frac{T_{0}}{2}}{x(t)e^{-jk\Delta\omega{t}}\,dt}\right]} \\
 &=\int_{-\infty}^{\infty}{x(t)e^{-j\omega{t}}\,dt}
-\end{align*}$$
+\end{align*}
+$$
 
 The inverse of this transform derives from the aforementioned exponential representation
 
-$$\begin{align*}
+$$
+\begin{align*}
 x(t)=\mathcal{F}^{-1}\{X(\omega)\}&=\lim_{T_{0}\to\infty}[\tilde{x}(t)]\\
 &=\frac{1}{2\pi}\int_{-\infty}^{\infty}{X(\omega)e^{j\omega{t}}\,d\omega}
-\end{align*}$$
+\end{align*}
+$$
 
 The existence of a Fourier transform for a given function (whether $\epsilon(t)$ converges 0 around non-discontinuities) is governed by the same [[Robotics/Systems and Control/Fourier series#Dirichlet conditions|Dirichlet conditions]] as the Fourier series.
 

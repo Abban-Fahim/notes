@@ -4,11 +4,13 @@
 
 Returns the value 1 for a very brief moment (infinitely small) at $t=T$, and is used to perform sampling of continuous time signal, given as
 
-$$\delta(t-T)=\begin{cases}
+$$
+\delta(t-T)=\begin{cases}
 0 & t<T \\
 1 & t=T \\
 0 & t>T
-\end{cases}$$
+\end{cases}
+$$
 $$\int_{-\infty}^{\infty}{\delta(t)\,dt}=1$$
 
 This integration property generalises for any function multiplied with the impulse
@@ -19,10 +21,12 @@ $$\int_{-\infty}^{+\infty}{f(t)\delta(t-T)\,dt}=f(T)$$
 
 Equals to 1 for all values $t\ge{T}$, and can be used to turn signals on and off, given as
 
-$$u(t-T)=\begin{cases}
+$$
+u(t-T)=\begin{cases}
 0 & t<T \\
 1 & t\ge{T}
-\end{cases}$$
+\end{cases}
+$$
 
 this can also be defined as the *running integral* of the unit impulse function, and vice versa
 
@@ -33,11 +37,13 @@ $$\delta{t}=\frac{du}{dt}$$
 
 A rectangular signal with height and width of 1, centered around $t=0$, and can be made by combining two step functions, given as
 
-$$\Pi(t-T)=\begin{cases}
+$$
+\Pi(t-T)=\begin{cases}
 0 & t<-\frac{1}{2}+T \\
 1 & -\frac{1}{2}+T\le{0}<\frac{1}{2}+T \\
 0 & t\ge{\frac{1}{2}+T}
-\end{cases}$$
+\end{cases}
+$$
 
 This can also be expressed as two time-shifted unit step functions
 
@@ -47,10 +53,12 @@ $$\Pi(t)=u(t+\frac{1}{2})-u(t-\frac{1}{2})$$
 
 A straight line of gradient 1 starting from 0, used to represent a gradual rise in a function, given as
 
-$$r(t-T)=\begin{cases}
+$$
+r(t-T)=\begin{cases}
 0 & t<T \\
 t & t\ge{T}
-\end{cases}$$
+\end{cases}
+$$
 
 It can also be given as the running integral of the unit step function
 
@@ -61,12 +69,14 @@ $$u(t)=\frac{dr}{dt}$$
 
 A triangle of width 2 and height 1, centered around $t=0$, given as
 
-$$\Lambda(t-T)=\begin{cases}
+$$
+\Lambda(t-T)=\begin{cases}
 0 & t<-1+T \\
 t & -1+T\le{t<T} \\
 -t & T\le{t<1+T} \\
 0 & t\ge{1+T}
-\end{cases}$$
+\end{cases}
+$$
 
 Additionally, we can also represent it using some ramp functions
 

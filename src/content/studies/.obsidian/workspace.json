@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1ebc545353daa66d",
+        "id": "90430443409e4c20",
         "type": "tabs",
         "children": [
           {
-            "id": "a857efed66e3f4ef",
+            "id": "7194db2869a38203",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -180,20 +180,23 @@
       "obsidian-shellcommands:Shell commands: Custom variables": false
     }
   },
-  "active": "a857efed66e3f4ef",
+  "active": "7194db2869a38203",
   "lastOpenFiles": [
-    "Robotics/Systems and Control/Fourier series.md",
-    "Robotics/Systems and Control/Fourier Transforms.md",
+    "Robotics/Systems and Control/Control theory.md",
+    "Robotics/Systems and Control/Systems and Control.md",
     "Robotics/Systems and Control/LTI systems.md",
     "Robotics/Systems and Control/PID control.md",
-    "Computer Science/Natural language processing.md",
-    "Computer Science/Markov decision processes.md",
+    "Robotics/Systems and Control/Fourier Transforms.md",
+    "Robotics/Systems and Control/Hybrid-Automata Model.md",
+    "Robotics/Systems and Control/Fourier series.md",
     "Robotics/Systems and Control/Continuous-time signals.md",
+    "Computer Science/Natural language processing.md",
+    "_Journal/07-12-2024.md",
+    "Computer Science/Markov decision processes.md",
     "imgs/Pasted image 20241206165752.png",
     "imgs/Pasted image 20241206165748.png",
     "Computer Science/Game trees.md",
     "Computer Science/Graph theory.md",
-    "Robotics/Systems and Control/Systems and Control.md",
     "Robotics/Robotics.md",
     "Maths/Probability & Statistics/Bayesian computation.md",
     "Untitled.md",
@@ -206,10 +209,7 @@
     "Computer Science/Amortised analysis of resizable arrays.md",
     "Robotics/Manipulators/Manipulator dynamics.md",
     "Robotics/Systems and Control/Kalman filter.md",
-    "Robotics/Systems and Control/Hybrid-Automata Model.md",
-    "Robotics/Systems and Control/Control theory.md",
     "Robotics/Quadrotors/Racing paths.md",
-    "Robotics/Quadrotors/Quadrotor dynamics.md",
     "_Assignments/B38DB-lab2.pdf",
     "_Assignments/B38DB-lab3.pdf",
     "_Assignments/B38EB Pspice Assignment.pdf",
