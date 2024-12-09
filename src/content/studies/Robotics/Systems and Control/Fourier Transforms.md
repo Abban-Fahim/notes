@@ -29,7 +29,7 @@ The existence of a Fourier transform for a given function (whether $\epsilon(t)$
 
 The transformation is a linear operator, with the following relationship holding true
 
-$$\alpha_{1}x_{1}(t)+\alpha_{2}x_{2}(t)+\dots+\alpha_{n}x_{n}(t)\longleftrightarrow_\mathcal{F}\alpha_{1}X_{1}(\omega)+\alpha_{2}X_{2}(\omega)+\dots+{\alpha_{n}X_{n}(\omega)}$$
+$$\alpha_{1}x_{1}(t)+\alpha_{2}x_{2}(t)+\dots+\alpha_{n}x_{n}(t)\leftrightarrow\alpha_{1}X_{1}(\omega)+\alpha_{2}X_{2}(\omega)+\dots+{\alpha_{n}X_{n}(\omega)}$$
 
 ### Duality
 
@@ -58,19 +58,54 @@ $$x(t)e^{j\omega_{0}t}\leftrightarrow{X(\omega-\omega_{0})}$$
 
 ### Modulation
 
-Multiplying the time function by cosine or sine causes it to be modulated, essentially its frequencies are shifted and scaled by $\frac{1}{2}$, in the case of cosine it shifts by its frequency, and sine does the same as well as an addtional time shift by $-\pi/2$
+Multiplying the time function by cosine or sine causes it to be modulated, essentially its frequencies are shifted and scaled by $\frac{1}{2}$, in the case of cosine it shifts by its frequency, and sine does the same as well as an additional time shift by $-\pi/2$
 
-$$x(t)\cos(\omega_{0}t)\leftrightarrow{\frac{1}{2}}$$
+$$x(t)\cos(\omega_{0}t)\leftrightarrow{\frac{1}{2}}[X(\omega-\omega_{0})+X(\omega+\omega_{0})]$$
+$$x(t)sin(\omega_{0}t)\leftrightarrow\frac{1}{2}[X(\omega-\omega_{0})e^{\frac{-j\pi}{2}}+X(\omega-\omega_{0})e^{\frac{j\omega}{2}}]$$
 
 ### Time and frequency scaling
 
+This property states that when one variable is scaled by a factor, the other variable is also scaled for the same factor, in the opposite direction, giving us
+
+$$x(at)\leftrightarrow{\frac{1}{|a|}X(\frac{\omega}{a})}$$
+
 ### Differentiation in time and frequency
+
+Differentiating the time domain function to the $n$-th degree gives us
+
+$$\frac{d^{n}}{dt^{n}}x(t)\leftrightarrow(j\omega)^{n}X(\omega)$$
+
+Similarly for the frequency domain
+
+$$(-jt)^{n}x(t)\leftrightarrow \frac{d^{n}}{d\omega^{n}}(X(f))$$
 
 ### Convolution theorem (and multiplication)
 
+To simplify solving convolutions, we can convert to the frequency domain
+
+$$x_{1}(t)*x_{2}(t)\leftrightarrow X_{1}(\omega)X_{2}(\omega)$$
+
+The opposite is also true
+
+$$x_{1}(t)x_{2}(t)\leftrightarrow\frac{1}{2\pi}X_{1}(\omega)*X_{2}(\omega)$$
+
 ### Integration
 
+For a running integral of a time domain function
+
+$$\int_{-\infty}^{t}{x(\lambda)\,d\lambda}\leftrightarrow\frac{X(\omega)}{j\omega}+\pi{X(0)}\delta(\omega)$$
+
+## Energy and power
+
 ### Parseval's theorem
+
+For periodic power signals with period $T_{0}$ and EFS coefficient $c_{k}$, it can be stated
+
+$$\frac{1}{T_{0}}\int_{t_{0}}^{t_{0}+T_{0}}{|\tilde{x}(t)|^{2}}\,dt=\sum\limits_{k=-\infty}^{\infty}{|c_{k}|^{2}}$$
+
+and for a non-periodic energy signal, it can be stated
+
+$$\int_{-\infty}^{\infty}{|x(t)|^{2}\,dt}=\int_{-\infty}^{\infty}{|X(f)|^{2}\,df}$$
 
 ## Fast Fourier Transform
 ``
