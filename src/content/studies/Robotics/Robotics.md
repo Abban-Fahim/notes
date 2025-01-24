@@ -1,4 +1,5 @@
 %% Begin Waypoint %%
+- **[[Control]]**
 - **Manipulators**
 	- [[Denavit-Hartenberg conventions]]
 	- [[Lagrangian Formulation]]
@@ -6,6 +7,7 @@
 	- [[Manipulator dynamics]]
 - **[[Mobile robots]]**
 - **[[Quadrotors]]**
-- **[[Systems and Control]]**
+- **Systems and Control**
+	- [[Fourier series]]
 
 %% End Waypoint %%

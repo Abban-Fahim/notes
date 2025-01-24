@@ -31,7 +31,7 @@ $$
 this can also be defined as the *running integral* of the unit impulse function, and vice versa
 
 $$u(t)=\int_{-\infty}^{t}{\delta(\lambda)}\;d\lambda$$
-$$\delta{t}=\frac{du}{dt}$$
+$$\delta(t)=\frac{du}{dt}$$
 
 ### Unit pulse function
 
@@ -113,14 +113,18 @@ A periodic signal is defined when
 
 $$x(t+T_{0})=x(t)$$
 
-where $T_{0}\ne{0}$ and is a specific value known as period of the signal, and relates to the inverse of frequency. For a multi-tonal signal, the ratio of the two signal's frequencies must be a rational number, given as
+where $T_{0}\ne{0}$ and is a specific value known as period of the signal, and relates to the inverse of frequency. For a multi-tonal signal, the ratio of the two signal's frequencies must be a rational number for the summation to also be preiodic, given as
 
 $$x(t)=\cos(2\pi{f_{1}}t)+\cos(2\pi{f_{2}}t)$$
 $$x(t)\;\text{is periodic only if}\;\frac{f_{1}}{f_{2}}\in\mathbb{Z}$$
 
+We can find their fundamental frequency with this relation
+
+$$\frac{1}{f_{0}}=\frac{m_{1}}{f_{1}}=\frac{m_{2}}{f_{2}}$$
+
 ### Deterministic & random
 
-The building blocks of signals are all considered deterministic, as they can be modeled using mathematical equations. Physical phenomena usually produce random signals and contain noise, which are often impossible to model using equations. Instead of analysing their thematically properties, we instead use statistical values of their samples to study them, like averages of amplitudes and power of different frequencies.
+The building blocks of signals are all considered deterministic, as they can be modelled using mathematical equations. Physical phenomena usually produce random signals and contain noise, which are often impossible to model using equations. Instead of analysing their thematically properties, we instead use statistical values of their samples to study them, like averages of amplitudes and power of different frequencies.
 
 ## Energy and power
 
@@ -128,9 +132,13 @@ Normally, a system's energy is derived from the source of that energy the load t
 
 $$E_{x}=\int_{-\infty}^{\infty}{|x(t)|^{2}\;dt}$$
 
-Power is given as follows
+Power for a non-periodic signal is given as follows
 
-$$P=\lim_{t\to\infty}\frac{1}{T}\int_{\frac{-T}{2}}^{\frac{T}{2}}{|x(t)|^{2}\;dt}$$
+$$P=\lim_{t\to\infty}\frac{1}{T}\int_{-\frac{T}{2}}^{\frac{T}{2}}{|x(t)|^{2}\;dt}$$
+
+while for a periodic signal is
+
+$$P=\frac{1}{T_{0}}\int_{-\frac{T}{2}}^{\frac{T}{2}}{|x(t)|^{2}}\,dt$$
 
 ## Even & odd signals
 

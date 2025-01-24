@@ -1,0 +1,15 @@
+class for the robot:
+- pot detection
+	- get the pot first
+	- threshold pointcloud for 2d detection
+		- train a neural network to find points belonging to the pot (pytorch or tensorflow)
+		- threshold points to find 3d points (open3d)
+		- estimate centres of pot (open3d)
+	- estimate the nearest pot
+	- publishes a Pose locating the pot
+	- subscribes to the which 
+- planning and execution
+- gui
+	- a button that we can press to make it get the pot
+	- get the point to intermediate location
+	- alert teh user that the arm is dropping the pot

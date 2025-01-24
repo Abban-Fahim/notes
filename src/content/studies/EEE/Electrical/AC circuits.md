@@ -13,9 +13,9 @@ In AC. loads are calculated using *impedance*, $Z$, and uses the unit $\Omega$.
 $$Z_{total} =R+ \omega L j - \frac{j}{\omega C}$$
 $$ = R + j(\omega L - \frac{1}{\omega C})$$
 
-This is a sum of all capacitances, inductance, and resistance in the circuit.
+This is a sum of all capacitance, inductance, and resistance in the circuit.
 
-The real part is exclusively made of resistance while the imaginary component is known are *reactance*, $X$. Inductive reactance is positive, while capacitive reactance is negative, and these cause current to *lead* and *lag* respectively.
+The real part is exclusively made of resistance, while the imaginary component is known are *reactance*, $X$. Inductive reactance is positive, while capacitive reactance is negative, and these cause current to *lead* and *lag* respectively.
 
 When dealing with impedances in parallel, we can use conventions to describe them. *Admittance* is $Y = \frac{1}{Z}$, and is made up of 
 

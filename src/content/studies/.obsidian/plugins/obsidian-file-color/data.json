@@ -92,7 +92,7 @@
     },
     {
       "path": "Robotics",
-      "color": "nyIAvbGHBK5DP-0CyGtl0"
+      "color": "lAaU2lupYgr-p4Jwy-qwG"
     },
     {
       "path": "Courses/Mechanics, Fields, Forces - B27MW",
@@ -107,16 +107,12 @@
       "color": "bLADfgMeUW7lCnvzIu_rD"
     },
     {
-      "path": "_Speeches-writings",
-      "color": "9o85wuk4sky0m-UTrBU6G"
+      "path": "_Writings",
+      "color": "V8_SRoJKckRW9iWmENXlB"
     },
     {
       "path": "_Assignments",
       "color": "XhbSCiMqgThDoCP9gmpB-"
-    },
-    {
-      "path": "_bcorp-dev",
-      "color": "woAknYA2kcJ6jXPRf1FR4"
     },
     {
       "path": "_Journal",
@@ -124,7 +120,7 @@
     },
     {
       "path": "Computer Science",
-      "color": "XhbSCiMqgThDoCP9gmpB-"
+      "color": "9o85wuk4sky0m-UTrBU6G"
     },
     {
       "path": "Robotics/Quadrotors",
@@ -139,7 +135,7 @@
       "color": "GiuuOlPHE616eIVuthXYf"
     },
     {
-      "path": "Robotics/Systems and Control",
+      "path": "Robotics/Control",
       "color": "bLADfgMeUW7lCnvzIu_rD"
     },
     {
@@ -165,6 +161,26 @@
     {
       "path": "Courses/Building Services - D18BT",
       "color": "9o85wuk4sky0m-UTrBU6G"
+    },
+    {
+      "path": "Computer Science/AI",
+      "color": "OPK3DALJBAw36Wr_NxRYc"
+    },
+    {
+      "path": "Computer Science/DSA",
+      "color": "9o85wuk4sky0m-UTrBU6G"
+    },
+    {
+      "path": "Maths/Signals & Systems",
+      "color": "GiuuOlPHE616eIVuthXYf"
+    },
+    {
+      "path": "EEE/Electrical",
+      "color": "nyIAvbGHBK5DP-0CyGtl0"
+    },
+    {
+      "path": "EEE/Electronics",
+      "color": "nyIAvbGHBK5DP-0CyGtl0"
     }
   ]
 }

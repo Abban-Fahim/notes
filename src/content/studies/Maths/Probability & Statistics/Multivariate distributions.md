@@ -28,7 +28,7 @@ $$f_{X|Y}(x|y)=\frac{f_{X,Y}(x,y)}{f_{Y}(y)}$$
 
 For a sum of two of independent RVs, $Z=X+Y$, we find the marginal distribution using
 
-$$f_{Z}(x)=\int{f_{Z|X}(x|x)f_{X}(x)\,dx}=\int{f_{Y}(z-x)f_{X}(x)\,dx}$$
+$$f_{Z}(x)=\int{f_{Z|X}(z|x)f_{X}(x)\,dx}=\int{f_{Y}(z-x)f_{X}(x)\,dx}$$
 
 ## Expectations
 
@@ -48,13 +48,11 @@ $$Var[X+Y]=Var[X]+Var[Y]$$
 
 ## Covariance and correlation
 
-The covariance of joint two RVs describes the direction of relation between them as 2-D vector, and is given as
+The **covariance** of joint two RVs describes the direction of relation between them as 2-D vector, and is given as
 
 $$cov(X,Y)=E[(X-E[X])(Y-E[Y])]=E[XY]-E[X]E[Y]$$
 
-If $X$ and $Y$ are independent, their covariance will be 0, but this doesn't make it a test for independence.
-
-The correlation describes the magnitude of how variables are related, and is proportional to the covariance, given as
+If $X$ and $Y$ are independent, their covariance will be 0, but this doesn't make it a test for independence. The **correlation** describes the magnitude of how variables are related, and is proportional to the covariance, given as
 
 $$\rho(X,Y)=\frac{cov(X,Y)}{\sqrt{Var(X)Var(Y)}}$$
 

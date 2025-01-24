@@ -10,4 +10,4 @@ $$\sum\limits_{n=0}^{N}{\gamma^{n}R(s_{n},a_{n},s_{n+1})}$$
 
 $$V^{*}(s)=\max\limits_{\alpha}\sum\limits_{s'}{T(s,a,s')[R(s,a,s')+\gamma{V^{*}(s')}]}$$
 
-The method utilised to solve MDPs in the world nowadays is actually [[Computer Science/Reinforcement learning|Reinforcement learning]], where we can solve for environments for which we don't know the transition and/or reward functions, or it is simply not efficient to store values for an entire state space, or the states and actions are continuous in nature.
+The method utilised to solve MDPs in the world nowadays is actually [[Computer Science/AI/Reinforcement learning|Reinforcement learning]], where we can solve for environments for which we don't know the transition and/or reward functions, or it is simply not efficient to store values for an entire state space, or the states and actions are continuous in nature.

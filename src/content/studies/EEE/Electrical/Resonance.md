@@ -1,6 +1,6 @@
 ## Series RLC circuits
 
-In a series RLC circuit, the resonance occurs when both reactance are equal $(X_{C}=X_{L})$, and the frequency at which this happens is $f_{r}$. With the above, we can also deduce that the total impendence of the circuit is only composed of $R$, and hence there is no voltage across the capacitor and inductor, like a short circuit.
+In a series RLC circuit, the resonance occurs when both reactance are equal $(X_{C}=X_{L})$, and the frequency at which this happens is $f_{r}$. With the above, we can also deduce that the total impedence of the circuit is only composed of $R$, and hence there is no voltage across the capacitor and inductor, like a short circuit.
 
 ![[imgs/resonance-f.png]]
 
@@ -29,4 +29,4 @@ Here, the Q factor instead increases the **current** through the capacitors and 
 
 ### Series and parallel equivalence
 
-Impedances in parallel $(\sum{\frac{1}{Z_{n}}})^{-1} = (\sum{Y_{n}})^{-1}$ can be converted to 
+Impedance in parallel $(\sum{\frac{1}{Z_{n}}})^{-1} = (\sum{Y_{n}})^{-1}$ can be converted to 

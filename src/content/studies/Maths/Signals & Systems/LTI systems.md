@@ -4,11 +4,18 @@ A *linear time-invariant* system is defined as input-output system that is const
 
 A convolution is a mathematical operation, given as a function of time, $h(t)$. To use it, we require input signal to the convolution
 
-$$y(t)=\int_{-\infty}^{+\infty}{x(t)h(t-\lambda)}$$
+$$y(t)=\int_{-\infty}^{+\infty}{x(t)h(t-\lambda)\,d\lambda}$$
 
 ## Stability
 
 To prove if a system is stable, we can check using the following inequality
 
-$$\int_{-\infty}^{+\infty}{|h(t)\,dt}<\infty$$
+$$\int_{-\infty}^{+\infty}{|h(t)|\,dt}<\infty$$
 
+## Impulse and system response
+
+The system's behaviour can be described using one function: the impulse response, $h(t)$. Mathematically, it is the vale the input is convoluted with to get the output
+
+$$y(t)=x(t)*h(t)$$
+
+It is called the impulse response since when $x(t)=\delta(t)$, it causes $y(t)=h(t)$. In the frequency domain  

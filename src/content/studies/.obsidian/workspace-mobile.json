@@ -13,10 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maths/Probability & Statistics/Discrete random variables.md",
+                "file": "Robotics/Systems and Control/Systems and Control.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Systems and Control"
             }
           }
         ]
@@ -35,7 +37,9 @@
           "type": "file-explorer",
           "state": {
             "sortOrder": "alphabetical"
-          }
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
         }
       },
       {
@@ -50,7 +54,9 @@
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical"
-          }
+          },
+          "icon": "lucide-search",
+          "title": "Search"
         }
       },
       {
@@ -61,7 +67,9 @@
           "state": {
             "sortOrder": "frequency",
             "useHierarchy": true
-          }
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
         }
       },
       {
@@ -73,7 +81,9 @@
             "sortOrder": "frequency",
             "showSearch": false,
             "searchQuery": ""
-          }
+          },
+          "icon": "lucide-archive",
+          "title": "All properties"
         }
       },
       {
@@ -81,11 +91,14 @@
         "type": "leaf",
         "state": {
           "type": "bookmarks",
-          "state": {}
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 0,
+    "pinned": true
   },
   "right": {
     "id": "ab8d1ccf664e2824",
@@ -97,7 +110,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Maths/Probability & Statistics/Discrete random variables.md",
+            "file": "Robotics/State-Space models.md",
             "collapseAll": true,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -105,7 +118,9 @@
             "searchQuery": "",
             "backlinkCollapsed": false,
             "unlinkedCollapsed": true
-          }
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
         }
       },
       {
@@ -114,10 +129,12 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Maths/Probability & Statistics/Discrete random variables.md",
+            "file": "Robotics/State-Space models.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
-          }
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
         }
       },
       {
@@ -126,8 +143,10 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Maths/Probability & Statistics/Discrete random variables.md"
-          }
+            "file": "Robotics/PID control.md"
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
         }
       }
     ],
@@ -142,39 +161,40 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "workspaces:Manage workspace layouts": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "workspaces:Manage workspace layouts": false
     }
   },
   "active": "aa3705a5f3bc7bca",
   "lastOpenFiles": [
+    "Robotics/Robotics.sync-conflict-20250117-191951-P2SQ5NN.md",
+    "imgs/Pasted image 20241206165748.png",
+    "Courses/Building Services - D18BT/Building Services - D18BT.md",
+    "Courses/Intro To Mech Eng - B57AU/Thermodynamics.md",
+    "Maths/Linear algebra/Coordinate frames.md",
+    "Courses/Building Services - D18BT/Water supply.md",
+    "Courses/Waves & Matter - B27FF/Periodic motion.md",
+    "Courses/Intro To Mech Eng - B57AU/Pressure and Hydrostatics.md",
+    "Robotics/Systems and Control/LTI systems.md",
+    "Maths/Probability & Statistics/Information theory.md",
+    "imgs/Pasted image 20241217224045.png",
+    "Robotics/Mobile robots/Robot worlds.md",
+    "Robotics/Systems and Control/Hybrid-Automata Model.md",
+    "Robotics/LTI systems.md",
+    "Robotics/Quadrotors/Racing paths.md",
+    "Robotics/Control theory.md",
+    "Robotics/Quadrotors/Quadrotors.md",
+    "Robotics/State-Space models.md",
+    "_Journal/30-8-2023.md",
+    "_bcorp-dev/MediaWiki.canvas",
+    "Other courses/Other courses.md",
+    "Maths/Probability & Statistics/Discrete random variables.md",
     "Maths/Probability & Statistics/Probability & Statistics.md",
     "Computer Science/Trees.md",
-    "Maths/Probability & Statistics/Discrete random variables.md",
     "Maths/Probability & Statistics",
     "Maths/Polynomials & Functions/Taylor Series.md",
     "Untitled.md",
     "_Assignments/Site visit.md",
     "Intro To Mech Eng - B57AU/Fluid mechanics.md",
-    "Mechanics, Fields, Forces - B27MW/Gravitational fields and forces.md",
-    "_bcorp-dev/MediaWiki.canvas",
-    "Robotics/Coordinate frames.md",
-    "Computer Science/Amortised analysis of resizable arrays.md",
-    "Robotics/Lagrangian Formulation.md",
-    "Robotics/State Space Representation.md",
-    "Robotics/Denavit-Hartenberg conventions.md",
-    "Robotics/Link velocities.md",
-    "Robotics/Manipulator dynamics.md",
-    "Maths/Calculus/Laplace transform.md",
-    "Maths/Calculus/Partial differentiation.md",
-    "Maths/Calculus/Integration.md",
-    "Maths/Calculus/Differential equations.md",
-    "Computer Science/Time complexity analysis.md",
-    "Computer Science/Graphs.md",
-    "Computer Science/Compression.md",
-    "Computer Science/Algorithm design.md",
-    "Computer Science/Hashing.md",
-    "Computer Science/Search trees.md",
-    "Maths/Trigonometry & Geometry/Trig identities.md"
+    "Mechanics, Fields, Forces - B27MW/Gravitational fields and forces.md"
   ]
 }

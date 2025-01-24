@@ -1,0 +1,41 @@
+- Abstract
+    - the whole purpose
+    - past tense
+    - basic methodology
+    - major findings or conclusions from research
+    - about 200-300 words
+    - must be accessible to people of other fields
+    - why and how the research was done
+    - explain why
+    - No abbreviations, citations, figures, references, complicated words, too long...
+- Intro
+    - present tense
+    - gives an overview on background info, importance of research, aims & objectives
+    - aims (the bigger picture of what your research hope to do or find out) vs objectives (the smaller goals that you take/took to achieve the aim
+    - include lots of citations when explaining background and preferably even figures/charts/graphs
+    - no bullet points!
+- Lit review
+    - How many sources to include :D
+    - past tense
+    - What type of research should you cite
+    - how reliable are they
+    - be selective in what u highlight and describe
+    - must have a critical evaluation of each review
+    - find a gap in previous research then **focus on it**
+- Methodology (not in lit review)
+    - past tense
+    - Starts your own research into a solution or the aim
+    - Must talk about apparatus, software used, case studies, etc
+    - Discuss any difficulties faced and limitations
+- Results
+    - past tense
+- Discussion & conclusion
+    - present tense 
+    - Evaluate the results, maybe even use graphics to do so
+    - Discuss the source of errors
+    - Compare results with previous literature
+    - Discuss what could be improved and raise further questions
+
+Illustrative details
+- All tables have **captions** over them: Table #: {Table description} (Author, Year)
+- All other illustrations (photos, images, graphs, charts, etc) have captions **under** them: Figure #: {Descriptions} (Author, Year)

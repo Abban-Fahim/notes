@@ -2,8 +2,10 @@
 
 The probability is described in a binary way, with success and failure state. The parameter $p$ states the probability of the success case, while $q$ is usually used to denote the failure, which equals to $1-p$
 
-$$~$$
-
+$$X\sim{Ber(p)}=\begin{cases}
+p & 1 \\
+1-p & 0
+\end{cases}$$
 $$E(X)=p$$
 $$Var(X)=p(1-p)=pq$$
 

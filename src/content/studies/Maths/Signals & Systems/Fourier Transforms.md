@@ -1,6 +1,6 @@
 Fourier analysis is a useful tool that only works on periodic signals. To transform non-periodic signals to periodic ones suitable for analysis, we use the Fourier transform, which is a subset of the more general [[Maths/Calculus/Laplace transform|Laplace transform]]. 
 
-Conceptually, the time-domain signal $x(t)$ is the amplitude of the signal sampled at time instants infinitesimally close to each other, while the frequency-domain representation as the summation of individual contributions of all the frequencies, which are in-fact the amplitudes of the terms in the exponential [[Robotics/Systems and Control/Fourier series#Exponential Fourier series|Fourier series]] 
+Conceptually, the time-domain signal $x(t)$ is the amplitude of the signal sampled at time instants infinitesimally close to each other, while the frequency-domain representation as the summation of individual contributions of all the frequencies, which are in-fact the amplitudes of the  terms in the exponential [[Robotics/Systems and Control/Fourier series#Exponential Fourier series|Fourier series]] 
 
 The transform integral is given in the frequency domain as
 
@@ -61,7 +61,7 @@ $$x(t)e^{j\omega_{0}t}\leftrightarrow{X(\omega-\omega_{0})}$$
 Multiplying the time function by cosine or sine causes it to be modulated, essentially its frequencies are shifted and scaled by $\frac{1}{2}$, in the case of cosine it shifts by its frequency, and sine does the same as well as an additional time shift by $-\pi/2$
 
 $$x(t)\cos(\omega_{0}t)\leftrightarrow{\frac{1}{2}}[X(\omega-\omega_{0})+X(\omega+\omega_{0})]$$
-$$x(t)sin(\omega_{0}t)\leftrightarrow\frac{1}{2}[X(\omega-\omega_{0})e^{\frac{-j\pi}{2}}+X(\omega-\omega_{0})e^{\frac{j\omega}{2}}]$$
+$$x(t)\sin(\omega_{0}t)\leftrightarrow\frac{1}{2}[X(\omega-\omega_{0})e^{\frac{-j\pi}{2}}-X(\omega+\omega_{0})e^{\frac{j\omega}{2}}]$$
 
 ### Time and frequency scaling
 
@@ -107,5 +107,9 @@ and for a non-periodic energy signal, it can be stated
 
 $$\int_{-\infty}^{\infty}{|x(t)|^{2}\,dt}=\int_{-\infty}^{\infty}{|X(f)|^{2}\,df}$$
 
+## Shannon's sampling theorem
+
+A **band-limited** signal is only greater than zero within a bandwidth of $\omega_{m}/f_{m}$, then its time-domain signal can be uniquely determined from its samples at a sampling time $T_{s}$, where $f_{s}>2f_{m}$. If $f_{s}$ is not twice size of $f_{m}$, then the samples will overlap and you will lose information on the receiving end. 
+
 ## Fast Fourier Transform
-``
+

@@ -27,4 +27,4 @@ The capabilities and chosen algorithms for any given agent are defined by the fo
 
 For a goal-based agent to achieve its goal, it may invoke searches to find a sequence of actions to achieve its goal. The requirements for this is a state space, a model for actions and successor functions, a start state and goal state measure/state.
 
-One way to model the state space is using a tree, where nodes represent state, with the root node being the start state, with the successor functions being edges. The many ways to solve search tree can be found in [[Computer Science/Graph theory|Graph theory]].
+One way to model the state space is using a tree, where nodes represent state, with the root node being the start state, with the successor functions being edges. The many ways to solve search tree can be found in [[Computer Science/DSA/Graph theory|Graph theory]].

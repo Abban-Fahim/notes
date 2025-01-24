@@ -1,9 +1,9 @@
 {
   "accentColor": "#babbf1",
   "cssTheme": "Minimal",
-  "baseFontSize": 16,
+  "baseFontSize": 19,
   "monospaceFontFamily": "Fira Code Retina",
-  "textFontFamily": "Iosevka Nerd Font,Vazirmatn",
+  "textFontFamily": "Latin Modern Roman,Vazirmatn",
   "interfaceFontFamily": "IosevkaTerm Nerd Font Propo",
   "nativeMenus": false,
   "translucency": false,

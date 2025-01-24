@@ -10,7 +10,7 @@ $$P = I^{2}R \;\;\ (\text{W})$$
 
 $$Q = I^{2}X \;\; (\text{VAr})$$
 
-- complex power, $S$
+- apparent power, $S$
 
 $$S = I^{2}Z = VI^{*} \;\;\ (\text{VA})$$
 
@@ -24,5 +24,7 @@ $$|S| = \sqrt{P^{2}+Q^{2}}$$
 
 ## Phase angle and power factor
 
-In reference to the power triangle, the power factor is equal to $\cos{(\varphi)}$.
+In reference to the power triangle, the power factor is equal to $\cos{\varphi}$, where $\varphi$ is the angle between apparent and active power
+
+$$\cos{\varphi}=\frac{P}{S}$$
 

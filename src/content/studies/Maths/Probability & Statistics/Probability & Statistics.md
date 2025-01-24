@@ -1,6 +1,5 @@
 %% Begin Waypoint %%
 - [[Averages & Variation]]
-- [[Bayes' Theorem]]
 - [[Bayesian computation]]
 - [[Common distributions]]
 - [[Estimation & confidence intervals]]

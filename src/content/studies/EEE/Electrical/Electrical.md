@@ -1,7 +1,8 @@
 %% Begin Waypoint %%
-- [[EEE/Electrical/AC circuits|AC circuits]]
-- [[EEE/Electrical/AC Power|AC Power]]
-- [[EEE/Electrical/Inductors and Capacitors|Inductors and Capacitors]]
-- [[EEE/Electrical/Resonance|Resonance]]
+- [[AC circuits]]
+- [[AC Power]]
+- [[Inductors and Capacitors]]
+- [[Magnetic circuits]]
+- [[Resonance]]
 
 %% End Waypoint %%

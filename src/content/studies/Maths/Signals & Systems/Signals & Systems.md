@@ -1,12 +1,8 @@
 %% Begin Waypoint %%
 - [[Continuous-time signals]]
-- [[Control theory]]
+- [[Filters]]
 - [[Fourier series]]
 - [[Fourier Transforms]]
-- [[Hybrid-Automata Model]]
-- [[Kalman filter]]
 - [[LTI systems]]
-- [[PID control]]
-- [[State-Space models]]
 
 %% End Waypoint %%

@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiDatabase",
+      "LiBrain",
       "FasWaveSquare",
       "FasHandLizard",
-      "🦾",
-      "FasCarSide",
-      "FasHelicopter"
+      "🦾"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -37,18 +37,19 @@
   "imgs": "FasImages",
   "EEE": "FasBoltLightning",
   "Robotics": "FasRobot",
-  "_Speeches-writings": "FasSchool",
   "_Journal": "FasBookJournalWhills",
-  "_bcorp-dev": "FasB",
   "_Assignments": "FasPenToSquare",
   "Computer Science": "FasCodeBranch",
   "Robotics/Mobile robots": "FasCarSide",
   "Robotics/Manipulators": "FasHandLizard",
   "Robotics/Quadrotors": "FasHelicopter",
-  "Robotics/Systems and Control": "FasWaveSquare",
   "Courses": "FasBuildingColumns",
   "Courses/Building Services - D18BT": "FasBuilding",
   "Courses/Mechanics, Fields, Forces - B27MW": "FasCompassDrafting",
   "Courses/Intro To Mech Eng - B57AU": "FasScrewdriverWrench",
-  "Courses/Waves & Matter - B27FF": "FasWaveSquare"
+  "Courses/Waves & Matter - B27FF": "FasWaveSquare",
+  "Computer Science/AI": "LiBrain",
+  "Computer Science/DSA": "LiDatabase",
+  "Robotics/Control": "FasWaveSquare",
+  "_Writings": "FasSchool"
 }
