@@ -59,3 +59,10 @@ An RLC circuit can be modelled with the following equations for its fundamental 
 $$V_{R} = R\ i_R$$
 $$i_{C} = C \frac{dV_{c}}{dt}$$
 $$V_{L} = L \frac{di_{L}}{dt}$$
+
+To solve these, we usually first transform them to the frequency domain using the [[Maths/Signals & Systems/Laplace transform|Laplace transform]], as such
+
+$$V_{R}(s)=RI(s)$$
+$$V_{C}(s)=\frac{1}{sC}I(s)+\frac{v(0)}{s}$$
+$$V_{L}(s)=L(sI(s)-i(0))$$
+

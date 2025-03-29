@@ -1,4 +1,4 @@
-In physics this transformation is used to turn deferential and integral equations in the *time domain* into simpler equations in the *frequency domain* (or *s-domain*). The formal definition is
+In physics this transformation is used to turn deferential and integral equations in the *time domain* into simpler equations in the *frequency domain* (or *s-domain*). In signals and systems, it does the same for transforming time-domain signals into the complex frequency domain. The formal definition is
 
 $$\mathcal{L}\{f(t)\}=F(s)=\int_{0}^{\infty}{f(t)e^{-st}\;dt}$$
 
@@ -21,8 +21,9 @@ $$\mathcal{L}\{f''(t)\}=s^{2}F(s)-sf(0)-f'(0)$$
 
 $$\mathcal{L}\left\{ \int_{0}^{t}{f(t)\;dt} \right\}=\frac{1}{s}F(s)$$
 
-The Inverse Laplace Transform turns frequency domain functions into time domain functions and can be performed using the general solutions for normal transforms, along with a combination of partial fractions, first-shifts and factorisation. Here's a general definition I found on Wikipedia that I genuinely don't have any idea of how it works (as of second year undergrad)
+The inverse Laplace transform turns frequency domain functions into time domain functions and can be performed using the general solutions for normal transforms, along with a combination of partial fractions, first-shifts and factorisation. Here's a general definition I found on Wikipedia that I genuinely don't have any idea of how it works (as of second year undergrad)
 
 $$\mathcal{L}^{-1}\{F(s)\}=f(t)=\frac{1}{2\pi j}\lim_{T\to\infty}\int_{\gamma-jt}^{\gamma+jT}{e^{st}F(s)\ ds}$$
 
 The second-shift theorem
+

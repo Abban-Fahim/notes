@@ -1,0 +1,1 @@
+They are different from induction motor/generators as they rely on gears to make the rotors move.

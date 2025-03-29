@@ -4,11 +4,15 @@ import { getCollection } from "astro:content";
 const allItems = await getCollection("studies");
 let finalNav = [
 	{ name: "Robotics", slug: "robotics", pages: [
+			{ name: "Control", slug: "control", pages: [] },
 			{ name: "Manipulators", slug: "manipulators", pages: [] },
 			{ name: "Mobile robots", slug: "mobile-robots", pages: [] },
 			{ name: "Quadrotors", slug: "quadrotors", pages: [] },
 		] },
-		{ name: "Computer Science", slug: "computer-science", pages: [] },
+		{ name: "Computer Science", slug: "computer-science", pages: [
+			{ name: "AI", slug: "ai", pages: [] },
+			{ name: "DSA", slug: "dsa", pages: [] },
+		] },
 		{
 			name: "Maths",
 			slug: "maths",

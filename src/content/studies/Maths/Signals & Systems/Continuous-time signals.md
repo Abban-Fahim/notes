@@ -113,7 +113,7 @@ A periodic signal is defined when
 
 $$x(t+T_{0})=x(t)$$
 
-where $T_{0}\ne{0}$ and is a specific value known as period of the signal, and relates to the inverse of frequency. For a multi-tonal signal, the ratio of the two signal's frequencies must be a rational number for the summation to also be preiodic, given as
+where $T_{0}\ne{0}$ and is a specific value known as period of the signal, and relates to the inverse of frequency. For a ztonal signal, the ratio of the two signal's frequencies must be a rational number for the summation to also be preiodic, given as
 
 $$x(t)=\cos(2\pi{f_{1}}t)+\cos(2\pi{f_{2}}t)$$
 $$x(t)\;\text{is periodic only if}\;\frac{f_{1}}{f_{2}}\in\mathbb{Z}$$

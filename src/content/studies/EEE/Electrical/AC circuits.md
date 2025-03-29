@@ -31,8 +31,23 @@ $$V_{s} = A \cos(\omega t+\varphi) = A \angle{\varphi^{\circ}}$$
 
 We can use some trigonometry to express all sinusoids in the general form as above
 
-$$\cos(-\theta) = \cos(\theta)$$
-$$-\cos(\theta) = \cos(\theta+180^{\circ})$$
-$$\sin(\theta) = \cos(\theta - 90^{\circ})$$
-$$-\sin(\theta) = \sin(\theta+180^{\circ}) = \cos(\theta+90^{\circ})$$
+## Three-phase
 
+Three AC voltages of equal magnitude, with phase differences of 120$^{\circ}$, described as such
+
+$$V_{A}=V\angle{{0}^{\circ}}\;\;\;V_{B}=V\angle{{-120}^{\circ}}\;\;\;V_{C}=V\angle{{120}^{\circ}}$$
+
+The total power of the of these phase voltages equal $P=3VI\cos{\theta}$
+
+The way we connect : star or delta
+
+[[insert digram of star & delta]]
+
+For a balanced star-connected system, the current is the same in the line and phases, but voltage is related with
+
+$$V_{L}=\sqrt{3}V_{P}\;\;\;\;\;I_{L}=I_{P}$$
+$$P$$
+
+The opposite is true for a delta-connected system
+
+$$$$

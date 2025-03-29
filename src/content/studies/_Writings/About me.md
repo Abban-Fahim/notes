@@ -1,1 +1,0 @@
-An unrelenting pedant with a will to make the world a better place, now matter how little the change. Wields a passion for robotics and esoteric math, and possesses expertise in software development. Also likes turtles :D

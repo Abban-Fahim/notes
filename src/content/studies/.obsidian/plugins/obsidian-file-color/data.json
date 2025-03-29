@@ -107,10 +107,6 @@
       "color": "bLADfgMeUW7lCnvzIu_rD"
     },
     {
-      "path": "_Writings",
-      "color": "V8_SRoJKckRW9iWmENXlB"
-    },
-    {
       "path": "_Assignments",
       "color": "XhbSCiMqgThDoCP9gmpB-"
     },
@@ -181,6 +177,10 @@
     {
       "path": "EEE/Electronics",
       "color": "nyIAvbGHBK5DP-0CyGtl0"
+    },
+    {
+      "path": "_Organisation",
+      "color": "mxXF2K3XDhXFeIEbTS0I6"
     }
   ]
 }

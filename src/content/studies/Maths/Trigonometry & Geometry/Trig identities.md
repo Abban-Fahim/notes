@@ -20,10 +20,16 @@ $$\tan{(A \pm B)}=\frac{\tan{A}\pm\tan{B}}{1\mp\tan{A}\tan{B}}$$
 
 ## Double angle formulas
 
-$$\sin{2A}=2\sin{A}\cos{B}$$
+$$\sin{2A}=2\sin{A}\cos{A}$$
 $$\cos{2A}=\cos^{2}{A}-\sin^{2}{A}=2\cos^{2}{A}-1=1-2\sin^{2}{A}$$
 $$\tan{2A}=\frac{2\tan{A}}{1-\tan^{2}{A}}$$
-
 $$a\sin{\theta}\pm b\cos{\theta}=R\sin{(\theta\pm\alpha)}$$
 $$a\cos{\theta}\pm b\sin{\theta}=R\cos{(\theta\mp\alpha)}$$
 $$\text{where}\;\;R=\sqrt{a^2+b^2}\,,\;\;\alpha=\arctan{\frac{b}{a}}$$
+
+## Phase / conversion
+
+$$\cos(-\theta) = \cos(\theta)$$
+$$-\cos(\theta) = \cos(\theta+180^{\circ})$$
+$$\sin(\theta) = \cos(\theta - 90^{\circ})$$
+$$-\sin(\theta) = \sin(\theta+180^{\circ}) = \cos(\theta+90^{\circ})$$

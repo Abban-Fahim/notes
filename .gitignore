@@ -21,10 +21,7 @@ pnpm-debug.log*
 .DS_Store
 
 .vscode/
-_Assignments/
-_bcorp-dev/
-_Journal/
-_Speeches-writings/
+_*/
 .trash/
 # .obsidian/
 *.sync-conflict*

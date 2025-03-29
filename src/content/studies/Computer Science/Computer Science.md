@@ -1,8 +1,9 @@
 %% Begin Waypoint %%
 - **AI**
 	- [[Intelligent agents]]
+	- [[k-Nearest Neighbors]]
 	- [[Machine learning]]
-	- [[Markov decision processes]]
+	- [[Markov decision process]]
 	- [[Natural language processing]]
 	- [[Reinforcement learning]]
 - **DSA**

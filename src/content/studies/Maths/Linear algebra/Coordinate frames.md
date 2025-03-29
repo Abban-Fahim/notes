@@ -36,7 +36,7 @@ To transform a 3 dimensional vector, we pad it with a 1 at the bottom and multip
 
 ## Euler and fixed angles
 
-
+...
 
 ## Fixed and current frames
 

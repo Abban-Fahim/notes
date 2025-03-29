@@ -7,7 +7,5 @@
 	- [[Manipulator dynamics]]
 - **[[Mobile robots]]**
 - **[[Quadrotors]]**
-- **Systems and Control**
-	- [[Fourier series]]
 
 %% End Waypoint %%
