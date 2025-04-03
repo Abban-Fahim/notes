@@ -1,7 +1,7 @@
 %% Begin Waypoint %%
 - **[[Calculus]]**
 - **[[Linear algebra]]**
-- [[Notation]]
+- [[Maths/Notation|Notation]]
 - **[[Polynomials & Functions]]**
 - **[[Probability & Statistics]]**
 - **[[Signals & Systems]]**

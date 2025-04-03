@@ -1,10 +1,6 @@
 %% Begin Waypoint %%
 - **[[Control]]**
-- **Manipulators**
-	- [[Denavit-Hartenberg conventions]]
-	- [[Lagrangian Formulation]]
-	- [[Link velocities]]
-	- [[Manipulator dynamics]]
+- **[[Manipulators]]**
 - **[[Mobile robots]]**
 - **[[Quadrotors]]**
 

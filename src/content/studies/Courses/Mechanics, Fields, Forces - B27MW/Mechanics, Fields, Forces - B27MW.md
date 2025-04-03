@@ -1,9 +1,9 @@
 Intro physics course taught in year 1 by Dr. Rula Sharqi and Mike Simon.
 
 %% Begin Waypoint %%
-- [[Electric and magnetic fields and forces]]
-- [[Gravitational fields and forces]]
-- [[Mechanics]]
-- [[Relativity]]
+- [[Courses/Mechanics, Fields, Forces - B27MW/Electric and magnetic fields and forces|Electric and magnetic fields and forces]]
+- [[Courses/Mechanics, Fields, Forces - B27MW/Gravitational fields and forces|Gravitational fields and forces]]
+- [[Courses/Mechanics, Fields, Forces - B27MW/Mechanics|Mechanics]]
+- [[Courses/Mechanics, Fields, Forces - B27MW/Relativity|Relativity]]
 
 %% End Waypoint %%

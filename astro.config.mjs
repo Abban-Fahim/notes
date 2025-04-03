@@ -13,7 +13,7 @@ const slugify = (string) => {
 	return string
 		.toLowerCase()
 		.replace(/ /g, "-")
-		.replace(/[^\w-/\.]+/g, "")
+		.replace(/[^\w-/\.#]+/g, "")
 		.replace(".md", "");
 };
 

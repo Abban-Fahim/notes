@@ -1,5 +1,5 @@
 %% Begin Waypoint %%
-- [[Quadrotor dynamics]]
-- [[Racing paths]]
+- [[Robotics/Quadrotors/Quadrotor dynamics|Quadrotor dynamics]]
+- [[Robotics/Quadrotors/Racing paths|Racing paths]]
 
 %% End Waypoint %%

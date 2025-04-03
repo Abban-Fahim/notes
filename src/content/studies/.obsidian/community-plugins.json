@@ -4,7 +4,6 @@
   "image-captions",
   "obsidian-icon-folder",
   "quick-latex",
-  "waypoint",
   "folder-note-plugin",
   "obsidian-rtl",
   "obsidian-tikzjax",
@@ -15,5 +14,6 @@
   "obsidian-minimal-settings",
   "typewriter-mode",
   "cycle-through-panes",
-  "homepage"
+  "homepage",
+  "waypoint-dev"
 ]
