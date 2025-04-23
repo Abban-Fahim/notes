@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maths/Calculus/Differential equations.md",
+                "file": "EEE/Electrical/Variable speed drive.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Differential equations"
+              "title": "Variable speed drive"
             }
           }
         ]
@@ -187,6 +187,17 @@
   },
   "active": "f3620a14613a935b",
   "lastOpenFiles": [
+    "EEE/Electrical/Transformers.md",
+    "EEE/Electrical/Synchronous machines.md",
+    "EEE/Electrical/Stepper motors.md",
+    "EEE/Electrical/Resonance.md",
+    "EEE/Electrical/Magnetic circuits.md",
+    "EEE/Electrical/Inductors and Capacitors.md",
+    "EEE/Electrical/Electrical.md",
+    "EEE/Electrical/AC Power.md",
+    "EEE/Electrical/DC machines.md",
+    "EEE/Electrical/AC circuits.md",
+    "Maths/Calculus/Differential equations.md",
     "Computer Science/Computer Science.md",
     "Maths/Signals & Systems/Signals & Systems.md",
     "EEE/EEE.md",
@@ -199,25 +210,14 @@
     "Maths/Trigonometry & Geometry/Trigonometry & Geometry.md",
     "Robotics/Quadrotors/Quadrotors.md",
     "_Organisation/studies tasks.md",
-    "EEE/Electrical/Synchronous machines.md",
     "EEE/Electrical/Variable speed drive.md",
     "Maths/Notation.md",
-    "EEE/Electrical/Stepper motors.md",
-    "EEE/Electrical/DC machines.md",
     "_Misc/fyp.md",
-    "EEE/Electrical/AC Power.md",
-    "EEE/Electrical/Electrical.md",
-    "EEE/Electrical/Inductors and Capacitors.md",
-    "EEE/Electrical/Resonance.md",
-    "EEE/Electrical/Magnetic circuits.md",
-    "EEE/Electrical/Transformers.md",
-    "EEE/Electrical/AC circuits.md",
     "imgs/3phase.jpg",
     "imgs/3-phase.png",
     "imgs/3phase.png",
     "imgs/synchro.png",
     "imgs/synchro.jpg",
-    "report.md",
     "_Misc",
     "_Writings",
     "_Organisation",
