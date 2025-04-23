@@ -1,0 +1,3 @@
+[submodule "src/content/studies/.obsidian/plugins/waypoint-dev"]
+	path = src/content/studies/.obsidian/plugins/waypoint-dev
+	url = https://github.com/IdreesInc/Waypoint

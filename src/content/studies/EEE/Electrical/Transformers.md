@@ -20,3 +20,6 @@ For energy conservation, we can assume the following
 $$P_{1}=P_{2}$$
 $$\frac{N_{1}}{N_{2}}=\frac{V_{1}}{V_{2}}=\frac{I_{2}}{I_{1}}$$
 
+The voltage in the primary is dependant on the following factors
+
+$$V_{1}=V_{p}=4.44fN_{1}B_{peak}A=4.44fN_{p}\phi_{peak}$$

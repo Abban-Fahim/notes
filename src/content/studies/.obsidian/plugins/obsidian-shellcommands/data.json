@@ -94,6 +94,15 @@
       "name": "img",
       "description": "",
       "default_value": null
+    },
+    {
+      "id": "hodtv5ecvw",
+      "name": "colour",
+      "description": "",
+      "default_value": {
+        "type": "value",
+        "value": "black"
+      }
     }
   ],
   "custom_variables_notify_changes_via": {

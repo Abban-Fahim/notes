@@ -1,4 +1,4 @@
-The quantity that describes the effect of a magnetic field is **flux**, $\Phi$, and is measured in webers, $Wb$, which in SI units is voltage-seconds. The **flux density** is measured in, Teslas, $T$, and is defined as pressure or density of flux
+0The quantity that describes the effect of a magnetic field is **flux**, $\Phi$, and is measured in webers, $Wb$, which in SI units is voltage-seconds. The **flux density** is measured in, Teslas, $T$, and is defined as pressure or density of flux
 
 $$B=\frac{\Phi}{A}$$
 
@@ -10,7 +10,7 @@ and $\mu_{0}=4\pi\cdot{10^{-7}}\text{ H/m}$ the gravitational constant, or the p
 
 $$B=\frac{\mu_{0}\mu_{r}Ni}{2\pi{r}}$$
 
-In fact, flux and m.m.f and a concept called reluctance, $S$, form a Ohm's law relation together
+In fact, flux and m.m.f with a concept called **reluctance**, $S$, form a Ohm's law relation together
 
 $$Ni=\Phi{S}$$
 $$S=\frac{l}{\mu_{0}\mu_{r}A}$$
