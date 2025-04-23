@@ -65,28 +65,33 @@ allItems.map((page) => {
 
 ---
 
+
 {finalNav.map((item)=>{
 	let folderUrl = item.slug + "/" + item.slug;
-	return <div>
-		<a class="top" href={"/notes/notes/"+folderUrl}>{item.name}</a>
+	return <details id={"nav-" + item.slug}>
+		<summary>
+			<a class="top" href={"/notes/notes/"+folderUrl}>{item.name}</a>
+		</summary>
 		<ul>
 			{item.pages.map((subPage)=>{
 				if (Array.isArray(subPage) && subPage[0] !== folderUrl) {
 					return <a href={"/notes/notes/"+subPage[0]}>{subPage[1]}</a>
 				} else if (subPage[0] !== folderUrl) {
 					let nestedFolderUrl = item.slug+"/"+subPage.slug+"/"+subPage.slug;
-					return <div>
-						<a href={"/notes/notes/"+nestedFolderUrl} class="top">{subPage.name}</a>
+					return <details id={"nav-" + subPage.slug}>
+						<summary>
+							<a href={"/notes/notes/"+nestedFolderUrl} class="top">{subPage.name}</a>
+						</summary>
 						<ul>
 							{subPage.pages.map((nestedPage)=>{
 								if (nestedPage[0] !== nestedFolderUrl) {
-									return <a href={"/notes/notes/"+nestedPage[0]}>{nestedPage[1]}</a>
+									return <a style="display: block;" href={"/notes/notes/"+nestedPage[0]}>{nestedPage[1]}</a>
 								}
 							})}
 						</ul>
-					</div>
+					</details>
 				}
 			})}
 		</ul>
-	</div>
+	</details>
 })}

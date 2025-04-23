@@ -1,3 +1,7 @@
+From courses taught in Year 3 by Dr. Senthil Muthukumaraswamy, Dr. Rula Sharqi, and Dr. Abeer Elkhouly:
+- Signals and systems
+- Time and frequency signal analysis
+
 %% Begin Waypoint %%
 - [[Maths/Signals & Systems/Continuous-time signals|Continuous-time signals]]
 - [[Maths/Signals & Systems/Discrete systems|Discrete systems]]

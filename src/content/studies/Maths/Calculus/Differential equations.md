@@ -90,7 +90,9 @@ $$Ly_{PI}=f(t)$$
 
 for certain terms in the inhomogeneous, we can make guesses for $y_{PI}$ and leave them with undetermined coefficients, and solve them by substituting them back into the ODE
 
-$$\begin{bmatrix}
+$$
+\begin{bmatrix}
 e^{\alpha{t}} & Ae^{\alpha{t}} \\ \sin{\alpha{t}},\;\cos{\alpha{t}} & A\sin{\alpha{t}}+B\cos{\alpha{t}} \\ b_{0}+b_{1}t+\dots+{b_{n}t^{n}} & A_{0}+A_{1}t+\dots+A_{n}t^{n} \\ e^{\alpha{t}}\sin{\beta{t}},\;e^{\alpha{t}}\cos{\beta{t}} & e^{\alpha{t}}(A\sin{\beta{t}}+B\cos{\beta{t}})
-\end{bmatrix}$$
+\end{bmatrix}
+$$
 

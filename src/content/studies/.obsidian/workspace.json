@@ -13,72 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Organisation/tasks.md",
+                "file": "Maths/Calculus/Differential equations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "tasks"
-            }
-          },
-          {
-            "id": "7bf1dfd2931426c9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/Computer Science.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Computer Science"
-            }
-          },
-          {
-            "id": "72e1a9bbd81da980",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EEE/Electrical/Synchronous machines.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Synchronous machines"
-            }
-          },
-          {
-            "id": "de4ed388e2f144ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maths/Notation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Notation"
-            }
-          },
-          {
-            "id": "7528864eb491d919",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EEE/Electrical/Variable speed drive.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Variable speed drive"
+              "title": "Differential equations"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -242,17 +185,21 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "7bf1dfd2931426c9",
+  "active": "f3620a14613a935b",
   "lastOpenFiles": [
-    "Courses/Courses.md",
-    "Robotics/Robotics.md",
-    "Maths/Maths.md",
+    "Computer Science/Computer Science.md",
+    "Maths/Signals & Systems/Signals & Systems.md",
     "EEE/EEE.md",
+    "Maths/Maths.md",
+    "_Organisation/tasks.md",
+    "Robotics/Robotics.md",
+    "Robotics/Mobile robots/Mobile robots.md",
+    "Robotics/Manipulators/Manipulators.md",
+    "Courses/Courses.md",
     "Maths/Trigonometry & Geometry/Trigonometry & Geometry.md",
     "Robotics/Quadrotors/Quadrotors.md",
     "_Organisation/studies tasks.md",
     "EEE/Electrical/Synchronous machines.md",
-    "_Organisation/tasks.md",
     "EEE/Electrical/Variable speed drive.md",
     "Maths/Notation.md",
     "EEE/Electrical/Stepper motors.md",
@@ -271,10 +218,6 @@
     "imgs/synchro.png",
     "imgs/synchro.jpg",
     "report.md",
-    "Courses/Waves & Matter - B27FF/Waves & Matter - B27FF.md",
-    "_Misc/ku_application.md",
-    "Maths/Signals & Systems/LTI systems.md",
-    "Maths/Signals & Systems/Signals & Systems.md",
     "_Misc",
     "_Writings",
     "_Organisation",
