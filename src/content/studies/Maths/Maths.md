@@ -1,10 +1,10 @@
 %% Begin Waypoint %%
-- **[[Calculus]]**
-- **[[Linear algebra]]**
+- [[Maths/Calculus/Calculus|Calculus]]
+- [[Maths/Linear algebra/Linear algebra|Linear algebra]]
 - [[Maths/Notation|Notation]]
-- **[[Polynomials & Functions]]**
-- **[[Probability & Statistics]]**
-- **[[Signals & Systems]]**
-- **[[Trigonometry & Geometry]]**
+- [[Maths/Polynomials & Functions/Polynomials & Functions|Polynomials & Functions]]
+- [[Maths/Probability & Statistics/Probability & Statistics|Probability & Statistics]]
+- [[Maths/Signals & Systems/Signals & Systems|Signals & Systems]]
+- [[Maths/Trigonometry & Geometry/Trigonometry & Geometry|Trigonometry & Geometry]]
 
 %% End Waypoint %%

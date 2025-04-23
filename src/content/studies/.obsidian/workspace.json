@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Organisation/studies tasks.md",
+                "file": "Computer Science/Computer Science.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "studies tasks"
+              "title": "Computer Science"
             }
           },
           {
@@ -244,8 +244,14 @@
   },
   "active": "7bf1dfd2931426c9",
   "lastOpenFiles": [
-    "EEE/Electrical/Synchronous machines.md",
+    "Courses/Courses.md",
+    "Robotics/Robotics.md",
+    "Maths/Maths.md",
+    "EEE/EEE.md",
+    "Maths/Trigonometry & Geometry/Trigonometry & Geometry.md",
+    "Robotics/Quadrotors/Quadrotors.md",
     "_Organisation/studies tasks.md",
+    "EEE/Electrical/Synchronous machines.md",
     "_Organisation/tasks.md",
     "EEE/Electrical/Variable speed drive.md",
     "Maths/Notation.md",
@@ -269,12 +275,6 @@
     "_Misc/ku_application.md",
     "Maths/Signals & Systems/LTI systems.md",
     "Maths/Signals & Systems/Signals & Systems.md",
-    "Maths/Maths.md",
-    "Robotics/Robotics.md",
-    "EEE/EEE.md",
-    "Courses/Mechanics, Fields, Forces - B27MW/Mechanics, Fields, Forces - B27MW.md",
-    "Courses/Intro To Mech Eng - B57AU/Intro To Mech Eng - B57AU.md",
-    "Courses/Building Services - D18BT/Building Services - D18BT.md",
     "_Misc",
     "_Writings",
     "_Organisation",
