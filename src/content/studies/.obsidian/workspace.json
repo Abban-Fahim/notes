@@ -8,20 +8,77 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f3620a14613a935b",
+            "id": "d7d6c6fc80690190",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EEE/Electrical/Variable speed drive.md",
+                "file": "_Organisation/tasks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Variable speed drive"
+              "title": "tasks"
+            }
+          },
+          {
+            "id": "9d6eba7a12c19304",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Organisation/studies tasks.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "studies tasks"
+            }
+          },
+          {
+            "id": "7f3dad3c62e591d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Misc/systems.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "systems"
+            }
+          },
+          {
+            "id": "661f39ed22c6afbf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maths/Signals & Systems/Discrete systems.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Discrete systems"
+            }
+          },
+          {
+            "id": "15bee82f78b70f65",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maths/Signals & Systems/Filters.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Filters"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -185,34 +242,34 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "f3620a14613a935b",
+  "active": "7f3dad3c62e591d9",
   "lastOpenFiles": [
+    "_Organisation/studies tasks.md",
+    "_Misc/systems.md",
+    "_Organisation/tasks.md",
+    "Maths/Signals & Systems/Discrete systems.md",
+    "Maths/Signals & Systems/Filters.md",
     "EEE/Electrical/Transformers.md",
+    "EEE/Electrical/Variable speed drive.md",
+    "EEE/Electrical/AC circuits.md",
     "EEE/Electrical/Synchronous machines.md",
+    "EEE/Electrical/DC machines.md",
+    "EEE/Electrical/AC Power.md",
     "EEE/Electrical/Stepper motors.md",
     "EEE/Electrical/Resonance.md",
     "EEE/Electrical/Magnetic circuits.md",
     "EEE/Electrical/Inductors and Capacitors.md",
     "EEE/Electrical/Electrical.md",
-    "EEE/Electrical/AC Power.md",
-    "EEE/Electrical/DC machines.md",
-    "EEE/Electrical/AC circuits.md",
     "Maths/Calculus/Differential equations.md",
     "Computer Science/Computer Science.md",
     "Maths/Signals & Systems/Signals & Systems.md",
     "EEE/EEE.md",
     "Maths/Maths.md",
-    "_Organisation/tasks.md",
     "Robotics/Robotics.md",
     "Robotics/Mobile robots/Mobile robots.md",
     "Robotics/Manipulators/Manipulators.md",
     "Courses/Courses.md",
     "Maths/Trigonometry & Geometry/Trigonometry & Geometry.md",
-    "Robotics/Quadrotors/Quadrotors.md",
-    "_Organisation/studies tasks.md",
-    "EEE/Electrical/Variable speed drive.md",
-    "Maths/Notation.md",
-    "_Misc/fyp.md",
     "imgs/3phase.jpg",
     "imgs/3-phase.png",
     "imgs/3phase.png",

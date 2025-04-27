@@ -1,4 +1,4 @@
-For motor movement, the right-hand rule is used, with force being propotional as
+For motor movement, the right-hand rule is used, with force being proportional as
 
 $$F=Bil$$
 

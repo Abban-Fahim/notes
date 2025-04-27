@@ -15,7 +15,7 @@ $$P=Tw=T_{I0}w_{m}+\frac{a_{1}T_{1}w_{m1}}{\eta_{1}}+\frac{a_{2}T_{2}w_{m2}}{\et
 
 For transnational loads, the equivalent for $n$ loads is given as
 
-$$I=I_{0}+m_{1}(\frac{v_{1}}{\omega_{m}})^{2}+m_{2}(\frac{v_{2}}{\omega_{m}})^{2}+\dots+M_{n}(\frac{v_{n}}{\omega_{m}})^{2}$$
+$$I=I_{0}+m_{1}(\frac{v_{1}}{\omega_{m}})^{2}+m_{2}(\frac{v_{2}}{\omega_{m}})^{2}+\dots+m_{n}(\frac{v_{n}}{\omega_{m}})^{2}$$
 $$T=T_{I0}+\frac{F_{1}}{\eta_{1}}\frac{v_{1}}{\omega_{m}}+\frac{F_{2}}{\eta_{2}}\frac{v_{2}}{\omega_{m}}+\dots+\frac{F_{n}}{\eta_{n}}\frac{v_{n}}{\omega_{m}}$$
 $$P=T\omega$$
 
@@ -44,7 +44,7 @@ There is a component of frictional torque present no matter the speed of the mot
 
 There is also windage torque caused by shafts moving in fluids, and lastly we have the inertial torque to start objects moving, given by
 
-$$T_{J}=I\frac{d\omega}{dt}$$
+$$T_{J}=J\frac{d\omega}{dt}$$
 
 ## Steady state stability
 

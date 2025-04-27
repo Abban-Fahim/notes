@@ -22,7 +22,7 @@ $$y[2]=x[0]h[2]+x[1]h[1]+x[2]h[0]+\dots$$
 
 While convolutions describe the relation between the output signal of an LTI system to its input and impulse response, **correlations** describe the degree of similarity between two signals.
 
-$$R_{x[n]h[n]}=\sum\limits_{m=-\infty}^{m=\infty}{x[m]h[m-]}$$
+$$R_{x[n]h[n]}=\sum\limits_{m=-\infty}^{m=\infty}{x[m]h[m-n]}$$
 
 ## Sampling
 
