@@ -4,6 +4,7 @@ import { getCollection } from "astro:content";
 const allItems = await getCollection("studies");
 let finalNav = [
 	{ name: "Robotics", slug: "robotics", pages: [
+			{ name: "Computer vision", slug: "computer-vision", pages: [] },
 			{ name: "Control", slug: "control", pages: [] },
 			{ name: "Manipulators", slug: "manipulators", pages: [] },
 			{ name: "Mobile robots", slug: "mobile-robots", pages: [] },
