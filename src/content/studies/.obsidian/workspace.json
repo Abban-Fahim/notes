@@ -13,20 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Organisation/tasks.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "tasks"
-            }
-          },
-          {
-            "id": "9d6eba7a12c19304",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "_Organisation/studies tasks.md",
                 "mode": "source",
                 "source": false
@@ -36,21 +22,119 @@
             }
           },
           {
-            "id": "7f3dad3c62e591d9",
+            "id": "b2af262362d13ac9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Misc/systems.md",
+                "file": "Robotics/Computer vision/Event vision.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "systems"
+              "title": "Event vision"
             }
           },
           {
-            "id": "661f39ed22c6afbf",
+            "id": "f13df5490caf31c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "EEE/Electrical/Inductors and Capacitors.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Inductors and Capacitors"
+            }
+          },
+          {
+            "id": "ad79c224c548d6f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Affine transformation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Affine transformation"
+            }
+          },
+          {
+            "id": "3389212f84af0ab1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Misc/insec-tec application.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "insec-tec application"
+            }
+          },
+          {
+            "id": "0a111fddb2571f74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Misc/fyp.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "fyp"
+            }
+          },
+          {
+            "id": "e86bd4fdd669bb14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maths/Signals & Systems/Filters.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Filters"
+            }
+          },
+          {
+            "id": "99b70e0929ca10a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maths/Signals & Systems/Laplace transform.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Laplace transform"
+            }
+          },
+          {
+            "id": "790ea59a4e6bf263",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maths/Signals & Systems/LTI systems.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LTI systems"
+            }
+          },
+          {
+            "id": "9c04ab0aa3c5f93e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -64,21 +148,21 @@
             }
           },
           {
-            "id": "15bee82f78b70f65",
+            "id": "661f39ed22c6afbf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maths/Signals & Systems/Filters.md",
+                "file": "Maths/Signals & Systems/Signals & Systems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Filters"
+              "title": "Signals & Systems"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -197,13 +281,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Organisation/tasks.md",
+                "file": "_Organisation/studies tasks.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of tasks"
+              "title": "Outline of studies tasks"
             }
           },
           {
@@ -242,34 +326,35 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "7f3dad3c62e591d9",
+  "active": "b2af262362d13ac9",
   "lastOpenFiles": [
-    "_Organisation/studies tasks.md",
-    "_Misc/systems.md",
+    "_Misc/insec-tec application.md",
+    "Robotics/Computer vision/Event vision.md",
+    "Robotics/Computer vision/Affine transformation.md",
     "_Organisation/tasks.md",
-    "Maths/Signals & Systems/Discrete systems.md",
-    "Maths/Signals & Systems/Filters.md",
-    "EEE/Electrical/Transformers.md",
-    "EEE/Electrical/Variable speed drive.md",
-    "EEE/Electrical/AC circuits.md",
-    "EEE/Electrical/Synchronous machines.md",
-    "EEE/Electrical/DC machines.md",
-    "EEE/Electrical/AC Power.md",
-    "EEE/Electrical/Stepper motors.md",
-    "EEE/Electrical/Resonance.md",
-    "EEE/Electrical/Magnetic circuits.md",
+    "_Misc/fyp.md",
     "EEE/Electrical/Inductors and Capacitors.md",
-    "EEE/Electrical/Electrical.md",
-    "Maths/Calculus/Differential equations.md",
-    "Computer Science/Computer Science.md",
+    "Robotics/Quadrotors/Quadrotors.md",
+    "_Organisation/studies tasks.md",
+    "Robotics/Computer vision",
+    "Maths/Signals & Systems/Filters.md",
+    "Maths/Signals & Systems/Laplace transform.md",
+    "Maths/Signals & Systems/LTI systems.md",
+    "Maths/Signals & Systems/Discrete systems.md",
     "Maths/Signals & Systems/Signals & Systems.md",
-    "EEE/EEE.md",
     "Maths/Maths.md",
-    "Robotics/Robotics.md",
-    "Robotics/Mobile robots/Mobile robots.md",
-    "Robotics/Manipulators/Manipulators.md",
+    "Maths/Signals & Systems/Continuous-time signals.md",
+    "Maths/Signals & Systems/Fourier transforms.md",
+    "Maths/Signals & Systems/Fourier series.md",
+    "Maths/Signals & Systems/Modulation.md",
+    "EEE/EEE.md",
+    "_Misc/systems.md",
+    "Courses/Mechanics, Fields, Forces - B27MW/Mechanics, Fields, Forces - B27MW.md",
+    "Courses/Waves & Matter - B27FF/Waves & Matter - B27FF.md",
     "Courses/Courses.md",
-    "Maths/Trigonometry & Geometry/Trigonometry & Geometry.md",
+    "Courses/Intro To Mech Eng - B57AU/Intro To Mech Eng - B57AU.md",
+    "Courses/Building Services - D18BT/Building Services - D18BT.md",
+    "Robotics/Control/PID control.md",
     "imgs/3phase.jpg",
     "imgs/3-phase.png",
     "imgs/3phase.png",
@@ -290,7 +375,6 @@
     "Computer Science/DSA",
     "_Assignments/B38DB-lab2.pdf",
     "_Assignments/B38DB-lab3.pdf",
-    "_Assignments/B38EB Pspice Assignment.pdf",
     "bcorp-dev/MediaWiki.canvas"
   ]
 }

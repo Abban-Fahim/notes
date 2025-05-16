@@ -1,3 +1,5 @@
+Miscellaneous course that won't fit any of the other categories.
+
 %% Begin Waypoint %%
 - [[Courses/Building Services - D18BT/Building Services - D18BT|Building Services - D18BT]]
 - [[Courses/Intro To Mech Eng - B57AU/Intro To Mech Eng - B57AU|Intro To Mech Eng - B57AU]]

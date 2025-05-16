@@ -1,3 +1,5 @@
+Year 1 course in architectural engineering by Dr. Jun Han.
+
 %% Begin Waypoint %%
 - [[Courses/Building Services - D18BT/Acoustics|Acoustics]]
 - [[Courses/Building Services - D18BT/Air conditioning|Air conditioning]]

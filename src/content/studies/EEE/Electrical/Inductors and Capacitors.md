@@ -1,4 +1,4 @@
-### Preliminary exponential curves
+### Exponential curves
 
 We use the limit concept of exponential curves to model curves of certain real components:
 

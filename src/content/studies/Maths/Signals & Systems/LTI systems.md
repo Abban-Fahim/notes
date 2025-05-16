@@ -32,22 +32,29 @@ This gives us $m$ poles and $n$ zeros, where $K$ is a constant
 
 ## Stability
 
-If all the poles lie on the negative side of the real axis, the system is stable for the entire ROC. If even a single pole is on the positive real side, the system is no longer stable
+If all the poles lie on the negative side of the real axis, the system is stable for the entire ROC. If even a single pole is on the positive real side, the system is no longer stable. Additionally, the degree of $N(s)$ must be less than $D(s)$. If only one pole, or pole pair, has $\Re(p)=0$, the system is considered marginally stable.
 
-For discrete systems ($z$ domain), the boundary (ROC?) is defined by a unit circle, $|z|=1$. Stability is achieved when the poles are inside the circle, hence $|z|<1$, and unstable otherwise.
+For discrete systems ($z$ domain), the ROC is defined by a unit circle, $|z|=1$. Stability is achieved when the poles are inside the circle, hence $|z|<1$, and unstable otherwise.
 
 ## Shannon's sampling theorem
 
 A **band-limited** signal is only greater than zero within a bandwidth of $\omega_{m}//f_{m}$, and its time-domain signal can be uniquely determined from its samples at a sampling time $T_{s}$, where $f_{s}>2f_{m}$. If $f_{s}$ is not twice size of $f_{m}$, then the samples will overlap and you will lose information on the receiving end. This minimum $2f_{m}$ is called the *Nyquist rate*, and its inverse the interval.
-## Sampling
+## Aliasing
 
-Nyquist frequency, $f$ is twice the maximum 
+Aliasing has a predictable behaviour, which does not allow information to be recovered, but it can be modelled nonetheless:
+- if $f_m<\frac{f_{s}}{2}$, no aliasing occurs and the output contains $f_{m}$
+- if $\frac{f_{s}}{2}<f_{m}<f_{s}$, the output contains the largest tone of $f_{s}-f_{m}$
+- if $f_{s}<f_{m}<\frac{3f_{s}}{2}$, the output contains the largest tone if $f_{m}-f_{s}$
 
-For other sampling rates, the aliasing is as follows
+We can use an anti-aliasing, which is a low-pass filterq with a cutoff $f_{c}=\frac{f_{s}}{2}$, to cancel signals when $f_{m}$ exceeds $\frac{f_{s}}{2}$, giving us an output of 0 in all cases but the first. It must be placed right before the ADC in any signal transmission pipeline.
 
-$$f_{o}=
-\begin{cases}
-f_{i} & 0<f_{s}<2f_{i} \\
-f_{s}-f_{i} & 2f_{i}
-\end{cases}
-$$
+## Series and parallel systems
+
+Systems in series have an effective system response as a product of their individual responses, while for parallel systems it is a summation.
+
+## Feedback loop
+
+When the input to the system $H(s)$ has output feedback through the system $G(s)$ subtracted from it, the equivalent closed loop system response is given as
+
+$$Q(s)=\frac{H(s)}{1+H(s)G(s)}$$
+

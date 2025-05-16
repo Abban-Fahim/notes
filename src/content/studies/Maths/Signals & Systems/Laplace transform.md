@@ -1,4 +1,4 @@
-In physics this transformation is used to turn deferential and integral equations in the *time domain* into simpler equations in the *frequency domain* (or *s-domain*). In signals and systems, it does the same for transforming time-domain signals into the complex frequency domain. The formal definition is
+In practice, this transform is used to turn deferential and integral equations in the *time domain* into simpler equations in the *frequency domain* (or *s-domain*). In signals and systems, it does the same for transforming time-domain signals into the complex frequency domain. The formal definition of the **unilateral** transform is
 
 $$\mathcal{L}\{f(t)\}=F(s)=\int_{0}^{\infty}{f(t)e^{-st}\;dt}$$
 
@@ -25,5 +25,6 @@ The inverse Laplace transform turns frequency domain functions into time domain 
 
 $$\mathcal{L}^{-1}\{F(s)\}=f(t)=\frac{1}{2\pi j}\lim_{T\to\infty}\int_{\gamma-jt}^{\gamma+jT}{e^{st}F(s)\ ds}$$
 
-The second-shift theorem
+## Bilateral transform
 
+Along with the magnitude of a transform, $F(s)$, the region of convergence (ROC) must also be specified for a range of values of $s$. For a system to be stable, its ROC must contain the imaginary axis, hence it must converge for $s=0$.
