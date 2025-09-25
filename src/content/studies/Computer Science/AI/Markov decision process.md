@@ -24,4 +24,6 @@ $$\pi^{*}(s)=\argmax\limits_{\alpha}\sum\limits_{s'}{P(s,a,s')[R(s,a,s')+\gamma{
 
 If the policy does not change during this step, then evaluation is run again, and so forth.
 
+
+
 The method utilised to solve MDPs these days is usually [[Computer Science/AI/Reinforcement learning|Reinforcement learning]], where we can solve for environments for which we don't know the transition and/or reward functions, by learning from interactions with the environment.
