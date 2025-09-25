@@ -7,10 +7,10 @@
     "iconColor": null,
     "recentlyUsedIcons": [
       "FasEye",
+      "FasDiagramProject",
+      "FasBookOpen",
       "LiBackpack",
-      "LiListTodo",
-      "LiDatabase",
-      "LiBrain"
+      "LiListTodo"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -53,5 +53,7 @@
   "Robotics/Control": "FasWaveSquare",
   "_Organisation": "LiListTodo",
   "_Misc": "LiBackpack",
+  "_Research": "FasBookOpen",
+  "_Projects": "FasDiagramProject",
   "Robotics/Computer vision": "FasEye"
 }

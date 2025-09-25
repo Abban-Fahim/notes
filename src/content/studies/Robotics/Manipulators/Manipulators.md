@@ -2,7 +2,7 @@ Reference book: *Introduction To Robotics, Mechanics and Control* by John J. Cra
 
 %% Begin Waypoint %%
 - [[Robotics/Manipulators/Denavit-Hartenberg conventions|Denavit-Hartenberg conventions]]
-- [[Robotics/Manipulators/Lagrangian Formulation|Lagrangian Formulation]]
+- [[Robotics/Manipulators/Lagrangian formulation|Lagrangian formulation]]
 - [[Robotics/Manipulators/Link velocities|Link velocities]]
 - [[Robotics/Manipulators/Manipulator dynamics|Manipulator dynamics]]
 

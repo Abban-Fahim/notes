@@ -10,7 +10,7 @@ $$^{A}_{B}R=\begin{bmatrix}r_{11} & r_{12} & r_{13} \\ r_{21} & r_{22} & r_{23} 
 
 The notation $^{A}_{B}R$ refers to the rotation matrix of rotating a point from frame $B$ to frame $A$. The inverse of this can be found using the transpose of this matrix. Rotating a position vector to a different frame is as simple as multiplying it by the matrix.
 
-When only rotating about one axis, we can have a simplified function for the resulting rotation matrix:
+When only rotating about one axis, we can have a simplified function for the resulting elementary rotation matrix:
 
 $$R_{x}(\theta)=\begin{bmatrix}1 & 0 & 0 \\ 0 & \cos{\theta} & -\sin{\theta} \\ 0 & \sin{\theta} & \cos{\theta} \end{bmatrix}$$
 $$R_{y}(\theta)=\begin{bmatrix}\cos{\theta} & 0 & \sin{\theta} \\ 0 & 1 & 0 \\ -\sin{\theta} & 0 & \cos{\theta} \end{bmatrix}$$
@@ -36,7 +36,7 @@ To transform a 3 dimensional vector, we pad it with a 1 at the bottom and multip
 
 ## Euler and fixed angles
 
-...
+Euler angles define rotations with three angles about a frame of reference, and an order of those rotations. The order can be defined either as intrinsic or extrinsic rotation where in the first frame of reference moves along with every elementary rotation, while the latter is defined around the initial fixed frame. The most common case of Euler angles are the extrinsic XYZ, also known as Roll-Pitch-Yaw (RPY) angles.
 
 ## Fixed and current frames
 

@@ -183,5 +183,30 @@
       ],
       "key": "PageUp"
     }
+  ],
+  "obsidian-citation-plugin:open-literature-note": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "L"
+    }
+  ],
+  "obsidian-citation-plugin:insert-citation": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "C"
+    }
+  ],
+  "obsidian-citation-plugin:update-bib-data": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "R"
+    }
   ]
 }

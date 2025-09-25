@@ -3,6 +3,7 @@
 - [[Robotics/Control/Hybrid-Automata Model|Hybrid-Automata Model]]
 - [[Robotics/Control/Kalman filter|Kalman filter]]
 - [[Robotics/Control/PID control|PID control]]
+- [[Robotics/Control/Sensors|Sensors]]
 - [[Robotics/Control/State-Space models|State-Space models]]
 
 %% End Waypoint %%

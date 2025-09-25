@@ -4,179 +4,81 @@
     "type": "split",
     "children": [
       {
-        "id": "7fd3d1b4d41109d5",
+        "id": "0fc4fadfcc156c30",
         "type": "tabs",
         "children": [
           {
-            "id": "d7d6c6fc80690190",
+            "id": "00a0b915262c6b4a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Organisation/studies tasks.md",
+                "file": "Computer Science/AI/Machine learning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "studies tasks"
+              "title": "Machine learning"
             }
           },
           {
-            "id": "b2af262362d13ac9",
+            "id": "c863f97903444820",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Robotics/Computer vision/Event vision.md",
+                "file": "_Projects/Learning quadruped gaits with RL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Event vision"
+              "title": "Learning quadruped gaits with RL"
             }
           },
           {
-            "id": "e0a1baf3b4f2d094",
+            "id": "0f73fe46429ed864",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Robotics/Computer vision/Computer vision.md",
+                "file": "_Organisation/postgrad applications.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Computer vision"
+              "title": "postgrad applications"
             }
           },
           {
-            "id": "f13df5490caf31c8",
+            "id": "d1bd6403b08e24d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EEE/Electrical/Inductors and Capacitors.md",
+                "file": "Computer Science/AI/Reinforcement learning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Inductors and Capacitors"
+              "title": "Reinforcement learning"
             }
           },
           {
-            "id": "ad79c224c548d6f5",
+            "id": "5ee88c102ab392f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Affine transformation.md",
+                "file": "Computer Science/AI/Markov decision process.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Affine transformation"
-            }
-          },
-          {
-            "id": "3389212f84af0ab1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_Misc/insec-tec application.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "insec-tec application"
-            }
-          },
-          {
-            "id": "0a111fddb2571f74",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_Misc/fyp.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "fyp"
-            }
-          },
-          {
-            "id": "e86bd4fdd669bb14",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maths/Signals & Systems/Filters.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Filters"
-            }
-          },
-          {
-            "id": "99b70e0929ca10a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maths/Signals & Systems/Laplace transform.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Laplace transform"
-            }
-          },
-          {
-            "id": "790ea59a4e6bf263",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maths/Signals & Systems/LTI systems.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "LTI systems"
-            }
-          },
-          {
-            "id": "9c04ab0aa3c5f93e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maths/Signals & Systems/Discrete systems.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Discrete systems"
-            }
-          },
-          {
-            "id": "661f39ed22c6afbf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maths/Signals & Systems/Signals & Systems.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Signals & Systems"
+              "title": "Markov decision process"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -199,7 +101,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "File explorer"
+              "title": "Files"
             }
           },
           {
@@ -233,8 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 332.5004348754883,
-    "collapsed": true
+    "width": 368.5004348754883
   },
   "right": {
     "id": "96576152911976e7",
@@ -329,47 +230,53 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "daily-notes:Open today's note": false,
-      "markdown-importer:Open Markdown importer": false,
+      "bases:Create new base": false,
+      "obsidian-shellcommands:Shell commands: Custom variables": false,
+      "homepage:Open homepage": false,
+      "daily-notes:Open today's daily note": false,
+      "markdown-importer:Open format converter": false,
       "workspaces:Manage workspace layouts": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-shellcommands:Shell commands: Custom variables": false,
-      "homepage:Open homepage": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "e0a1baf3b4f2d094",
+  "active": "5ee88c102ab392f7",
   "lastOpenFiles": [
     "_Organisation/tasks.md",
-    "Robotics/Computer vision/Computer vision.md",
-    "Robotics/Computer vision/Event vision.md",
-    "_Misc/insec-tec application.md",
-    "Robotics/Computer vision/Affine transformation.md",
-    "_Misc/fyp.md",
-    "EEE/Electrical/Inductors and Capacitors.md",
-    "Robotics/Quadrotors/Quadrotors.md",
+    "Computer Science/AI/Markov decision process.md",
+    "Computer Science/AI/Reinforcement learning.md",
+    "Computer Science/AI/Perceptrons.md",
+    "Computer Science/AI/Optimisation.md",
+    "Computer Science/AI/Natural language processing.md",
+    "Computer Science/AI/Machine learning.md",
+    "Computer Science/AI/k-Nearest Neighbors.md",
+    "Computer Science/AI/Intelligent agents.md",
+    "_Organisation/postgrad applications.md",
+    "_Research/AllGaits_ Learning All Quadruped Gaits and Transitions.md",
+    "_Projects/Learning quadruped gaits with RL.md",
+    "_Projects/One-shot learning of grasping.md",
+    "_Research/Reinforcement Learning for Blind Stair Climbing with Legged and Wheeled-Legged Robots.md",
+    "Computer Science/Computer Science.md",
     "_Organisation/studies tasks.md",
-    "Robotics/Computer vision",
-    "Maths/Signals & Systems/Filters.md",
-    "Maths/Signals & Systems/Laplace transform.md",
-    "Maths/Signals & Systems/LTI systems.md",
-    "Maths/Signals & Systems/Discrete systems.md",
-    "Maths/Signals & Systems/Signals & Systems.md",
+    "Robotics/Robotics.md",
     "Maths/Maths.md",
-    "Maths/Signals & Systems/Continuous-time signals.md",
-    "Maths/Signals & Systems/Fourier transforms.md",
-    "Maths/Signals & Systems/Fourier series.md",
-    "Maths/Signals & Systems/Modulation.md",
-    "EEE/EEE.md",
-    "_Misc/systems.md",
-    "Courses/Mechanics, Fields, Forces - B27MW/Mechanics, Fields, Forces - B27MW.md",
-    "Courses/Waves & Matter - B27FF/Waves & Matter - B27FF.md",
-    "Courses/Courses.md",
-    "Courses/Intro To Mech Eng - B57AU/Intro To Mech Eng - B57AU.md",
-    "Courses/Building Services - D18BT/Building Services - D18BT.md",
+    "Maths/Linear algebra/Coordinate frames.md",
+    "Robotics/Mobile robots/Swarm robotics.md",
+    "Robotics/Manipulators/Lagrangian formulation.md",
+    "Maths/Linear algebra/Eigenvalues and Eigenvectors.md",
+    "Maths/Linear algebra/Linear algebra.md",
+    "Maths/Linear algebra/Lines & Planes.md",
+    "Maths/Linear algebra/Matrices.md",
+    "Maths/Linear algebra/Solving linear systems.md",
+    "_Projects",
+    "_Research/zotero.bib",
+    "_Research/fyp.bib",
+    "_Research",
+    "imgs/Pasted image 20250615144657.png",
+    "Robotics/Computer vision",
     "imgs/3phase.jpg",
     "imgs/3-phase.png",
     "imgs/3phase.png",
@@ -382,14 +289,9 @@
     "imgs/Pasted image 20250217154606.png",
     "imgs/b39sb_dsb.svg",
     "imgs/Pasted image 20250216204614.png",
-    "imgs/Pasted image 20250216204400.png",
     "Robotics/Systems and Control",
     "_bcorp-dev/MediaWiki.canvas",
     "Maths/Signals & Systems",
-    "Computer Science/AI",
-    "Computer Science/DSA",
-    "_Assignments/B38DB-lab2.pdf",
-    "_Assignments/B38DB-lab3.pdf",
     "bcorp-dev/MediaWiki.canvas"
   ]
 }

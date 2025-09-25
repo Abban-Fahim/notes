@@ -89,7 +89,3 @@ $$P(+|w,c)=\prod\limits_{i=1}^{2k}{P(+|w,c_{i})}=\sum\limits_{i=1}^{2k}{\log{P(+
 The algorithm then involves treating these as positive examples, $c_{pos}$, and randomly sample other words across the lexicon to get negative examples, $c_{neg}$. The classifier is trained to distinguish between these two cases, and use the learned weights as the word embedding. During training, we want to maximise similarity between words pairs in positive examples, and minimise the similarity for negative examples. This gives us the following loss function to be minimised for $l$ negative samples, using algorithms such as stochastic gradient descent:
 
 $$L_{CE}=-\log{(P(+|w,c_{pos})\prod\limits_{i=1}^{l}{P(-|w,c_{neg_{i}})})}=-(\log{P(+|w,c_{pos})+\sum\limits_{i=1}^{l}{\log{P(-|w,c_{neg_{i}})}}})$$
-
-### Properties of word embeddings
-
-Just know that these can encode cultural stereotypes hehe.

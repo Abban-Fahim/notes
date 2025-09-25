@@ -6,7 +6,7 @@ $$\dot{x}=\frac{R}{2}(v_{R}+v_{L})\cos{\phi}$$
 $$\dot{y}=\frac{R}{2}(v_{R}+v_{L})\sin{\phi}$$
 $$\dot{\phi}=\frac{R}{l}(v_{R}-v_{L})$$
 
-## "Unicycle" model
+## Unicycle model
 
 A simplification of planar robot models, including differential drives, where we directly speak in terms of translational and angular velocity, which would give us $v$ in $\mathbb{R}^{2}$ and a scalar $\omega$. The kinematics here are similar but simpler than the above model
 
@@ -14,4 +14,4 @@ $$\dot{x}=v\cos{\phi}$$
 $$\dot{y}=v\sin{\phi}$$
 $$\dot{\phi}=\omega$$
 
-It is recommended to design controllers for the above model for all differential drive robots, however they must still be implemented in their own underlying dynamics.
+It is recommended to design controllers for this model for all differential drive robots, and they're low-level controllers may be implemented to convert this model to their own underlying dynamics.

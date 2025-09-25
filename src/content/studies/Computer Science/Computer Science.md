@@ -6,5 +6,6 @@ Notes of courses from the school of mathematics and computer science (MACS):
 %% Begin Waypoint %%
 - [[Computer Science/AI/AI|AI]]
 - [[Computer Science/DSA/DSA|DSA]]
+- [[Computer Science/gdb notes|gdb notes]]
 
 %% End Waypoint %%
