@@ -1,10 +1,10 @@
 {
   "accentColor": "#babbf1",
   "cssTheme": "Minimal",
-  "baseFontSize": 29,
+  "baseFontSize": 24,
   "monospaceFontFamily": "Fira Code Retina",
-  "textFontFamily": "Iosevka Nerd Font Propo,Vazirmatn",
-  "interfaceFontFamily": "IosevkaTerm Nerd Font Propo",
+  "textFontFamily": "UbuntuMono Nerd Font,Iosevka Nerd Font Propo,Latin Modern Roman,Vazirmatn",
+  "interfaceFontFamily": "UbuntuMono Nerd Font,IosevkaTerm Nerd Font Propo",
   "nativeMenus": false,
   "translucency": false,
   "theme": "obsidian",

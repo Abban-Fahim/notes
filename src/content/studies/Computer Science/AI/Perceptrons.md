@@ -1,5 +1,3 @@
-A perceptron is a linear classifier that takes in $n$ inputs, each of which has a weight $w_{i}$, one bias value $w_{0}$, and an activation function. The value of $n$ determines how many dimensions the classifier operates in, and the decision boundary created is always a line or $n$-dimensional hyperplane. 
-
 The error is computed using
 
 $$\delta=y-\hat{y}$$

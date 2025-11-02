@@ -1,0 +1,2 @@
+A behaviour is the observed interaction of an agent with its environment. A mechanism is a set of rules of that decide how an agent reacts to its perception of the environment. The theory behind behaviour-based robotics (BBR) is that simple set of mechanisms can often lead to a multitude of complex behaviours. The earliest demonstrations of BBR predate the existence of a computers, where simple sensorimotor rules were able to demonstrate intelligent behaviours with little to no computation.
+

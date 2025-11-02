@@ -5,7 +5,9 @@
 - [[Maths/Polynomials & Functions/Iterative solution|Iterative solution]]
 - [[Maths/Polynomials & Functions/Logarithms|Logarithms]]
 - [[Maths/Polynomials & Functions/Modulus function|Modulus function]]
+- [[Maths/Polynomials & Functions/Optimisation|Optimisation]]
 - [[Maths/Polynomials & Functions/Partial fractions|Partial fractions]]
+- [[Maths/Polynomials & Functions/RANSAC|RANSAC]]
 - [[Maths/Polynomials & Functions/Roots of polynomials|Roots of polynomials]]
 - [[Maths/Polynomials & Functions/Taylor Series|Taylor Series]]
 

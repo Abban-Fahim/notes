@@ -53,3 +53,9 @@ V&=J(\Theta)\,\dot{\Theta}\\
 \end{align*}$$
 
 However the inverse presents the problem of *singularities*, which are mathematically configurations of $\Theta$ where the Jacobian cannot be inverted, detectable as the determinant of such a matrix is 0. Physically, these are configurations where a manipulator loses some degrees of freedom, and is impossible for the arm to move in the corresponding Cartesian direction. These are obviously found at the boundaries of the arms workspace, where the end effector cannot move any further outside this workspace, but also in the interior when two or more joint (Z) axes line up causing it to lose a degree or more of freedom.
+
+## Differential transformation
+
+If we want to describe the an infinitesimally small transformation, we can use some assumptions and represent it using a simplified homogeneous transformation matrix, with a translation by $[dx,dy,dz]^{T}$ and a Euler angle rotation by $[\delta{x},\delta{y},\delta{z}]^{T}$
+
+$$\begin{bmatrix}1 & \delta{x}\end{bmatrix}$$

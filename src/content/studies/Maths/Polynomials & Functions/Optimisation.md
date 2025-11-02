@@ -1,0 +1,9 @@
+An optimisation problem's objective is to find a solution, $\hat{x}\in{F}$, that minimises or maximise an objective, functionally described as $L(x)$. $F$ should be a finite or infinite set of search space which must be explored to find the solution. The selection of an optimisation algorithm depends on the qualities of your search space, whether you have heuristics, and how many solutions you need. In practise, the search space is usually discretised by need, unless the algorithm uses analytical or symbolic methods, as computers cannot represent a continuous function otherwise. Gradients are a commonly provided along with the objective function, as some algorithms use them to guide their search towards the function's vertices.
+
+## Convexity
+
+A convex function is where the line segment between any two distinct points on its graph lies entirely on or above the graph. A property of such a function is that it has only one minimum, and hence when optimising such a space, we can (and usually should) find a global solution. Non-convex models are usually harder to optimise for global solutions, as you cannot determine if you have reached one or not, and hence different algorithm must be adapted to tackle this.
+
+## Heuristics and meta-heuristics
+
+These are functions of the search space, and they provide us a score that tells us how close we are to the optimal solution, differing from the objective function by not giving or using its exact value. For example, grid-based search the two common heuristics are Manhattan and Euclidean (L1 & L2) distance that give us our exact distance from the goal, but not taking into account obstacles and their effects on the shortest path.

@@ -18,7 +18,7 @@ We can also find the marginal distribution of one of the two random variables, $
 
 $$f_{X}(x)=\int_{y}{f_{X,Y}(x,y)\,dy}$$
 
-which can be rewritten using [[Maths/Probability & Statistics/Bayes' Theorem|Bayes' Theorem]], like
+which can be rewritten using [[Maths/Probability & Statistics/Bayesian computation|Bayesian computation]], like
 
 $$f_{X}(x)=\int_{y}{f_{X|Y}(x|y)f(y)\,dy}$$
 

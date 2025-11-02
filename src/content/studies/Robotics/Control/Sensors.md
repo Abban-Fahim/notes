@@ -1,1 +1,1 @@
-Robots require sensors in order to perceive the physical world. They can be classified as so. Proprioceptive sensors measure data about the robot's internal state, while exteroceptive sensors measure external values. 
+Robots require sensors in order to perceive the physical world. They can be classified as so. Proprioceptive sensors measure data about the robot's internal state, while exteroceptive sensors measure external values.

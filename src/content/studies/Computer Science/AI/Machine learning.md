@@ -11,11 +11,5 @@ This type of learning requires a dataset, $\mathbb{D}=\set{X,Y}$, where $X$ is y
 $$\Theta=\argmin_{\theta}{(x,y,\theta)}$$
 
 
-To design an ANN, you need to decide,
 
-- the number of nodes in the input layer
-- the number of nodes in the output layer
-- the number of hidden layers
-- the activation functions
 
-simulated annealing

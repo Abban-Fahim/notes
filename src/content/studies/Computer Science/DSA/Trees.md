@@ -46,6 +46,4 @@ When inserting, if the new node is root we colour it black, otherwise it is red 
 	- do a recolouring: $v$ and $w$ to black; $u$ to red unless it is root.
 	- repeat up the tree again if necessary
 
-For removal, the operation is slightly more complex as 
-
-## Tries
+For removal, the operation is slightly more complex.
