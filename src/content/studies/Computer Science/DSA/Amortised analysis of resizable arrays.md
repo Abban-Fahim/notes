@@ -25,7 +25,6 @@ void resize(ResArray<T> a)
 	a.contents <- tmp
 	a.maxsize <- a.maxsize * rf
 
-
 void remBack(ResArray<T> a)
 	if (a.size == a.maxSize / 4)
 		resize(a)
@@ -38,36 +37,65 @@ To analyse the amortised cost, we have to analyse four possible scenarios for ea
 
 We must also define a new potential function as now deletion gives lowers the potential, hence more space for insertion. The new function is defined as:
 
-$$\phi(a) =
+$$
+\phi(a) =
 \left\{
 	\begin{array}{}
 		2*n-m & \text{if } k \geq \frac{1}{2} \\
 		\frac{1}{2}*m-n  & \text{if } k < \frac{1}{2} \\
 	\end{array}
-\right.$$
-$$\text{where }k=\frac{a.size}{a.maxSize}$$
-$$\text{where }n=a.size\;\;\;\;\; m=a.maxSize$$
+\right.
+$$
+
+$$
+\text{where }k=\frac{a.size}{a.maxSize}
+$$
+
+$$
+\text{where }n=a.size\;\;\;\;\; m=a.maxSize
+$$
 
 For insertion:
 
-$$\begin{align*}\text{When }k_{i}<\frac{1}{2}:a_{i}&=(1)+(\frac{1}{2}*m-n)\\&-(\frac{1}{2}*m-(n-1))=0\end{align*}$$
-$$\begin{align*}\text{When }k_{i}>\frac{1}{2}:a_{i}&= (1)+(2*n-m)\\&-(2(n-1)-m)=3\end{align*}$$
-$$\begin{align*}\text{When }k_{i}=\frac{1}{2}:a_{i}&=(1)+(2*n-m)\\&-(\frac{1}{2}*m-(n-1))\\
+$$
+\begin{align*}\text{When }k_{i}<\frac{1}{2}:a_{i}&=(1)+(\frac{1}{2}*m-n)\\&-(\frac{1}{2}*m-(n-1))=0\end{align*}
+$$
+
+$$
+\begin{align*}\text{When }k_{i}>\frac{1}{2}:a_{i}&= (1)+(2*n-m)\\&-(2(n-1)-m)=3\end{align*}
+$$
+
+$$
+\begin{align*}\text{When }k_{i}=\frac{1}{2}:a_{i}&=(1)+(2*n-m)\\&-(\frac{1}{2}*m-(n-1))\\
 &=(1)+(2*n-2*n)\\
-&-(\frac{1}{2}(2*n)-(n-1))=0\end{align*}$$
-$$\begin{align*}\\
+&-(\frac{1}{2}(2*n)-(n-1))=0\end{align*}
+$$
+
+$$
+\begin{align*}\\
 \text{(Resizing) When }k_{i-1}=1:a_{i}&=(n+1)+(2*n-m)\\&-(2(n-1)-\frac{1}{2}*m)\\&=(n+1)+(2*n-2*n)\\&-(2(n-1)-\frac{1}{2}(2*n))\\&=(n+1)-(n-2)=3\end{align*}
+
 $$
 
 Finally for removal:
 
+$$
+
+\begin{align*}\text{When }k_{i}<\frac{1}{2}:a_{i}&=(1)+(\frac{1}{2}*m-n)\\&-(\frac{1}{2}*m-(n+1))=2\end{align*}
 
 $$
-\begin{align*}\text{When }k_{i}<\frac{1}{2}:a_{i}&=(1)+(\frac{1}{2}*m-n)\\&-(\frac{1}{2}*m-(n+1))=2\end{align*}
+
 $$
-$$\begin{align*}\text{When }k_{i}>\frac{1}{2}:a_{i}&= (1)+(2*n-m)\\&-(2(n+1)-m)=-1\end{align*}$$
-$$\begin{align*}\text{When }k_{i-1}=\frac{1}{2}:a_{i}&=(1)+(\frac{1}{2}*m-n)\\&-(2(n+1)-m)\\
-&=(1)+(\frac{1}{2}*m-(\frac{1}{2}*m-1))\\&-(2(\frac{1}{2}*m-1+1)-m)=2\end{align*}$$
-$$\begin{align*}\text{(Resizing) When }k_{i-1}=\frac{1}{4}:a_{i}&=(n)+(\frac{1}{2}*m-n)\\&-(\frac{1}{2}(2*m)-(n+1))\\&=(\frac{1}{2}*m)+(\frac{1}{2}*m-(\frac{1}{2}*m-1))\\&-(m-(\frac{1}{2}*m))=1\end{align*}$$
+\begin{align*}\text{When }k_{i}>\frac{1}{2}:a_{i}&= (1)+(2*n-m)\\&-(2(n+1)-m)=-1\end{align*}
+$$
+
+$$
+\begin{align*}\text{When }k_{i-1}=\frac{1}{2}:a_{i}&=(1)+(\frac{1}{2}*m-n)\\&-(2(n+1)-m)\\
+&=(1)+(\frac{1}{2}*m-(\frac{1}{2}*m-1))\\&-(2(\frac{1}{2}*m-1+1)-m)=2\end{align*}
+$$
+
+$$
+\begin{align*}\text{(Resizing) When }k_{i-1}=\frac{1}{4}:a_{i}&=(n)+(\frac{1}{2}*m-n)\\&-(\frac{1}{2}(2*m)-(n+1))\\&=(\frac{1}{2}*m)+(\frac{1}{2}*m-(\frac{1}{2}*m-1))\\&-(m-(\frac{1}{2}*m))=1\end{align*}
+$$
 
 Since all these operations have constant amortised cost, we can conclude that the average cost is also constant time.

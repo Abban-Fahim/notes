@@ -2,9 +2,13 @@ In behaviour-based robotics, the requirements of the system, and hence their dyn
 
 *Guard conditions* are sets of values of state for which a state transition occurs from $q$ to $q'$, given as
 
-$$x\in{G_{q,q'}}$$
+$$
+x\in{G_{q,q'}}
+$$
 
 *Resets* are functions that affect the state as abrupt changes to state during transitions, given as
 
-$$x:=R_{q,q'}(x)$$
+$$
+x:=R_{q,q'}(x)
+$$
 

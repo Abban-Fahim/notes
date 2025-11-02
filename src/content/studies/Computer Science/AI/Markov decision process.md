@@ -6,21 +6,29 @@ A *policy*, $\pi:S\to{A}$, is mapping or probability distribution that tells inf
 
 This algorithm iteratively updates a "value" function, $V:S\to{\mathbb{R}}$, until it converges to being optimal, using
 
-$$V^{*}(s)=\max\limits_{\alpha}\sum\limits_{s'}{P(s,a,s')[R(s,a,s')+\gamma{V^{*}(s')}]}$$
+$$
+V^{*}(s)=\max\limits_{\alpha}\sum\limits_{s'}{P(s,a,s')[R(s,a,s')+\gamma{V^{*}(s')}]}
+$$
 
 The final step is just to extract the optimal policy from $V^{*}$, by just finding the optimal argument to the same equation as above
 
-$$\pi^{*}(s)=\argmax\limits_{\alpha}\sum\limits_{s'}{P(s,a,s')[R(s,a,s')+\gamma{V^{*}(s')}]}$$
+$$
+\pi^{*}(s)=\argmax\limits_{\alpha}\sum\limits_{s'}{P(s,a,s')[R(s,a,s')+\gamma{V^{*}(s')}]}
+$$
 
 ## Policy iteration
 
 This requires two algorithms at each step to iteratively improve the value function (same as above) and policy (which at the end converges to the optimality). The crucial difference here is that in every iteration the policy itself is updated, and instead of trying out every possible action, it tries out only the policy's current action. First, a random policy is initialised, and policy evaluation is run for every state
 
-$$V(s)=\sum\limits_{s'}{P(s,\pi(s),s')[R(s,\pi(s),s')+\gamma{V^{*}(s')}]}$$
+$$
+V(s)=\sum\limits_{s'}{P(s,\pi(s),s')[R(s,\pi(s),s')+\gamma{V^{*}(s')}]}
+$$
 
 The a policy improvement step is run for all states,
 
-$$\pi^{*}(s)=\argmax\limits_{\alpha}\sum\limits_{s'}{P(s,a,s')[R(s,a,s')+\gamma{V^{*}(s')}]}$$
+$$
+\pi^{*}(s)=\argmax\limits_{\alpha}\sum\limits_{s'}{P(s,a,s')[R(s,a,s')+\gamma{V^{*}(s')}]}
+$$
 
 If the policy does not change during this step, then evaluation is run again, and so forth.
 

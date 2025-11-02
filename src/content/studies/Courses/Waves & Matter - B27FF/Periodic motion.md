@@ -9,4 +9,7 @@ A simple idea can be used to understand the forces involved in periodic motion -
 6. Hence a periodic cycle occurs, where the mass *oscillates* between the two points forever (unless acted upon by an external force, $_{i\;got\;ya\;newton}$ ;D)
 
 - *frequency* 
-$$f = \frac{1}{T} = \frac{\omega}{2\pi}$$
+
+$$
+f = \frac{1}{T} = \frac{\omega}{2\pi}
+$$

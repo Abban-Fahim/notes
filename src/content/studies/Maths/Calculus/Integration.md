@@ -8,5 +8,7 @@ This is thought of as the opposite of the chain-rule of differentiation, and inv
 
 For even worse integrals where two unlikely terms are multiplied together, and the differential of one of them makes it a constant or something that simplifies the expression. The rule states:
 
-$$\int{uv^{\prime}\;dx}=uv-\int{u^{\prime}v\;dx}$$
+$$
+\int{uv^{\prime}\;dx}=uv-\int{u^{\prime}v\;dx}
+$$
 

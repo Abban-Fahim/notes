@@ -1,6 +1,8 @@
 The error is computed using
 
-$$\delta=y-\hat{y}$$
+$$
+\delta=y-\hat{y}
+$$
 
 ## Multi layers
 
@@ -8,5 +10,7 @@ Updating weights requires two passes. The first is the the forward pass, which s
 
 For a given layer $j$, the weight of its neurons are defined relative to its input $i$ layer, and output layer $k$. A weight from from the previous layer is defined as $w_{ji}$ and going to the next layer is $w_{kj}$. 
 
-$$\delta_{j}=g'(u_{j})\sum\limits_{k}{w_{kj}\Delta_{k}}$$
+$$
+\delta_{j}=g'(u_{j})\sum\limits_{k}{w_{kj}\Delta_{k}}
+$$
 

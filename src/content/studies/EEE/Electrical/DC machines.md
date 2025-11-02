@@ -12,7 +12,9 @@ The rotor can have two types of windings, one of which is **lap**. This is where
 
 The total useful energy between the brushes in the motor is given as
 
-$$E=\frac{2pZN_{r}\phi}{60c}$$
+$$
+E=\frac{2pZN_{r}\phi}{60c}
+$$
 
 where,
 - $p$ is the number of pole pairs
@@ -23,29 +25,41 @@ where,
 
 The rotor always has a certain amount of (small) resistance, $R_{a}$, and the current provided to the motor, $I_{a}$ creates some loses through this resistance. The entire circuit, with source terminal voltage $V_{t}$, is hence given as
 
-$$V_{t}=E+I_{a}R_{a}$$
+$$
+V_{t}=E+I_{a}R_{a}
+$$
 
 ## Power and torque
 
 The useful power developed by the motor can be given from the above values as
 
-$$P=\frac{2pZN_{r}\phi}{60c}I_{a}$$
+$$
+P=\frac{2pZN_{r}\phi}{60c}I_{a}
+$$
 
 The mechanical power developed by the movement is dependant torque generated and speed
 
-$$P=T\omega=T\frac{N_{r}2\pi}{60}$$
+$$
+P=T\omega=T\frac{N_{r}2\pi}{60}
+$$
 
 Equating the two gives us
 
-$$\frac{2pZN_{r}\phi}{60c}I_{a}=T\frac{N_{r}2\pi}{60}$$
+$$
+\frac{2pZN_{r}\phi}{60c}I_{a}=T\frac{N_{r}2\pi}{60}
+$$
 
 Finally, solving for torque gives
 
-$$T=\frac{pZ\phi{I_{a}}}{c\pi}$$
+$$
+T=\frac{pZ\phi{I_{a}}}{c\pi}
+$$
 
 Which shows us a proportional relationship for a motor's torque ($Z$, $p$ and $c$ are constant for any given motor)
 
-$$T\propto{\phi{I_{a}}}$$
+$$
+T\propto{\phi{I_{a}}}
+$$
 
 # Generators
 

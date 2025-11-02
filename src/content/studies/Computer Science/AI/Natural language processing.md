@@ -58,15 +58,21 @@ This starts by creating *term-document matrix* of size $V\times{D}$, where $V$ i
 
 We then develop a *term-term matrix*, of size $V\times{V}$, where each cell contains occurrences of corresponding words in a *context-window*, which considers $k$ tokens before and after each occurrence of the word. However to account for overly frequent words, like 'a' and 'the', we can use logarithms to emphasise less on magnitude. Hence the term frequency for $t$ in document $d$ is given as
 
-$$\text{tf}_{t,d}=\log_{10}{(\text{count}(t,d)+1)}$$
+$$
+\text{tf}_{t,d}=\log_{10}{(\text{count}(t,d)+1)}
+$$
 
 We then account for the number of documents that $t$ appears, the *document frequency* $\text{df}_{t}$, and we invert that count to emphasise discriminating terms, across $N$ documents in a corpora
 
-$$\text{idf}_{t}=\log_{10}\frac{N}{\text{df}_{t}}$$
+$$
+\text{idf}_{t}=\log_{10}\frac{N}{\text{df}_{t}}
+$$
 
 Finally, we update the values in term-document matrix, with the following values for every entry
 
-$$w_{t,d}=\text{tf}_{t,d}\times\text{idf}_{t}$$
+$$
+w_{t,d}=\text{tf}_{t,d}\times\text{idf}_{t}
+$$
 
 ### Word2Vec
 
@@ -80,12 +86,19 @@ This method's objective is that given $\pm{k}$ words in a context window, predic
 
 This method takes the opposite inputs, only a single word and and tried to predict the surrounding terms using a classifier that is in turn trained, which may be less defined conceptually but scales better in practise. The classifier is given word, $w$, and context word, $c_{i}$, pair, to which it assigns a probability. A word is similar to the target word if their vector embedding are similar, which is mathematically denoted by them having a high dot-product, which can be interpolated through using a sigmoid function
 
-$$P(+|w,c_{i})=1-P(-|w,c_{i})=\sigma(c_{i}\cdot{w})=\frac{1}{1+\exp(-c_{i}\cdot{w})}$$
+$$
+P(+|w,c_{i})=1-P(-|w,c_{i})=\sigma(c_{i}\cdot{w})=\frac{1}{1+\exp(-c_{i}\cdot{w})}
+$$
 
 which for a context window of size of $2k$, is given as their joint probability
 
-$$P(+|w,c)=\prod\limits_{i=1}^{2k}{P(+|w,c_{i})}=\sum\limits_{i=1}^{2k}{\log{P(+|w,c_{i})}}$$
+$$
+P(+|w,c)=\prod\limits_{i=1}^{2k}{P(+|w,c_{i})}=\sum\limits_{i=1}^{2k}{\log{P(+|w,c_{i})}}
+$$
 
 The algorithm then involves treating these as positive examples, $c_{pos}$, and randomly sample other words across the lexicon to get negative examples, $c_{neg}$. The classifier is trained to distinguish between these two cases, and use the learned weights as the word embedding. During training, we want to maximise similarity between words pairs in positive examples, and minimise the similarity for negative examples. This gives us the following loss function to be minimised for $l$ negative samples, using algorithms such as stochastic gradient descent:
 
-$$L_{CE}=-\log{(P(+|w,c_{pos})\prod\limits_{i=1}^{l}{P(-|w,c_{neg_{i}})})}=-(\log{P(+|w,c_{pos})+\sum\limits_{i=1}^{l}{\log{P(-|w,c_{neg_{i}})}}})$$
+$$
+L_{CE}=-\log{(P(+|w,c_{pos})\prod\limits_{i=1}^{l}{P(-|w,c_{neg_{i}})})}=-(\log{P(+|w,c_{pos})+\sum\limits_{i=1}^{l}{\log{P(-|w,c_{neg_{i}})}}})
+$$
+

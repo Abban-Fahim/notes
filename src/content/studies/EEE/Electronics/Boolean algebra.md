@@ -8,13 +8,29 @@ Another way of thinking about min and max terms is when they are evaluated. Wher
 
 Any logical expression can be expressed in only AND, OR and NOT gates. The POS convention expresses as "products of sums", while SOP is a "sum of products". Since every min term is a product, it can be used in SOP to simply represent expressions.
 
-$$ output = \bar{a}\bar{b}\bar{c}d + \bar{a} b c \bar{d} + ab \bar{c} \bar{d} + abcd $$
-$$ = m_{1}+m_{6}+m_{12}+m_{15} $$
-$$ = \sum{m(1, \ 6,\ 12,\ 15)} $$
+$$
+ output = \bar{a}\bar{b}\bar{c}d + \bar{a} b c \bar{d} + ab \bar{c} \bar{d} + abcd 
+$$
+
+$$
+ = m_{1}+m_{6}+m_{12}+m_{15} 
+$$
+
+$$
+ = \sum{m(1, \ 6,\ 12,\ 15)} 
+$$
 
 De Morgan's theorem again makes it incredibly simple to change these expression to a SOP. The expression for above $output$ can be inversed as:
 
-$$ \overline{output}= (\bar{a}+\bar{b}+\bar{c}+\bar{d}) \cdot (\bar{a}+\bar{b}+c+\bar{d}) \cdot \dots $$
-$$= M_{0} \cdot M_{1} \cdot M_{2}\cdot M_{3}\cdot M_{4} \cdot \dots $$
-$$ = \prod{M({0} ,\ {2} ,\ {3} ,\ {4} \ , {5} ,\ {7} ,\ {8} ,\ {9} ,\ {10} \ , {11} ,\ {13} ,\ {14} )} $$
+$$
+ \overline{output}= (\bar{a}+\bar{b}+\bar{c}+\bar{d}) \cdot (\bar{a}+\bar{b}+c+\bar{d}) \cdot \dots 
+$$
+
+$$
+= M_{0} \cdot M_{1} \cdot M_{2}\cdot M_{3}\cdot M_{4} \cdot \dots 
+$$
+
+$$
+ = \prod{M({0} ,\ {2} ,\ {3} ,\ {4} \ , {5} ,\ {7} ,\ {8} ,\ {9} ,\ {10} \ , {11} ,\ {13} ,\ {14} )} 
+$$
 

@@ -34,13 +34,13 @@ A problem designed by Leonhard Euler states that could you design a walk through
 
 ## Union find
 
-
-
 ## MST algorithms
 
 A minimum spanning tree (MST) is an acyclic sub-graph of graph $G(N,E)$ connecting all vertices with edges $T$ such that $T\subseteq{E}$ and edges are represented as $(u,v)\in{E}$, such that the weight of the sub-graph, $w(T)$, is minimised,
 
-$$w(T)=\sum\limits_{(u,v)\in{T}}{w(u,v)}$$
+$$
+w(T)=\sum\limits_{(u,v)\in{T}}{w(u,v)}
+$$
 
 A *cut* of a graph is splitting a graph's vertices into two non-empty disjoint sets. A *crossing-edge* in that cut is an edge that used to connect the a vertex in one set to the other. The cut-property states that the *minimum crossing-edge* (one with lowest weight) of any cut in a graph is always part of the MST of that graph.
 
@@ -62,7 +62,9 @@ A *shortest* path from a source node $s$ to destination node $v$ gives the minim
 
 This algorithm assumes that the graph is undirected and all weights are non-negative. Conceptually, we imagine a cloud that starts from $s$ and eventually covers all nodes. While growing, we add vertices $u$ outside the cloud according to the smallest $d(u)$ value that stores the distance of $u$ from $s$, and we updated these every time we add an adjacent node to the cloud. This $d(v)$ value is initially $\infty$ for all nodes that are not $s$, and the method for updating this distance property of a node not in the cloud, $v$, connected via edge $e$ to a node inside the cloud, $u$
 
-$$d(v)=\min{\{d(v),\ d(u)+weight(e)\}}$$
+$$
+d(v)=\min{\{d(v),\ d(u)+weight(e)\}}
+$$
 
 A priority queue stores all the nodes $v$ with their $d(v)$, and the algorithm always adds the minimum distance node, until all connected nodes are in the cloud. The final $d(v)$ give the distance of every node $v$ from $s$. The running time for this algorithm is O$(E\log{N})$.
 
@@ -70,7 +72,9 @@ A priority queue stores all the nodes $v$ with their $d(v)$, and the algorithm a
 
 This algorithm relies on pre-computed heuristics, and a cost function, $f(n)$, is minimised when expanding, which is given as
 
-$$f(n)=g(n)+h(n)$$
+$$
+f(n)=g(n)+h(n)
+$$
 
 where $h(n)$ is the heuristic value of the node $n$, and $g(n)$ is the accumulated sum of edges leading to the expanded node $n$.
 
@@ -78,6 +82,8 @@ where $h(n)$ is the heuristic value of the node $n$, and $g(n)$ is the accumulat
 
 This algorithm accounts for negative edge weights. The algorithm indicates if a solution is possible by returning a boolean false if there is a negative-weight cycle reachable from the source (hence no solution is possible), or true along with the actual solution. It first follow's the same method of edge-relaxation from Dijkstra to set the distance property for all vertices in the graph, with a strict assumption that the graph is directed, since undirected negative edges result immediately in a negative-weight cycle. It then loops over every edge again and checks for negative-weight cycles in the following way
 
-$$d(v)>d(u)+w(u,v)$$
+$$
+d(v)>d(u)+w(u,v)
+$$
 
 If this condition is true, it returns false, else true. Its time complexity is O$(EN)$.

@@ -6,7 +6,7 @@ $$\dot{v}_{a}={}^{U}\dot{V}_{AORG}$$
 
 and the angular acceleration is
 
-$$\dot{\omega}_{a}=\ ^{U}\dot{\Omega}_{AORG}$$
+$$\dot{\omega}_{a}=\ {}^{U}\dot{\Omega}_{AORG}$$
 
 Deriving this equation is hell, so I'll just state the solution. Refer to page.166 of Craig's Intro to Robotics for derivation:
 
@@ -18,10 +18,10 @@ $${}^{A}\dot{\Omega}_{C}={}^{A}\dot{\Omega}_{B}+{}^{A}_{B}R\ {}^{B}\dot{\Omega}_
 
 These can be used along with the equations for velocity to generate iterative equations for linear and rotational acceleration:
 
-$$^{i+1}\dot{\omega}_{i+1}={}^{i+1}_{i}{R}{}^{i}\dot{\omega}_{i}+{}^{i+1}_{i}{R}{}^{i}{\omega}_{i}\times \dot{\theta}_{i+1}{}^{i+1}\hat{Z}_{i+1}+\ddot{\theta}_{i+1}{}^{i+1}\hat{Z}_{i+1}$$
+$${}^{i+1}\dot{\omega}_{i+1}={}^{i+1}_{i}{R}{}^{i}\dot{\omega}_{i}+{}^{i+1}_{i}{R}{}^{i}{\omega}_{i}\times \dot{\theta}_{i+1}{}^{i+1}\hat{Z}_{i+1}+\ddot{\theta}_{i+1}{}^{i+1}\hat{Z}_{i+1}$$
 $$\text{(Rot:) }{}^{i+1}\dot{v}_{i+1}={}^{i+1}_{i}{R}({}^{i}\dot{\omega}_{i}\times {}^{i}{P}_{i+1}+{}^{i}{\omega}_{i}\times({}^{i}{\omega}_{i}\times {}^{i}{P}_{i+1})+{}^{i}\dot{v}_{i})$$
 $$\begin{align*}
-^{i+1}\dot{v}_{C_{i+1}}=&^{i+1}\dot{\omega}_{i+1}\times {}^{i+1}{P}_{C_{i+1}}\\&+{}^{i+1}{\omega}_{i+1}\times({}^{i+1}{\omega}_{i+1}\times {}^{i+1}{P}_{C_{i+1}})+{}^{i+1}\dot{v}_{i+1}
+{}^{i+1}\dot{v}_{C_{i+1}}=&{}^{i+1}\dot{\omega}_{i+1}\times {}^{i+1}{P}_{C_{i+1}}\\&+{}^{i+1}{\omega}_{i+1}\times({}^{i+1}{\omega}_{i+1}\times {}^{i+1}{P}_{C_{i+1}})+{}^{i+1}\dot{v}_{i+1}
 \end{align*}
 $$
 ## Forces and mass
@@ -52,7 +52,7 @@ $${}^{i+1}{N}_{i+1}={}^{i+1}{I}_{i+1}{}^{i+1}\dot{\omega}_{i+1}+{}^{i+1}{\omega}
 $${}^{i}{f}_{i}={}^{i}_{i+1}{R}{}^{i+1}{f}_{i+1}+{}^{i}{F}_{i}$$
 $${}^{i}{n}_{i}={}^{i}{N}_{i}+{}^{i}_{i+1}{R}{}^{i+1}{n}_{i+1}+{}^{i}{P}_{C_{i}}\times {}^{i}{F}_{i}+{}^{i}{P}_{i+1}\times {}^{i}_{i+1}{R}{}^{i+1}{f}_{i+1}$$
 
-To account for gravity, we just assume the entire base frame accelerates up at the same magnitude, which adds the effect with no additional computation cost: $^{0}\dot{v}_{0}=g$
+To account for gravity, we just assume the entire base frame accelerates up at the same magnitude, which adds the effect with no additional computation cost: ${}^{0}\dot{v}_{0}=g$
 
 Finally, we use these force and moment equations to find a system for applied torque ${}^{i}{\uptau}_{i}$. For revolute joint {$i$}:
 

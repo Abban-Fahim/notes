@@ -1,5 +1,8 @@
 ## Regular filter
-$$x_{t}=A_{t}x_{t-1}+B_{t}u_{t}+\epsilon$$
+
+$$
+x_{t}=A_{t}x_{t-1}+B_{t}u_{t}+\epsilon
+$$
 
 ## Extended filter
 

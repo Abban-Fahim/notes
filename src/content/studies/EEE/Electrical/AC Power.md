@@ -4,27 +4,39 @@ Power in alternating voltages does not work conventionally, as when sinusoids ar
 
 - active power, $P$
 
-$$P = I^{2}R \;\;\ (\text{W})$$
+$$
+P = I^{2}R \;\;\ (\text{W})
+$$
 
 - reactive power, $Q$
 
-$$Q = I^{2}X \;\; (\text{VAr})$$
+$$
+Q = I^{2}X \;\; (\text{VAr})
+$$
 
 - apparent power, $S$
 
-$$S = I^{2}Z = VI^{*} \;\;\ (\text{VA})$$
+$$
+S = I^{2}Z = VI^{*} \;\;\ (\text{VA})
+$$
 
 These powers are inter-related with a triangle on the Argand diagram
 
-$$S = P + jQ$$
+$$
+S = P + jQ
+$$
 
 The modulus of S gives us the **apparent power**, and can be defined as 
 
-$$|S| = \sqrt{P^{2}+Q^{2}}$$
+$$
+|S| = \sqrt{P^{2}+Q^{2}}
+$$
 
 ## Phase angle and power factor
 
 In reference to the power triangle, the power factor is equal to $\cos{\varphi}$, where $\varphi$ is the angle between apparent and active power
 
-$$\cos{\varphi}=\frac{P}{S}$$
+$$
+\cos{\varphi}=\frac{P}{S}
+$$
 

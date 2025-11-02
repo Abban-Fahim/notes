@@ -4,29 +4,39 @@ A *linear time-invariant* system is defined as input-output system that is const
 
 A convolution is a mathematical operation, given as a function of time. To use it, we require input signal to the convolution
 
-$$y(t)=x(t)*h(t)=\int_{-\infty}^{+\infty}{x(t)h(t-\lambda)\,d\lambda}$$
+$$
+y(t)=x(t)*h(t)=\int_{-\infty}^{+\infty}{x(t)h(t-\lambda)\,d\lambda}
+$$
 
 ## Stability
 
 To prove if a system is stable, we can check using the following inequality
 
-$$\int_{-\infty}^{+\infty}{|h(t)|\,dt}<\infty$$
+$$
+\int_{-\infty}^{+\infty}{|h(t)|\,dt}<\infty
+$$
 
 ## Impulse and system response
 
 The system's behaviour can be described using one function: the impulse response, $h(t)$. Mathematically, it is the vale the input is convoluted with to get the output
 
-$$y(t)=x(t)*h(t)$$
+$$
+y(t)=x(t)*h(t)
+$$
 
 It is called the impulse response since when $x(t)=\delta(t)$, it causes $y(t)=h(t)$. In the frequency domain, $H(s)$ is called the system response or transfer function, and is defined as such
 
-$$H(s)=\frac{Y(s)}{X(s)}$$
+$$
+H(s)=\frac{Y(s)}{X(s)}
+$$
 
 ## Poles and zeros
 
 The system response can be used to also identify important characteristics of a system without solving the entire equation, through its poles and zeros, defined in the numerator and denominator of $H(s)$ respectively
 
-$$H(s)=\frac{N(s)}{D(s)}=K\frac{p_{m}s^{m}+p_{m-1}s^{m-1}+\dots+p_{0}}{z_{n}s^{n}+z_{n-1}s^{n-1}+\dots+z_{0}}$$
+$$
+H(s)=\frac{N(s)}{D(s)}=K\frac{p_{m}s^{m}+p_{m-1}s^{m-1}+\dots+p_{0}}{z_{n}s^{n}+z_{n-1}s^{n-1}+\dots+z_{0}}
+$$
 
 This gives us $m$ poles and $n$ zeros, where $K$ is a constant
 
@@ -56,5 +66,7 @@ Systems in series have an effective system response as a product of their indivi
 
 When the input to the system $H(s)$ has output feedback through the system $G(s)$ subtracted from it, the equivalent closed loop system response is given as
 
-$$Q(s)=\frac{H(s)}{1+H(s)G(s)}$$
+$$
+Q(s)=\frac{H(s)}{1+H(s)G(s)}
+$$
 

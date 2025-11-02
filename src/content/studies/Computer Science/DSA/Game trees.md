@@ -5,11 +5,13 @@ Games are an example of multi-agent deterministic environments where actions are
 The idea in this algorithm is for your agent to maximise the value of the states where it can take actions, and to minimise for states where its adversary takes an action, therein assuming that your opponent also takes the best move possible for them. The algorithm runs recursively for all next states, until a terminal state is reached, wherein the value is returned according to the utility function.
 
 $$
+
 \begin{align*}
 \text{if $s$ is terminal: }&v(s)=util(s)\\
 \text{if $s$ is MAX agent: }&v(s)=\max_{s'\in{\text{successors(s)}}}{V(s')}\\
 \text{if $s'$ is MAX agent: }&v(s')=\min_{s\in{\text{successors(s')}}}{V(s)}
 \end{align*}
+
 $$
 
 ## Alpha-beta pruning
@@ -42,13 +44,13 @@ The effectiveness of this algorithm depends on the ordering of children, as that
 
 ## Evaluation functions
 
-
-
 ## Expectimax search
 
 In a stochastic tree, the outcome of an action is not just dependant on the adversarial agent's action, but also all the possible outcomes of your action, and what their values each are. Instead of a max then min (adversarial) state, we have a max and expected state, where the expected states value is its expected value
 
-$$E[S]=\sum\limits_{i=1}^{N}{p_{i}s_{i}}$$
+$$
+E[S]=\sum\limits_{i=1}^{N}{p_{i}s_{i}}
+$$
 
 This value is then maximised by the parent node. The utility functions for these stochastic processes can include more useful information than in minimax search, hence it is important to design them better - for example, squaring values can be used to transform the magnitudes to make the expected values more meaningful.
 

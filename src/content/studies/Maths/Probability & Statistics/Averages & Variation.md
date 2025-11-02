@@ -12,23 +12,33 @@ For grouped data, we can estimate the median to be the 50th percentile.
 
 The general premise of an arithmetic mean is the sum of all sampled values divided by the number of samples. There are different notations given for this:
 
-$$\bar{x} = \mu = E[x] = \frac{\Sigma xf}{\Sigma f} $$
+$$
+\bar{x} = \mu = E[x] = \frac{\Sigma xf}{\Sigma f} 
+$$
 
 We can also *code* data to make it more convenient to use with means, as it just involves a simple translation
 
-$$E[x] = E[x-b] + b$$
+$$
+E[x] = E[x-b] + b
+$$
 
 For continuous RVs, the expected value is calculated using
 
-$$E[X]=\int_{-\infty}^{\infty}{xf_X(x)\,dx}$$
+$$
+E[X]=\int_{-\infty}^{\infty}{xf_X(x)\,dx}
+$$
 
 For all RVs
 
-$$E[X+Y]=E[X]+E[Y]$$
+$$
+E[X+Y]=E[X]+E[Y]
+$$
 
 and for independent RVs
 
-$$E[X\cdot{Y}]=E[X]\cdot E[Y]$$
+$$
+E[X\cdot{Y}]=E[X]\cdot E[Y]
+$$
 
 ## Ranges
 
@@ -40,17 +50,29 @@ To measure the variance of the more central values, we use the **interquartile r
 
 This measures how spread out the data is from the mean, taking account for both positive and negative spreads. Variance is given as $\sigma^{2}$ or $\text{Var}(x)$, and the standard deviation is just the square root of variance $\text{SD}(x) = \sigma$. Variance can be described as
 
-$$\text{Var}(x) = \frac{\Sigma(x-\bar{x})^{2}f}{\Sigma f} = \frac{\Sigma x^{2}f}{\Sigma f} - \bar{x}^{2} $$
+$$
+\text{Var}(x) = \frac{\Sigma(x-\bar{x})^{2}f}{\Sigma f} = \frac{\Sigma x^{2}f}{\Sigma f} - \bar{x}^{2} 
+$$
 
 For continuous RVs,
 
-$$Var(x)=E[(X-E[X])^{2}]=E[X^{2}]-E[X]^{2}$$
+$$
+Var(x)=E[(X-E[X])^{2}]=E[X^{2}]-E[X]^{2}
+$$
 
 and for independent RVs
 
-$$Var(X+Y)=Var(X)+Var(Y)$$
+$$
+Var(X+Y)=Var(X)+Var(Y)
+$$
 
 When combining datasets, we use the following for mean and variance
 
-$$E[x+y] = \frac{\Sigma x + \Sigma y}{n_{x}+n_{y}}$$
-$$Var(x+y) = \frac{\Sigma x^{2} + \Sigma y^{2}}{n_{x} + n_{y}} - [E(x+y)]^{2}$$
+$$
+E[x+y] = \frac{\Sigma x + \Sigma y}{n_{x}+n_{y}}
+$$
+
+$$
+Var(x+y) = \frac{\Sigma x^{2} + \Sigma y^{2}}{n_{x} + n_{y}} - [E(x+y)]^{2}
+$$
+

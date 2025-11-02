@@ -21,7 +21,9 @@ Every joint also has its own parameters that together describe every unique conf
 
 These parameters give us a very convenient mapping to a transformation matrix mapping frame $i$ to $i-1$
 
-$$\begin{align*}
-^{i-1}_{i}T&=R_{X}(\alpha_{i-1})\,D_{X}(a_{i-1})\,R_{Z}(\theta_{i})\,D_{Z}(d_{i})\\
+$$
+\begin{align*}
+{}^{i-1}_{i}T&=R_{X}(\alpha_{i-1})\,D_{X}(a_{i-1})\,R_{Z}(\theta_{i})\,D_{Z}(d_{i})\\
 &=\begin{bmatrix}c\theta_{i} & -s\theta_{i} & 0 & a_{i-1} \\ s\theta_{i}c\alpha_{i-1} & c\theta_{i}c\alpha_{i-1} & -s\alpha_{i-1} & -s\alpha_{i-1}d_{i} \\ s\theta_{i}s\alpha_{i-1} & c\theta_{i}s\alpha_{i-1} & c\alpha_{i-1} & c\alpha_{i-1}d_{i} \\ 0 & 0 & 0 & 1 \end{bmatrix}\\
-\end{align*}$$
+\end{align*}
+$$

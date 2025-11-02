@@ -10,9 +10,11 @@ Aim is to minimise the constant $d$ to reduce time spent in straight line travel
 
 Points in the path are stored in the following structure for an $n$ gate track, where $A_{j}$ is the anchor point, and $C_{j}$ is the control point for the $j$-th point, and there are three of these for each7 $i$-th gate:
 
-$$\begin{bmatrix}
+$$
+\begin{bmatrix}
 0 & 1 & 2 & 3 & 4 & \dots & i & i & i & \dots & n-1 & n \\
 A_{0} & C_{0} & C_{1} & A_{1} & C_{1} & \dots & C_{i} & A_{i} & C_{i} & \dots & C_{n} & A_{n}
-\end{bmatrix}$$
+\end{bmatrix}
+$$
 
 The total number of anchor points is given by $3n-2$

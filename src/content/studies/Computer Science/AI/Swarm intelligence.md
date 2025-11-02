@@ -42,7 +42,9 @@ we have a few hyper parameters
 - $\delta$ global positions trends
 - $\alpha$ inertia how much to stay together
 
-$$v_{i,t+1}=\alpha{v_{i,t}}+\beta{(p_{i,t}-x_{i,t})}+\delta$$
+$$
+v_{i,t+1}=\alpha{v_{i,t}}+\beta{(p_{i,t}-x_{i,t})}+\delta
+$$
 
 Also we add $r_{n}$ to the last three factors to add randomness in exploration
 
