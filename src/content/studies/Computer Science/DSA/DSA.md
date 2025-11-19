@@ -1,3 +1,5 @@
+Mostly from the introductory (and infamous) data structures and algorithms courses.
+
 %% Begin Waypoint %%
 - [[Computer Science/DSA/Algorithm design|Algorithm design]]
 - [[Computer Science/DSA/Amortised analysis of resizable arrays|Amortised analysis of resizable arrays]]

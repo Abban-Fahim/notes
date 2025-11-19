@@ -1,3 +1,5 @@
+The stuff Newton and Leibniz created a long time ago.
+
 %% Begin Waypoint %%
 - [[Maths/Calculus/Differential equations|Differential equations]]
 - [[Maths/Calculus/Double integrals|Double integrals]]

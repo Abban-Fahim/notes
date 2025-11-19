@@ -1,4 +1,4 @@
-Year 1 course in mechanical engineering taught by Prof. Omar Sharaf and Prof. Ahmed Oumer.
+Year 1 course in mechanical engineering taught by Dr. Omar Sharaf and Dr. Ahmed Oumer.
 
 %% Begin Waypoint %%
 - [[Courses/Intro To Mech Eng - B57AU/Fluid mechanics|Fluid mechanics]]

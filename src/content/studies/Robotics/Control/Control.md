@@ -1,3 +1,5 @@
+How to use the laws that govern physical systems to influence them.
+
 %% Begin Waypoint %%
 - [[Robotics/Control/Bayes filter|Bayes filter]]
 - [[Robotics/Control/Control theory|Control theory]]

@@ -1,4 +1,4 @@
-Notes from a series of courses of Electrical and Electronics engineering:
+Notes from a series of courses of electrical and electronics engineering:
 
 Year 1
 	- Intro to electrical and electronics engineering - Dr. Girish Balasubramanian and Dr. Soori Prashant

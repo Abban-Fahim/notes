@@ -1,5 +1,8 @@
-A neural network is made up nodes arranged in interconnected layers, with the first and last being the input and output layers. Colloquially, any ANN with one or more hidden layers is called a deep neural network, as they usually involve deep learning algorithms, where by the model is trained to activate on lower-level features and gradually learn higher-level ones in deeper layers. DNNs allow for mathematically modelling any $n\in{\mathbb{N}}$ input and $m\in{\mathbb{N}}$ output function, and their architecture is modelled by approximating the mammalian nervous system.
+A neural network is made up nodes arranged in interconnected layers, with the first and last being the input and output layers. Colloquially, any ANN with one or more hidden layers is called a deep neural network, as they usually involve deep learning algorithms, where by the model is trained to activate on lower-level features and gradually learn higher-level ones in deeper layers. deep neural networks (DNN) allow for mathematically modelling any $n\in{\mathbb{N}}$ input and $m\in{\mathbb{N}}$ output function, and their architecture is modelled by approximating the mammalian nervous system.
 
+An input layer and output layer are must for the simplest ANN, while a DNN contains a number of "hidden" layers in between. The size of the input and output layers are fixed by the given problem, and together with number and sizes of the hidden layers, make up the topology description of an ANN.
+
+# Models
 ## Perceptrons
 
 A linear classifier that makes up a the basic building block of ANNs, that takes in $n$ inputs each of which has a weight $w_{i}$, one bias value $b$, and an activation function. The value of $n$ determines how many dimensions the classifier operates in, and the decision boundary that it creates is always a line or $n$-dimensional hyperplane.
@@ -14,9 +17,7 @@ $$
 z=Wx+b
 $$
 
-An input layer and output layer are must for the simplest ANN, while a deep neural network (DNN) contains a number of "hidden" layers in between. The size of the input and output layers are fixed by the given problem, and together with number and sizes of the hidden layers, make up the topology description of an ANN. Each layer may also use an activation functions
-
-To design an ANN, you need to decide a bunch of hyper parameters,
+The actual output of any layer is given the using a real, non-linear activation function, which in an multi-layer perceptron ensures that the layers cannot just be combined into one compressive linear operation. To design a MLP, you need to decide a bunch of hyper parameters,
 
 - the number of nodes in the input layer
 - the number of nodes in the output layer
@@ -24,3 +25,24 @@ To design an ANN, you need to decide a bunch of hyper parameters,
 - the activation functions
 
 The methodology to find suitable values for these parameters is to review existing literature if available, followed by trial and error of changing these parameters based on validation results. Validation is when you evaluate your model on unseen set inputs (as opposed to the ones seen during training) to qualitatively judge your model's performance.
+## Convolutional neural networks
+
+## Recurrent neural networks
+
+## Spiking neural networks
+
+# Algorithms
+
+## Gradient descent
+
+This can be used to optimise a differentiable convex function, such as an ANN.
+
+## Back-propagation
+
+Updating weights requires two passes. The first is the the forward pass, which simply evaluates the output of the current network all the way to the last layer. Then the error is calculated for all outputs using the labels. The last 
+
+For a given layer $j$, the weight of its neurons are defined relative to its input $i$ layer, and output layer $k$. A weight from from the previous layer is defined as $w_{ji}$ and going to the next layer is $w_{kj}$. 
+
+$$
+\delta_{j}=g'(u_{j})\sum\limits_{k}{w_{kj}\Delta_{k}}
+$$

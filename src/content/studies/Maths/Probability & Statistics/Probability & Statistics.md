@@ -1,3 +1,5 @@
+Contents mostly from 
+
 %% Begin Waypoint %%
 - [[Maths/Probability & Statistics/Averages & Variation|Averages & Variation]]
 - [[Maths/Probability & Statistics/Bayes' Theorem|Bayes' Theorem]]
@@ -9,6 +11,7 @@
 - [[Maths/Probability & Statistics/Multivariate distributions|Multivariate distributions]]
 - [[Maths/Probability & Statistics/Permutations & Combinations|Permutations & Combinations]]
 - [[Maths/Probability & Statistics/Random variables|Random variables]]
+- [[Maths/Probability & Statistics/RANSAC|RANSAC]]
 - [[Maths/Probability & Statistics/Set theory|Set theory]]
 - [[Maths/Probability & Statistics/Significance testing|Significance testing]]
 

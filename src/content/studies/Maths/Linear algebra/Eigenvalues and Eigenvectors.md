@@ -16,10 +16,10 @@ $$
 
 Of course, for $x=0$, the equation holds true, however it does not provide us any interesting solution. To find the non-trivial (non-zero) values of this , we solve $\det(\lambda I - A) = 0$. For a 2x2 matrix, this gives us a quadratic equation to solve. For imaginary values of $\lambda$, no eigenvector exists, and there may one or two real solutions. Then we can substitute this $\lambda$ value into the first equation, which will give us the eigenvectors as $x$.
 
-In the special case of diagonal matrices, the entries of the matrix themselves tell you the eigenvalues. Another quick way to find the solution in 2x2 matrices is the mean-product rule, which comes from the quadratic nature of the problem
+In the special case of diagonal matrices, the unique entries themselves are the eigenvalues. Another quick way to find the solution in 2x2 matrices is the mean-product rule, which comes from the quadratic nature of the problem
 
 $$
 \lambda=m\pm\sqrt{m^{2}-p}
 $$
 
-where $m$ is the average of the two diagonal entries, and $p$ is the determinant (cite 3b1b in notes).
+where $m$ is the average of the two diagonal entries, and $p$ is the determinant.

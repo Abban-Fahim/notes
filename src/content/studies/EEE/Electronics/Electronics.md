@@ -1,3 +1,5 @@
+My blunt classification here includes digital design and computer architecture.
+
 %% Begin Waypoint %%
 - [[EEE/Electronics/Boolean algebra|Boolean algebra]]
 - [[EEE/Electronics/Computer Architecture|Computer Architecture]]

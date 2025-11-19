@@ -1,3 +1,5 @@
+My blunt classification here includes power electronics, electromagnetism, and other AC topics.
+
 %% Begin Waypoint %%
 - [[EEE/Electrical/AC circuits|AC circuits]]
 - [[EEE/Electrical/AC Power|AC Power]]
