@@ -1,4 +1,12 @@
 #### NEED TO CHANGE ROLES OF Y, X AND THETA IN PREVIOUS ESTIMATION NOTES
+## Bayes rule
+
+This is a method of updating a belief about a certain hypothesis, $H$, by considering some evidence $E$. Note that due to the usage conditional probabilities, this rules fails when $H$ and $E$ are independent, hence the evidence doesn't provide any useful information.
+
+$$
+\text{posterior}=\frac{\text{likelihood}\times\text{prior}}{\text{evidence}}\leftrightarrow P(H|E)=\frac{P(E|H)\times{P(H)}}{P(E)}
+$$
+
 ## Likelihood
 
 In noisy systems, we try to estimate the likelihood of estimator, $x$, by observing values, $y$. The **maximum likelihood estimator** (MLE), achieves this using an assumption about the model of the observations, given the actual RV, hence $y|x\sim{f_{Y|X}(y|x)}$. It is calculated by finding the parameter that maximises this (joint) **likelihood function**
@@ -44,11 +52,3 @@ $$
 $$
 
 The MMSE estimator may also not make much sense with some discrete RVs, especially those with non-numerical values, in which case the MAP estimator works better. Both methods are also equivalent when the mode and mean of the posterior distribution are equal.
-
-## Updating beliefs
-
-If we want to recursively update a posterior functon given a new observation/sample, we use Bayes rule
-
-$$
-P(x|z1..n)=
-$$

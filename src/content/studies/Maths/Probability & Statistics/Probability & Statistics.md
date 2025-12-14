@@ -1,12 +1,10 @@
-Contents mostly from 
-
 %% Begin Waypoint %%
 - [[Maths/Probability & Statistics/Averages & Variation|Averages & Variation]]
-- [[Maths/Probability & Statistics/Bayes' Theorem|Bayes' Theorem]]
 - [[Maths/Probability & Statistics/Bayesian computation|Bayesian computation]]
 - [[Maths/Probability & Statistics/Common distributions|Common distributions]]
 - [[Maths/Probability & Statistics/Estimation & confidence intervals|Estimation & confidence intervals]]
 - [[Maths/Probability & Statistics/Gaussian distribution|Gaussian distribution]]
+- [[Maths/Probability & Statistics/Histogram smoothing|Histogram smoothing]]
 - [[Maths/Probability & Statistics/Information theory|Information theory]]
 - [[Maths/Probability & Statistics/Multivariate distributions|Multivariate distributions]]
 - [[Maths/Probability & Statistics/Permutations & Combinations|Permutations & Combinations]]

@@ -8,7 +8,7 @@ $$\dot{\phi}=\frac{R}{l}(v_{R}-v_{L})$$
 
 ## Unicycle model
 
-A simplification of planar robot models, including differential drives, where we directly speak in terms of translational and angular velocity, which would give us $v$ in $\mathbb{R}^{2}$ and a scalar $\omega$. The kinematics here are similar but simpler than the above model
+A simplification of planar robot models, including differential drives, where we directly speak in terms ,of translational and angular velocity, which would give us $v$ in $\mathbb{R}^{2}$ and a scalar $\omega$. The kinematics here are similar but simpler than the above model
 
 $$\dot{x}=v\cos{\phi}$$
 $$\dot{y}=v\sin{\phi}$$

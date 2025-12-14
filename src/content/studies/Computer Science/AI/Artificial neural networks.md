@@ -17,7 +17,9 @@ $$
 z=Wx+b
 $$
 
-The actual output of any layer is given the using a real, non-linear activation function, which in an multi-layer perceptron ensures that the layers cannot just be combined into one compressive linear operation. To design a MLP, you need to decide a bunch of hyper parameters,
+We use MLPs to model non-linear problems, the output of each layer must be passed through a non-linear activation functions. Other requirements for these function is that they must be continuous (i.e. have no jumps/undefined space), monotonic (must grow with input), and differentiable (for optimisation algorithms discussed below).
+
+To design a MLP, you need to decide a bunch of hyper parameters,
 
 - the number of nodes in the input layer
 - the number of nodes in the output layer
@@ -25,24 +27,60 @@ The actual output of any layer is given the using a real, non-linear activation 
 - the activation functions
 
 The methodology to find suitable values for these parameters is to review existing literature if available, followed by trial and error of changing these parameters based on validation results. Validation is when you evaluate your model on unseen set inputs (as opposed to the ones seen during training) to qualitatively judge your model's performance.
+
 ## Convolutional neural networks
+
+When passing images as inputs to a regular ANN, it is necessary to vectorise the 2D (in multi-channel images, 3D) data. However, this step removes the spatial relationships between nearby pixels, which in the real world are hardly independent of each other. Moreover, the input size becomes huge as every pixel contributes to 3 values, and the hidden layers don't really learn any structured features.
+
+CNNs instead operate on tensors (generalised matrices to higher dimensions) using filters at every node instead, which operate using convolutions on regions or patches of the input image. The values of the filter here become the weights of the network, with optional bias terms per filter. The hyper-parameters of each layer are 
+- filter size $K$, which is the size of the (square) matrix used as the filter
+- convolution stride $S$, which is the number of columns in between every matrix multiplication
+- padding $P$, which is the number of 0 pixels added to the edges of the input, to allow for edge pixels to be convoluted around
+- an optional activation function to be applied to all the entries of output
+
+When applied on a square image of size $W\times{W}$, we will get an output image of side lengths $O$
+
+$$
+O=\frac{W-K+P_{start}+P_{end}}{S}
+$$
+
+To improve efficiency, we usually inter-layer convolution layers with pooling, which reduced the dimensionality of an output image without losing spatial relations. We again define a pool size and stride, which specifies regions on which a sampling function will be applied, like max, average, median, etc. Each region corresponds to one pixel at the output of the pooling layer.
+
+The end of a CNN is usually a regular fully connected perceptron network, which is fed a flattened output of the images to predict either a score or a list of probabilities for multiple output values (using softmax).
 
 ## Recurrent neural networks
 
+Both the above types of networks cannot handle the temporal dimension of data, which in the case of videos and some sensors may carry meaning, by taking into consideration past (and future) inputs.
+
+Vanishing gradient ... Long short term tackle this ...
+
+## Auto-encoders
+
+regular
+
+Probabilistic - VAE
+
+## Generative adversarial networks 
+
+either here or seperate
+
 ## Spiking neural networks
 
-# Algorithms
+...
+
+# Training algorithms
 
 ## Gradient descent
 
-This can be used to optimise a differentiable convex function, such as an ANN.
+An iterative optimisation algorithm for minimising differentiable convex functions, such as an MLP. We start with a random solution, and move our weights down the gradient of the loss function, towards a better solution, by some step-size factor $\lambda$. The gradient of the cost function is multidimensional and must be computed for all the weights it depends on, achieved through several iterations of the chain rule
+
+$$\frac{dL}{dw}=\frac{\partial{L}}{\partial{z}}\frac{\partial{z}}{\partial{w}}=\frac{\partial{L}}{\partial{a}}\frac{\partial{a}}{\partial{z}}\frac{\partial{z}}{\partial{w}}$$
+
+Where $a$ is the activation function output (prediction), and $z$ is the output of the perceptron.
 
 ## Back-propagation
 
-Updating weights requires two passes. The first is the the forward pass, which simply evaluates the output of the current network all the way to the last layer. Then the error is calculated for all outputs using the labels. The last 
+Simple gradient descent works for singular perceptrons, but for updating weights in MLPs, we are required to update each layers weights according to the error they contributed to. Back-propagation addresses this by an iterative two-pass approach. The first is the the forward pass, which simply evaluates the output of the current network all the way to the last layer ($a$ or $\hat{y}$). For a given layer $j$, the weight of its neurons are defined relative to its input $i$ layer, and output layer $k$. A weight from from the previous layer is defined as $v_{ji}$ and going to the next layer is $w_{kj}$. 
 
-For a given layer $j$, the weight of its neurons are defined relative to its input $i$ layer, and output layer $k$. A weight from from the previous layer is defined as $w_{ji}$ and going to the next layer is $w_{kj}$. 
 
-$$
-\delta_{j}=g'(u_{j})\sum\limits_{k}{w_{kj}\Delta_{k}}
-$$
+In the backwards pass, the error is calculated for all outputs using the labels, and the weights are updated using their gradient at each layer. 

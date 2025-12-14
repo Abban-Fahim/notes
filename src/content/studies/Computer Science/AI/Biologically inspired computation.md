@@ -5,7 +5,7 @@ Some models include
 - [[Computer Science/AI/Artificial neural networks|Artificial neural networks]]
 Some algorithm types include
 - [[Computer Science/AI/Swarm intelligence|Swarm intelligence]]
-- [[Computer Science/AI/Evolutionary algorithms|Evolutionary algorithms]]
+- [[Computer Science/AI/Genetic algorithms|Genetic algorithms]]
 
 
 The criticality theory suggest that ideal computation exists at a sweet spot of criticality between order and chaos, and that evolution tends to maintain its path between this area. 

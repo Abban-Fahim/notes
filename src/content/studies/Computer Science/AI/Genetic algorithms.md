@@ -22,9 +22,3 @@ how is survival handled, population update
 - steady-state: one parent selected to produce a child that replaces the worst from the generation
 - generational: replace whole population using fit children
 
-# Neuro-evolution
-
-Modifying neural networks (hyper-params or weights, or both) using GA
-- CMA-ES - covariance matrix basically provides a metahueristic vector 
-- NEAT
-- liiiiiiiiiiiiiiiiiiiiiiiiiiiii

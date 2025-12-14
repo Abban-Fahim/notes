@@ -1,0 +1,3 @@
+This uses image features to compute the motion of the robot. The first step is to extract meaningful, useful features from images. For every subsequent frame, the features must be tracked in between, and then filtered to remove non-helpful outliers (say, using [[Maths/Probability & Statistics/RANSAC|RANSAC]]). This allows for estimation of optical flow, the average relative direction in which all your pixels are moving. Assuming we have no parallax errors, we can use this to estimate the relative motion of the sensor frame.
+
+We can use a particle filter and model intermediate points with uncertainties, and hope to later reduce them after a loop closure

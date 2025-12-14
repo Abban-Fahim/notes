@@ -31,19 +31,16 @@ where $a$ is the number of sub-problems in the recurrence, $b$ is the factor by 
 $$
 c_{crit}=\log_b{a}
 $$
-
 $$
 \begin{align*}
 \text{If }&f(n)=O(n^{c})\text{ where }c<c_{crit}\\ &T(n)=O(n^{c_{crit}})
 \end{align*}
 $$
-
 $$
 \begin{align*}
 \text{If }&f(n)=O(n^{c_{crit}}\log^{k}{n})\text{ where }k\ge0\\&T(n)=O(n^{c_{crit}}\log^{k+1}{n})
 \end{align*}
 $$
-
 $$
 \begin{align*}
 \text{If }&f(n)=O(n^{c})\text{ where }c>c_{crit}\\ &T(n)=O(f(n))

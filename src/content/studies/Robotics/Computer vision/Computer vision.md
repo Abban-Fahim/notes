@@ -3,7 +3,7 @@ The science of understanding the environment through sensors. Very incomplete, a
 %% Begin Waypoint %%
 - [[Robotics/Computer vision/Affine transformation|Affine transformation]]
 - [[Robotics/Computer vision/Event vision|Event vision]]
-- [[Robotics/Computer vision/Histogram smoothing|Histogram smoothing]]
-- [[Robotics/Computer vision/object tracking|object tracking]]
+- [[Robotics/Computer vision/Feature tracking|Feature tracking]]
+- [[Robotics/Computer vision/Visual odometry|Visual odometry]]
 
 %% End Waypoint %%

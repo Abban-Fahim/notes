@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "FasEye",
-      "FasDiagramProject",
-      "FasBookOpen",
       "LiBackpack",
-      "LiListTodo"
+      "LiListTodo",
+      "LiDatabase",
+      "LiBrain",
+      "FasWaveSquare"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -52,8 +52,5 @@
   "Computer Science/DSA": "LiDatabase",
   "Robotics/Control": "FasWaveSquare",
   "_Organisation": "LiListTodo",
-  "_Misc": "LiBackpack",
-  "_Research": "FasBookOpen",
-  "_Projects": "FasDiagramProject",
-  "Robotics/Computer vision": "FasEye"
+  "_Misc": "LiBackpack"
 }
