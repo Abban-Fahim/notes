@@ -3,44 +3,45 @@ import { getCollection } from "astro:content";
 
 const allItems = await getCollection("studies");
 let finalNav = [
-	{ name: "Robotics", slug: "robotics", pages: [
+	{
+		name: "Robotics", slug: "robotics", pages: [
 			{ name: "Computer vision", slug: "computer-vision", pages: [] },
 			{ name: "Control", slug: "control", pages: [] },
 			{ name: "Manipulators", slug: "manipulators", pages: [] },
 			{ name: "Mobile robots", slug: "mobile-robots", pages: [] },
 			{ name: "Quadrotors", slug: "quadrotors", pages: [] },
-		] },
-		{ name: "Computer Science", slug: "computer-science", pages: [
+		] 
+	},
+	{ 
+		name: "Computer Science", slug: "computer-science", pages: [
 			{ name: "AI", slug: "ai", pages: [] },
 			{ name: "DSA", slug: "dsa", pages: [] },
-		] },
-		{
-			name: "Maths",
-			slug: "maths",
-			pages: [
-				{ name: "Calculus", slug: "calculus", pages: [] },
-				{ name: "Linear algebra", slug: "linear-algebra", pages: [] },
-				{ name: "Triginometry & Geometry", slug: "trigonometry--geometry", pages: [] },
-				{ name: "Probability & Statistics", slug: "probability--statistics", pages: [] },
-				{ name: "Polynomials & Functions", slug: "polynomials--functions", pages: [] },
-				{ name: "Signals & Systems", slug: "signals--systems", pages: [] },
-			],
-		},
-		{
-			name: "EEE",
-			slug: "eee",
-			pages: [
-				{ name: "Electronics", slug: "electronics", pages: [] },
-				{ name: "Electrical", slug: "electrical", pages: [] },
-			],
-		},
+		] 
+	},
 	{
-		name: "Courses",
-		slug: "courses",
-		pages: [{ name: "Building Services - D18BT", slug: "building-services---d18bt", pages: [] }, 
-				{ name: "Intro To Mech Eng - B57AU", slug: "intro-to-mech-eng---b57au", pages: [] },
-				{ name: "Mechanics, Fields, Forces - B27MW", slug: "mechanics-fields-forces---b27mw", pages: [] },
-				{ name: "Waves & Matter - B27FF", slug: "waves--matter---b27ff", pages: [] },],
+		name: "Maths", slug: "maths", pages: [
+			{ name: "Calculus", slug: "calculus", pages: [] },
+			{ name: "Linear algebra", slug: "linear-algebra", pages: [] },
+			{ name: "Triginometry & Geometry", slug: "trigonometry--geometry", pages: [] },
+			{ name: "Probability & Statistics", slug: "probability--statistics", pages: [] },
+			{ name: "Polynomials & Functions", slug: "polynomials--functions", pages: [] },
+			{ name: "Signals & Systems", slug: "signals--systems", pages: [] },
+		],
+	},
+	{ name: "Neuroscience", slug: "neuroscience", pages: [] },
+	{
+		name: "EEE", slug: "eee", pages: [
+			{ name: "Electronics", slug: "electronics", pages: [] },
+			{ name: "Electrical", slug: "electrical", pages: [] },
+		],
+	},
+	{
+		name: "Courses", slug: "courses", pages: [
+			{ name: "Building Services - D18BT", slug: "building-services---d18bt", pages: [] }, 
+			{ name: "Intro To Mech Eng - B57AU", slug: "intro-to-mech-eng---b57au", pages: [] },
+			{ name: "Mechanics, Fields, Forces - B27MW", slug: "mechanics-fields-forces---b27mw", pages: [] },
+			{ name: "Waves & Matter - B27FF", slug: "waves--matter---b27ff", pages: [] },
+		],
 	},
 ];
 

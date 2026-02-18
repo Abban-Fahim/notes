@@ -1,8 +1,8 @@
-Similiar to ekf, we need to estimate a probability distribution for the robot's state and the global map, given all the previous observations and controls.
+SLAM differs from other recursive localisation problems by its ability to track landmarks in the environment, and it jointly estimates a posterior distribution of the robot's state and the global map, given all the previous observations and controls
 
 $$p(x,m|z,u)$$
 
-Full SLAM aims to record the entire history of states $x_{0:T}$, while online SLAM only predicts the latest position. The state is extended with an array of $n$ landmarks/features, with a covariance matrix for all those featuresl
+Full SLAM aims to maintain the entire history of states $x_{0:T}$, while online SLAM only predicts the latest position (or a local window of poses). The state is extended with an array of $n$ landmarks/features, with a covariance matrix for all those features.
 
 $$p(x,m|z,u)=p(x|z,y)\cdot{\prod_{i\in{n}}{p(l_{i}|z,u)}}$$
 

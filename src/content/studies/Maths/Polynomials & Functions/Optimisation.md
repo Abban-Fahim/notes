@@ -27,3 +27,10 @@ This uses ideas from thermodynamics and metallurgy... combining hill climbing wi
 This is a common trade-off faced in the previous and many other learning and optimisation algorithms. Whenever a problem cannot be analytically optimised, we have no precise of where the solution lies. A key requirement of iterative optimisation algorithms then is to explore regions further than the initial feasible areas. This concept is called exploration (or diversification for swarms), and too little of it can lead to solutions being stuck in local optima. On the other hand, exploitation refers to utilising the heuristics to explore mostly its current neighbourhood, maximise its reward for following the heuristic, which is required to achieve a strong approximate solution.
 
 ## Multi-objective optimisation
+
+Instead of one objective func, we use multiple objective functions that may be opposing too. Instead of just one solution, we may have a set of solutions that are good overall a human can provide the trade-off, a concept known as Pareto fronts.First saneple random
+then find first non-dominated front, then multiple, then sort by fronts, and select the top 50% thne sort by crowding distance (NSGA-II)
+
+SPEA2 uses clutering
+
+PAES multiple runs of evol

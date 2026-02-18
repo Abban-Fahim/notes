@@ -5,6 +5,7 @@ Some reinforcement learning resources:
 
 %% Begin Waypoint %%
 - [[Computer Science/AI/Artificial neural networks|Artificial neural networks]]
+- [[Computer Science/AI/Artificial neural networks.sync-conflict-20260124-153346-VPETYYR|Artificial neural networks.sync-conflict-20260124-153346-VPETYYR]]
 - [[Computer Science/AI/Biologically inspired computation|Biologically inspired computation]]
 - [[Computer Science/AI/Gene regulatory networks|Gene regulatory networks]]
 - [[Computer Science/AI/Genetic algorithms|Genetic algorithms]]

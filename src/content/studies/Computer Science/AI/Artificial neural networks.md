@@ -3,7 +3,7 @@ A neural network is made up nodes arranged in interconnected layers, with the fi
 An input layer and output layer are must for the simplest ANN, while a DNN contains a number of "hidden" layers in between. The size of the input and output layers are fixed by the given problem, and together with number and sizes of the hidden layers, make up the topology description of an ANN.
 
 # Models
-## Perceptrons
+## Perceptron
 
 A linear classifier that makes up a the basic building block of ANNs, that takes in $n$ inputs each of which has a weight $w_{i}$, one bias value $b$, and an activation function. The value of $n$ determines how many dimensions the classifier operates in, and the decision boundary that it creates is always a line or $n$-dimensional hyperplane.
 
@@ -50,21 +50,29 @@ The end of a CNN is usually a regular fully connected perceptron network, which 
 
 ## Recurrent neural networks
 
-Both the above types of networks cannot handle the temporal dimension of data, which in the case of videos and some sensors may carry meaning, by taking into consideration past (and future) inputs.
+RNNs are used to handle the temporal dimension of data, which in the case of audio, videos and other sensor arrays may carry meaning, in the context of past (and future) inputs. They rely on feeding the output of a recurrent unit back into the same network multiple times, each updating a hidden state using the previous hidden state and the current input.
 
-Vanishing gradient ... Long short term tackle this ...
+To train these, we can use back-propagation through time, passing gradients through  However, due to the multiple steps of differentiation, we encounter a convergence of the gradient approaching 0, known as the vanishing gradient problem. This causes little to know movement of weights in earlier layers, and occurs in all kinds of deep MLPs. The LSTM is Long short term is a way to tackle this. 
 
 ## Auto-encoders
 
-regular
+These aim to learn latent (low-dimensional representations) of the input state. When considering the inputs, $x$, and outputs, $\hat{x}$, of the MLP that models this, our loss function (and objective to optimise) becomes
 
-Probabilistic - VAE
+$$
+L=\frac{1}{2}|x-\hat{x}|^{2}
+$$
+
+The encoding and decoding steps are both linear operations, and the . It can be trained by using backpropogation. We can also represent these probabilistic manner, in VAE. Let $z$ be a latent representation, and $x$ be the input as before. VAEs try to learn $p(x)$, which in turn is proportional to $p(z)$ and $p(x|z)$ (decoding step), and inversely with $p(z|x)$ (encoding step) using [[Maths/Probability & Statistics/Bayesian computation|Bayesian computation]]. $\hat{x}$ is sampled from $p(x|z)$
 
 ## Generative adversarial networks 
 
-either here or seperate
+we train a generator and discrminator simultaneously, by testing the performance of the discriminator to tell whether data is fake (from the generator) or real
 
 ## Spiking neural networks
+
+...
+
+## Transformers
 
 ...
 

@@ -1,0 +1,1 @@
+This is about how a stimulus represented by

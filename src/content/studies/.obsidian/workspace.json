@@ -4,11 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "fe5afdab736ab197",
+        "id": "2acaf191d7a9634f",
         "type": "tabs",
         "children": [
           {
-            "id": "fb0a9bf54dca516b",
+            "id": "bb2de2a672945848",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Organisation/postgrad applications.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "postgrad applications"
+            }
+          },
+          {
+            "id": "13add13307b3014a",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Organisation/tasks.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "tasks"
+            }
+          },
+          {
+            "id": "9f37e1b681a6944d",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -24,21 +54,35 @@
             }
           },
           {
-            "id": "595398817bbe532b",
+            "id": "680afdc5de08a8b0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maths/Polynomials & Functions/Optimisation.md",
+                "file": "_Projects/Learning quadruped control with RL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Optimisation"
+              "title": "Learning quadruped control with RL"
             }
           },
           {
-            "id": "fa600819bf312a4f",
+            "id": "9dc54f0ac70c1253",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Projects/One-shot learning of grasping.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "One-shot learning of grasping"
+            }
+          },
+          {
+            "id": "c4368bbc26722f54",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -52,35 +96,21 @@
             }
           },
           {
-            "id": "21ff3e3846805910",
+            "id": "9fbd7d720273bbd9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/AI/Swarm intelligence.md",
+                "file": "Neuroscience/Neural encodings.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Swarm intelligence"
+              "title": "Neural encodings"
             }
           },
           {
-            "id": "08faa24b6833fc08",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/AI/Gene regulatory networks.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Gene regulatory networks"
-            }
-          },
-          {
-            "id": "795bd12782f3f103",
+            "id": "2f5a2fdf0e084faa",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -94,63 +124,105 @@
             }
           },
           {
-            "id": "b6c2c7174f2c8bd7",
+            "id": "6e5d321fc5aaa6a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/AI/Machine learning.md",
+                "file": "Courses/Advanced HCI - F20AD/Usability.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Machine learning"
+              "title": "Usability"
             }
           },
           {
-            "id": "9e8b630cbfe55541",
+            "id": "73de95360a81a2b2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/AI/Autoencoders.md",
+                "file": "Robotics/Computer vision/Segmentation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Autoencoders"
+              "title": "Segmentation"
             }
           },
           {
-            "id": "b43df691d52c9d90",
+            "id": "07439efb40b135f6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Misc/motivation letter.md",
+                "file": "Robotics/Computer vision/Image enhancement.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "motivation letter"
+              "title": "Image enhancement"
             }
           },
           {
-            "id": "fb2f8ace6f071329",
+            "id": "867a17824ee6f3b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Misc/statement of purpose.md",
+                "file": "Industrial robots.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "statement of purpose"
+              "title": "Industrial robots"
+            }
+          },
+          {
+            "id": "539ef4fb49c29e1a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Robotics/Computer vision/Frequency-based analysis.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Frequency-based analysis"
+            }
+          },
+          {
+            "id": "fa00778e615aea69",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Robotics/Computer vision/Hough transform.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Hough transform"
+            }
+          },
+          {
+            "id": "a8a02c9a947fe567",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Robotics/Computer vision/Morphological analysis.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Morphological analysis"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -182,7 +254,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "z",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -269,13 +341,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/AI/Swarm intelligence.md",
+                "file": "_Projects/Learning quadruped control with RL.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Swarm intelligence"
+              "title": "Outline of Learning quadruped control with RL"
             }
           },
           {
@@ -315,35 +387,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fa600819bf312a4f",
+  "active": "67f882a7d94297e2",
   "lastOpenFiles": [
-    "Maths/Polynomials & Functions/Optimisation.md",
-    "_Organisation/studies tasks.md",
-    "Computer Science/AI/Neuroevolution.md",
-    "Computer Science/AI/Genetic algorithms.md",
-    "Robotics/Computer vision/Feature tracking.md",
-    "Robotics/Mobile robots/Behaviour based robotics.md",
-    "Robotics/Computer vision/Visual odometry.md",
-    "Maths/Probability & Statistics/Histogram smoothing.md",
     "Computer Science/AI/Genetic programming.md",
-    "Visual odometry.md",
-    "Robotics/Computer vision/Computer vision.md",
-    "_Organisation/tasks.md",
-    "Untitled 1.md",
-    "Untitled.md",
-    "Computer Science/AI/Swarm intelligence.md",
-    "Computer Science/AI/Gene regulatory networks.md",
-    "_Misc/motivation letter.md",
-    "_Misc/statement of purpose.md",
+    "Neuroscience/Neural encodings.md",
+    "Computer Science/Computer Science.md",
+    "HRI.md",
+    "Neuroscience",
     "_Organisation/postgrad applications.md",
+    "_Organisation/tasks.md",
+    "e.md",
+    "_Projects/Learning quadruped control with RL.md",
+    "_Organisation/studies tasks.md",
+    "Courses/Advanced HCI - F20AD/Usability.md",
+    "stuff.md",
+    "Robotics/Computer vision/Segmentation.md",
+    "Robotics/Computer vision/Morphological operations.md",
+    "_Projects/One-shot learning of grasping.md",
     "Computer Science/AI/Artificial neural networks.md",
-    "Computer Science/AI/Autoencoders.md",
+    "Robotics/Computer vision/Computer vision.md",
+    "Robotics/Computer vision/Spatial filters.md",
+    "Robotics/Computer vision/Computer vision.sync-conflict-20260124-120300-PVOHGP5.md",
+    "Robotics/Computer vision/Spatial filters.sync-conflict-20260124-120300-PVOHGP5.md",
+    "Robotics/Robotics.md",
+    "Courses/Advanced HCI - F20AD/Prototyping.md",
+    "Industrial robots.md",
+    "Robotics/Manipulators/Industrial robots.md",
+    "Courses/Advanced HCI - F20AD",
+    "Robotics/Computer vision/Image enhancement.md",
+    "Computer Science/AI/Artificial neural networks.sync-conflict-20260124-153346-VPETYYR.md",
+    "Robotics/Computer vision/Frequency-based analysis.md",
+    "joi",
     "imgs/Pasted image 20251211163150.png",
-    "Computer Science/AI/Machine learning.md",
-    "Robotics/Manipulators/Denavit-Hartenberg conventions.md",
-    "Robotics/Manipulators/Manipulators.md",
-    "Maths/Linear algebra/Quaternions.md",
-    "_Research/Learning robust perceptive locomotion for quadrupedal robots in the wild.md",
     "imgs/Screenshot from 2025-11-06 13-50-48.png",
     "imgs/2.png",
     "imgs/1.png",
@@ -360,10 +435,7 @@
     "Robotics/Computer vision",
     "_Misc",
     "_Writings",
-    "_Organisation",
-    "Robotics/Systems and Control",
     "_bcorp-dev/MediaWiki.canvas",
-    "Maths/Signals & Systems",
     "bcorp-dev/MediaWiki.canvas"
   ]
 }
