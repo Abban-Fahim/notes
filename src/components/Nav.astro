@@ -37,6 +37,7 @@ let finalNav = [
 	},
 	{
 		name: "Courses", slug: "courses", pages: [
+			{ name: "Advanced HCI - F20AD", slug: "advanced-hci---f20ad", pages: [] }, 
 			{ name: "Building Services - D18BT", slug: "building-services---d18bt", pages: [] }, 
 			{ name: "Intro To Mech Eng - B57AU", slug: "intro-to-mech-eng---b57au", pages: [] },
 			{ name: "Mechanics, Fields, Forces - B27MW", slug: "mechanics-fields-forces---b27mw", pages: [] },
@@ -58,9 +59,11 @@ allItems.map((page) => {
 				return null;
 			}
 		});
+		// console.log(rootIndex, file.slug)
 		finalNav[rootIndex].pages[subIndex].pages.push([file.slug, file.name]);
 	} else {
 		// console.log(page);
+		// console.log(finalNav[finalNav.findIndex((el) => el.slug === file.dir)]);
 		finalNav[finalNav.findIndex((el) => el.slug === file.dir)].pages.push([file.slug, file.name]);
 	}
 });
