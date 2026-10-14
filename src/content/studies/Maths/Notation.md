@@ -14,7 +14,28 @@ Some common sets are written in the blackboard bold style, in ascending order of
 - $\mathbb{R}$ as the set of all real numbers (including all rational and irrational quantities)
 - $\mathbb{C}$ as the set of$ all complex numbers, which can be described as $a+jb$, where $j=\sqrt{-1}$ and $a,b\in{\mathbb{R}}$
 
-Some notations in linear algebra include defining multidimensional sets, which are described as a tuple containing $n$ elements from a set a $S$, given as $S^{n}$. For example the set of all possible Cartesian coordinates in 3D Euclidean space is given as $\mathbb{R}^{3}$. $O(n)$ is the set of orthogonal transformations (commonly as $n\times{n}$ matrices) in $n$-dimensional Euclidean space, while $SO(n)$ refers to a *special* subset where all matrices have a determinant of 1. For example, $SO(3)$ is used for describing orientations (and rotations) in 3D space. $SE(3)$ defines  all the possible transformations, which can also be represented using a 4x4 matrix.
+Some notations in linear algebra include defining multidimensional sets, which are described as a tuple containing $n$ elements from a set a $S$, given as $S^{n}$. For example the set of all possible coordinates in 3D Euclidean space is given as $\mathbb{R}^{3}$. The formal definition of these sets is the Cartesian product, which states the product of two sets is the set of all tuple of elements of both sets being in each element:
+
+$$
+A\times{B}=\set{(a,b)|a\in{A}, b\in{B}}
+$$
+
+$O(n)$ is the set of orthogonal transformations (commonly as $n\times{n}$ matrices) in $n$-dimensional Euclidean space, while $SO(n)$ refers to a *special* subset where all matrices have a determinant of 1. For example, $SO(3)$ is used for describing orientations (and rotations) in 3D space. $SE(3)$ defines  all the possible transformations, which can also be represented using a 4x4 matrix.
+
+$\forall$: for all
+$\exists$: there exists
+$:=$: is defined as
+
+$w.L.o.g$: without loss of generality
+$s.t.$: such that
+$w.r.t$: with respect to
+$WTS$: want to show
+$ETS$: enough to show
+
+$a|b$ means that $a$ divided $b$, equivalently $b=ak$ where $k\in{\mathbb{Z}}$
+when $a\in{\mathbb{N}}$ and $b\in{\mathbb{N}}$ are congruent, $a\cong{b}(\mod{n})$ have the same remainder when divided by $n\in{\mathbb{N}}$, this means $n|(a-b)$
+
+A lemma is a supporting statement that helps prove the main theorem.
 
 ## Proof
 

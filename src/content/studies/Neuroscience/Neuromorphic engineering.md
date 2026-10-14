@@ -1,0 +1,1 @@
+The idea initially posed was to emulate the behaviour of neurons using circuits. 

@@ -70,7 +70,17 @@ we train a generator and discrminator simultaneously, by testing the performance
 
 ## Spiking neural networks
 
-...
+These models aim to capture more closely the asynchronous and sparse nature of the [[Neuroscience/Neuron structure|Neuron structure]], specifically through simplifying the [[Neuroscience/Integrate & fire model|Integrate & fire model]]. Instead of having continuous values across neurons and calculating layer-by-layer responses at discrete time steps, each neuron works independently in time and fires depending on the incoming spike (or spike train) inputs. A deterministic, continuous model that represents a spiking neuron can be given as
+
+$$u_{i}(t)=\sum\limits_{f=1}^{n}{\eta(t-t_{i}^{f})}+\sum\limits_{j}{w_{ij}}\sum\limits_{f=1}{(t-t_{j}^{f})}$$
+
+Where the first term represents the internal accumulated potentials of the neuron ($\eta$ being the model's decaying function), and the second term being the weighted contribution of incoming spikes from each of the $j$ pres-synaptic neurons. The timing of the next output spike is given as $u_{i}(t)=\eta\rightarrow{t=:t_{i}^{n+1}}$. A key difference between these neurons and ReLU ANNs is that their sparse operation allows for much more efficient computation (i.e. neurons don't fire when they don't have to), and are hence a key component to the emergent field of neuromorphic computing.
+
+While not biologically plausible, SNNs can be trained by back-propagation similar to ReLU networks by replacing the non-differentiable part around the spike threshold with a surrogate. This surrogate is essentially a smoothed Heaviside function that is used only during the backwards pass for gradient calculations. An example of such a surrogate is the logistic/sigmoid function with a steepness parameter $\beta$
+
+$$H_{smooth}(x)=\sigma(x)=\frac{1}{1-e^{-\beta{x}}}$$
+
+Another method is to train an ANN with similiar morphology that serves as an approximation of the SNN dynamics. A ReLU network mimics the hard threshold of LIF neurons, and after training the model weights are converted to matching SNN weights. The final way is to use biologically-grounded methods such as [[Neuroscience/Spike-timing dependent plasticity|Spike-timing dependent plasticity]], [[Neuroscience/Predictive coding|Predictive coding]] and other local, "Hebbian"-style learning rules. The idea is to only rely only information from neighbouring neurons in the update rules, which open up opportunities for lifelong/continual, on-chip learning. However due to limited understanding of these learning rules, their dynamics and sparse nature, they are difficult to use in optimising networks for complex tasks.
 
 ## Transformers
 

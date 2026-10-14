@@ -1,1 +1,1 @@
-This is about how a stimulus represented by
+This is about how a stimulus is actually represented in a signal

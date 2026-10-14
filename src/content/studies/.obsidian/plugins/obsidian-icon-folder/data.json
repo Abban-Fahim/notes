@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiBrain",
-      "LiGitGraph",
-      "FasEye",
       "LiEye",
-      "LiBackpack"
+      "LiBrainCog",
+      "LiBackpack",
+      "LiListTodo",
+      "LiDatabase"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -38,6 +38,7 @@
   "imgs": "FasImages",
   "EEE": "FasBoltLightning",
   "Robotics": "FasRobot",
+  "_Journal": "FasBookJournalWhills",
   "_Assignments": "FasPenToSquare",
   "Computer Science": "FasCodeBranch",
   "Robotics/Mobile robots": "FasCarSide",
@@ -48,12 +49,11 @@
   "Courses/Mechanics, Fields, Forces - B27MW": "FasCompassDrafting",
   "Courses/Intro To Mech Eng - B57AU": "FasScrewdriverWrench",
   "Courses/Waves & Matter - B27FF": "FasWaveSquare",
-  "Computer Science/AI": "LiGitGraph",
+  "Computer Science/AI": "LiBrainCog",
   "Computer Science/DSA": "LiDatabase",
   "Robotics/Control": "FasWaveSquare",
   "_Organisation": "LiListTodo",
   "_Misc": "LiBackpack",
-  "_Journal": "FasBookJournalWhills",
-  "Robotics/Computer vision": "FasEye",
-  "Neuroscience": "LiBrain"
+  "Neuroscience": "LiBrain",
+  "Robotics/Computer vision": "LiEye"
 }

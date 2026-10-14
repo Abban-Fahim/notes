@@ -11,6 +11,6 @@
 - [[Maths/Probability & Statistics/Random variables|Random variables]]
 - [[Maths/Probability & Statistics/RANSAC|RANSAC]]
 - [[Maths/Probability & Statistics/Set theory|Set theory]]
-- [[Maths/Probability & Statistics/Significance testing|Significance testing]]
+- [[Maths/Probability & Statistics/Statistical significance|Statistical significance]]
 
 %% End Waypoint %%

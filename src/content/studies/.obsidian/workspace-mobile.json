@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -94,7 +94,9 @@
           "type": "file-explorer",
           "state": {
             "sortOrder": "alphabetical",
-            "autoReveal": false
+            "autoReveal": false,
+            "showSearch": false,
+            "searchQuery": ""
           },
           "icon": "lucide-folder-closed",
           "title": "Files"
@@ -200,7 +202,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "toefl prep.md",
+            "file": "_Organisation/tasks.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -226,8 +228,9 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "4b62845aed13f96f",
+  "active": "047a8a20fbfa3038",
   "lastOpenFiles": [
+    "Stuttgart planning.md",
     "_Organisation/tasks.md",
     "_Misc/statement of purpose.md",
     "Robotics/Manipulators/Lagrangian formulation.md",
@@ -258,7 +261,6 @@
     "Computer Science/AI/Swarm intelligence.md",
     "_Misc/intelligen_robotics.md",
     "Maths/Polynomials & Functions/Optimisation.md",
-    "Robotics/Mobile robots/Path planning.md",
     "imgs/Pasted image 20251012172415.png",
     "imgs/Pasted image 20251012172504.png",
     "imgs/Pasted image 20251012172203.png",

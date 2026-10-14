@@ -21,3 +21,7 @@ The second step only stops recursing at a base case, and the third step usually 
 ## Dynamic programming
 
 This method usually applies when trying to reduce repeated computations in optimisation values, and utilises the same approach of solving and combining sub-problems. It depends on some form of memoisation, where previous sub-problem results are stored and looked up when they need to computed again. 
+
+Sample spaces and probability properties, Conditional probability and independence, Bayes rule, Discrete and continuous random variables, Probability distributions, The central limit theorem, Basic estimators, Maximum likelihood principle and Bayesian estimation, Multidimensional distributions, Entropy and information theory, Markov Decision Processes (in the context of reinforcement learning).
+
+Numerical Integration via the Trapezium/Trapezoidal rule, Interpolation and Extrapolation, Maclaurin and Taylor series approximations, Linear approximation and small angle approximation, and Gaussian elimination for systems of linear equations

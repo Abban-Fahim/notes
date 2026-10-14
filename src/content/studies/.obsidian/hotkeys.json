@@ -208,5 +208,13 @@
       ],
       "key": "R"
     }
+  ],
+  "editor:context-menu": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "."
+    }
   ]
 }

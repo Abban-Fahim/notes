@@ -8,33 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bb2de2a672945848",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_Organisation/postgrad applications.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "postgrad applications"
-            }
-          },
-          {
-            "id": "13add13307b3014a",
+            "id": "9dc54f0ac70c1253",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Organisation/tasks.md",
+                "file": "_Projects/One-shot learning of grasping.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "tasks"
+              "title": "One-shot learning of grasping"
             }
           },
           {
@@ -54,161 +40,235 @@
             }
           },
           {
-            "id": "680afdc5de08a8b0",
+            "id": "04955b20cde78b08",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Projects/Learning quadruped control with RL.md",
+                "file": "_Journal/dream - 31_8_2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Learning quadruped control with RL"
+              "title": "dream - 31_8_2026"
             }
           },
           {
-            "id": "9dc54f0ac70c1253",
+            "id": "13add13307b3014a",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Projects/One-shot learning of grasping.md",
+                "file": "_Organisation/tasks.md",
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "One-shot learning of grasping"
+              "title": "tasks"
             }
           },
           {
-            "id": "c4368bbc26722f54",
+            "id": "8a27da308d3085b3",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/AI/Genetic programming.md",
+                "file": "_Misc/application/motivation letter.md",
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "Genetic programming"
+              "title": "motivation letter"
             }
           },
           {
-            "id": "2f5a2fdf0e084faa",
+            "id": "aac517bbc58868c6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Neuroscience/Neuroscience.md",
+                "file": "recipes index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Neuroscience"
+              "title": "recipes index"
             }
           },
           {
-            "id": "6e5d321fc5aaa6a0",
+            "id": "279f089889178413",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced HCI - F20AD/Usability.md",
+                "file": "Neuroscience/Neuron structure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Usability"
+              "title": "Neuron structure"
             }
           },
           {
-            "id": "73de95360a81a2b2",
+            "id": "186834b04489c005",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Robotics/Computer vision/Segmentation.md",
+                "file": "Neuroscience/Integrate & fire model.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Segmentation"
+              "title": "Integrate & fire model"
             }
           },
           {
-            "id": "07439efb40b135f6",
+            "id": "7fab7ed60c2e8453",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Robotics/Computer vision/Image enhancement.md",
+                "file": "Robotics/Control/Sensors.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Image enhancement"
+              "title": "Sensors"
             }
           },
           {
-            "id": "867a17824ee6f3b1",
+            "id": "c3e6f14d61bcc11e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Industrial robots.md",
+                "file": "Maths/Trigonometry & Geometry/Manifolds.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Industrial robots"
+              "title": "Manifolds"
             }
           },
           {
-            "id": "539ef4fb49c29e1a",
+            "id": "4aca5f857b9b49d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Robotics/Computer vision/Frequency-based analysis.md",
+                "file": "Neuroscience/Integrate & fire model.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Frequency-based analysis"
+              "title": "Integrate & fire model"
             }
           },
           {
-            "id": "fa00778e615aea69",
+            "id": "62c4b023ed12d3b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Robotics/Computer vision/Hough transform.md",
+                "file": "Neuroscience/Hodgkin-Huxley model.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hough transform"
+              "title": "Hodgkin-Huxley model"
             }
           },
           {
-            "id": "a8a02c9a947fe567",
+            "id": "f4f2ed0a773c374d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Robotics/Computer vision/Morphological analysis.md",
+                "file": "Maths/Linear algebra/Eigenvalues and Eigenvectors.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Morphological analysis"
+              "title": "Eigenvalues and Eigenvectors"
+            }
+          },
+          {
+            "id": "577e45de4f4e44e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Journal/07-8-2026.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "07-8-2026"
+            }
+          },
+          {
+            "id": "71b9faf5fde5877c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Neuroscience/Hodgkin-Huxley model.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Hodgkin-Huxley model"
+            }
+          },
+          {
+            "id": "61d0a17df7bedb72",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Misc/application/Canada MASc applications.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Canada MASc applications"
+            }
+          },
+          {
+            "id": "04218593b1c6ad2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Robotics/Robotics.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Robotics"
+            }
+          },
+          {
+            "id": "dd3c12f740569319",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maths/Polynomials & Functions/Optimisation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Optimisation"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 17
       }
     ],
     "direction": "vertical"
@@ -228,7 +288,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -240,7 +302,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "z",
+                "query": "similiar",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -327,13 +389,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Projects/Learning quadruped control with RL.md",
+                "file": "Maths/Notation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Learning quadruped control with RL"
+              "title": "Outline of Notation"
             }
           },
           {
@@ -360,11 +422,10 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
       "obsidian-shellcommands:Shell commands: Custom variables": false,
       "homepage:Open homepage": false,
+      "bases:Create new base": false,
       "daily-notes:Open today's daily note": false,
-      "markdown-importer:Open format converter": false,
       "workspaces:Manage workspace layouts": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -373,37 +434,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2f5a2fdf0e084faa",
+  "active": "67f882a7d94297e2",
   "lastOpenFiles": [
-    "Computer Science/AI/Artificial neural networks.md",
-    "Neuroscience/Neuroscience.md",
-    "Courses/Advanced HCI - F20AD/Advanced HCI - F20AD.md",
-    "Courses/Building Services - D18BT/Building Services - D18BT.md",
-    "Courses/Courses.md",
-    "Neuroscience/Neural encodings.md",
-    "Computer Science/AI/Genetic programming.md",
-    "Computer Science/Computer Science.md",
-    "HRI.md",
-    "Neuroscience",
-    "_Organisation/postgrad applications.md",
     "_Organisation/tasks.md",
-    "e.md",
-    "_Projects/Learning quadruped control with RL.md",
+    "Untitled.md",
     "_Organisation/studies tasks.md",
-    "Courses/Advanced HCI - F20AD/Usability.md",
-    "stuff.md",
-    "Robotics/Computer vision/Segmentation.md",
-    "Robotics/Computer vision/Morphological operations.md",
-    "_Projects/One-shot learning of grasping.md",
-    "Robotics/Computer vision/Computer vision.md",
-    "Robotics/Computer vision/Spatial filters.md",
-    "Robotics/Computer vision/Computer vision.sync-conflict-20260124-120300-PVOHGP5.md",
-    "Robotics/Computer vision/Spatial filters.sync-conflict-20260124-120300-PVOHGP5.md",
+    "Maths/Polynomials & Functions/Optimisation.md",
     "Robotics/Robotics.md",
-    "Courses/Advanced HCI - F20AD/Prototyping.md",
-    "Industrial robots.md",
-    "Courses/Advanced HCI - F20AD",
-    "joi",
+    "Computer Science/AI/Neuroevolution.md",
+    "Neuroscience/Neuron structure.md",
+    "_Misc/application/motivation letter.md",
+    "_Misc/application/Canada MASc applications.md",
+    "recipes index.md",
+    "ddd.md",
+    "Neuroscience/Hodgkin-Huxley model.md",
+    "_Journal/dream - 31_8_2026.md",
+    "_Misc/application/ku interview.md",
+    "Maths/Trigonometry & Geometry/Manifolds.md",
+    "Untitled 2.md",
+    "`.md",
+    "Neuroscience/Neuroscience.md",
+    "_Projects/One-shot learning of grasping.md",
+    "_Organisation/tasks.sync-conflict-20260814-193610-VPETYYR.md",
+    "_Organisation/Stuttgart planning.md",
+    "Neuroscience/Integrate & fire model.md",
+    "Maths/Notation.md",
+    "_Journal/07-8-2026.md",
+    "Neuroscience/Spike-timing dependent plasticity.md",
+    "_Misc/application/nyuad motivation.md",
+    "_Misc/notes",
+    "_Misc/brainstorming",
+    "_Misc/application",
+    "_Misc/random",
+    "Robotics/Systems and Control",
+    "imgs/Pasted image 20260401184438.png",
+    "_Research/zotero-Neuroscience.json",
+    "_Research/zotero-interesting-Trainzzz-research.json",
+    "_Research/zotero-interesting-event-cameras.json",
+    "_Research/zotero-interesting.json",
+    "_Research/zotero-hci.json",
     "imgs/Pasted image 20251211163150.png",
     "imgs/Screenshot from 2025-11-06 13-50-48.png",
     "imgs/2.png",
@@ -413,14 +482,6 @@
     "imgs/Pasted image 20251012172415.png",
     "imgs/Pasted image 20251012172203.png",
     "imgs/Pasted image 20251012172504.png",
-    "_Projects",
-    "_Research/zotero.bib",
-    "_Research/fyp.bib",
-    "_Research",
-    "imgs/Pasted image 20250615144657.png",
-    "Robotics/Computer vision",
-    "_Misc",
-    "_Writings",
     "_bcorp-dev/MediaWiki.canvas",
     "bcorp-dev/MediaWiki.canvas"
   ]

@@ -22,16 +22,16 @@ Despite the high expressiveness afforded by this representation, a common proble
 
 ## Cartesian
 
-Programs in CGP are represented as inter-connected grids with each element representing an operation with a number of inputs and outputs, modelled by how circuits are designed in FGPAs. We aim to the learn links between them,
-low expr, high evol
+Programs in CGP are represented as inter-connected grids with each element representing an operation with a number of inputs and outputs, modelled by how circuits are designed in FGPAs. We aim to the learn links between them, which limits expressiveness to the number of pre-defined nodes/operations, but are simple to evolve.
 
 ## Linear
 
-Linear GP operates on lists of sequential instructions, This is well suited to how low-level instructions
-very low expr, med evol
+Linear GP operates on lists of sequential instructions, in a way that is typical to low-level languages (machine code, register instructions etc.), making it useful for writing stateful and structured programs. This representation is also simple to evolve and constraint in size and complexity.
 
-## Grammatical evoultion
+## Grammatical evolution
 
-used with formal grammar
+GE enforces formal grammar to ensure its programs reach closure, and references the grammar elements (the "phenotype") using integer values arranged in strings (of "genotype"), where the string is recursively converted into the program. This method effectively separates the representation from its decoding, allowing us to apply regular [[Computer Science/AI/Genetic algorithms|Genetic algorithms]] to the population, allowing it to be both easy to evolve and be flexible in its functionality. 
 
 ## Genetic improvement
+
+The objective of GI algorithms is to improve existing code, usually in non-functional aspects like speed and efficiency

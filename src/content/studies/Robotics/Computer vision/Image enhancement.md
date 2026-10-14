@@ -6,5 +6,7 @@ One way to find $J$ is by stretching using piece-wise linear functions, where ea
 
 Gamma correction employs this principle using a single exponential function of magnitude $\gamma$, which ranges from $0$ to infinity, with the equation $J=cI^{\gamma}$. For $\gamma<1$, the image is brightened and for $\gamma>1$ it becomes darker.
 
+$$p_{in}(r)dr=\int{p_{out}(s)ds}$$
+
 ## Deblurring
 

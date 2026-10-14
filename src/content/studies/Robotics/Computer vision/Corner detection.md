@@ -1,0 +1,1 @@
+The harris corner detector checks the intensity changfes. if on a "flat" region, there are no changes in any directions, on an edgem there is only no change along the edge's direction. on a corner however, there is change in evcery6 direction
